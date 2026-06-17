@@ -260,6 +260,7 @@
     gap: 0;
     margin-bottom: 16px;
     border-bottom: 2px solid var(--border);
+    align-items: flex-end;
   }
   .view-tab {
     padding: 10px 20px;
@@ -277,6 +278,35 @@
   }
   .view-tab:hover { color: var(--text2); }
   .view-tab.active { color: var(--accent); border-bottom-color: var(--accent); font-weight: 700; }
+  .view-tab-hint {
+    margin-left: auto;
+    font-size: 11px;
+    color: var(--text3);
+    padding-bottom: 8px;
+    white-space: nowrap;
+  }
+  .view-tab-hint span { color: var(--accent); font-weight: 600; }
+
+  /* ── Card type legend ── */
+  .card-type-legend {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 5px;
+  }
+  .card-type-legend .leg-item {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 10px;
+    color: var(--text3);
+  }
+  .card-type-legend .leg-dot {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
 
   /* ── Timeline view ── */
   .timeline { display: flex; flex-direction: column; gap: 8px; }
@@ -606,6 +636,7 @@
   <div class="view-tabs">
     <button class="view-tab active" onclick="setView('timeline')">タイムライン</button>
     <button class="view-tab" onclick="setView('list')">リスト（日付順）</button>
+    <div class="view-tab-hint"><span>銘柄名をクリック</span>すると詳細が表示されます</div>
   </div>
 
   <!-- Legend -->
@@ -864,6 +895,22 @@ async function loadTDnet(ticker) {
 }
 
 // ── Card HTML ──
+function buildCardTypeLegend(stock) {
+  const holders = stock.lockups.flatMap(l => l.holders);
+  const types = new Set(holders.map(h => h.type));
+  const earliest = earliestLockup(stock);
+  const days = daysUntil(earliest.release_date);
+  const items = [];
+  if (types.has('founder'))   items.push(`<div class="leg-item"><div class="leg-dot" style="background:var(--founder)"></div>創業者</div>`);
+  if (types.has('vc'))        items.push(`<div class="leg-item"><div class="leg-dot" style="background:var(--vc)"></div>VC/投資家</div>`);
+  if (types.has('corporate')) items.push(`<div class="leg-item"><div class="leg-dot" style="background:var(--corporate)"></div>事業会社</div>`);
+  if (types.has('other'))     items.push(`<div class="leg-item"><div class="leg-dot" style="background:var(--other)"></div>その他</div>`);
+  if (has1YenSO(stock))       items.push(`<div class="leg-item"><div class="leg-dot" style="background:var(--success)"></div>1円SO</div>`);
+  if (days >= 0 && days <= 30)       items.push(`<div class="leg-item"><div class="leg-dot" style="background:var(--danger)"></div><span style="color:var(--danger)">30日以内</span></div>`);
+  else if (days >= 0 && days <= 90)  items.push(`<div class="leg-item"><div class="leg-dot" style="background:var(--warn)"></div><span style="color:var(--warn)">90日以内</span></div>`);
+  return `<div class="card-type-legend">${items.join('')}</div>`;
+}
+
 function buildBadges(stock) {
   const parts = [];
   if (hasVC(stock)) parts.push('<span class="badge vc">VC</span>');
@@ -935,6 +982,7 @@ function buildCard(stock) {
           <span style="font-size:11px;color:var(--text3)">上場: ${fmt(stock.ipo_date)}</span>
           ${buildBadges(stock)}
         </div>
+        ${buildCardTypeLegend(stock)}
       </div>
       <div class="stock-right">
         <div class="release-date">${fmt(earliest.release_date)}</div>
