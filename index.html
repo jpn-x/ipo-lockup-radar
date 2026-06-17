@@ -1131,7 +1131,7 @@ document.addEventListener('keydown', e => {
 // ── Init ──
 async function init() {
   try {
-    const res = await fetch('./data/stocks.json');
+    const res = await fetch(`./data/stocks.json?v=${Date.now()}`);
     stocks = await res.json();
     // Sort by earliest lockup date
     stocks.sort((a, b) => new Date(earliestLockup(b).release_date) - new Date(earliestLockup(a).release_date));
