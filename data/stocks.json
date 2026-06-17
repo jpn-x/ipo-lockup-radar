@@ -1,5 +1,215 @@
 [
   {
+    "ticker": "598A",
+    "name": "チャットプラス（）",
+    "ipo_date": "2026-07-15",
+    "market": "東証グロース",
+    "initial_price": 1050,
+    "lockups": [
+      {
+        "label": "主要株主（180日）",
+        "release_date": "2027-01-11",
+        "shares": 0,
+        "holders": [
+          {
+            "name": "マネーストレージ（株）",
+            "shares": 0,
+            "type": "other"
+          },
+          {
+            "name": "大江 繭子 （社長）",
+            "shares": 0,
+            "type": "founder"
+          },
+          {
+            "name": "西田 厚生",
+            "shares": 0,
+            "type": "other"
+          },
+          {
+            "name": "赤松 哲典",
+            "shares": 0,
+            "type": "other"
+          },
+          {
+            "name": "西田 幸子",
+            "shares": 0,
+            "type": "other"
+          },
+          {
+            "name": "古市 直子",
+            "shares": 0,
+            "type": "other"
+          },
+          {
+            "name": "西田 大翔",
+            "shares": 0,
+            "type": "other"
+          },
+          {
+            "name": "西田 美朝",
+            "shares": 0,
+            "type": "other"
+          },
+          {
+            "name": "森下 俊光",
+            "shares": 0,
+            "type": "other"
+          },
+          {
+            "name": "従業員",
+            "shares": 0,
+            "type": "other"
+          }
+        ],
+        "days": 180
+      }
+    ],
+    "stock_options": [],
+    "notes": "auto-scraped from ipokiso.com 2026-06-17",
+    "prospectus_url": "https://www.ipokiso.com/company/2026/chatplus.html"
+  },
+  {
+    "ticker": "589A",
+    "name": "ネイス（）",
+    "ipo_date": "2026-06-30",
+    "market": "東証グロース",
+    "initial_price": 1320,
+    "lockups": [
+      {
+        "label": "主要株主（180日）",
+        "release_date": "2026-12-27",
+        "shares": 0,
+        "holders": [
+          {
+            "name": "（株）みなみの島",
+            "shares": 0,
+            "type": "other"
+          },
+          {
+            "name": "南 友介 （社長）",
+            "shares": 0,
+            "type": "founder"
+          },
+          {
+            "name": "山崎 拓也",
+            "shares": 0,
+            "type": "other"
+          },
+          {
+            "name": "田島 幸樹",
+            "shares": 0,
+            "type": "other"
+          },
+          {
+            "name": "従業員",
+            "shares": 0,
+            "type": "other"
+          },
+          {
+            "name": "従業員",
+            "shares": 0,
+            "type": "other"
+          },
+          {
+            "name": "従業員",
+            "shares": 0,
+            "type": "other"
+          },
+          {
+            "name": "従業員",
+            "shares": 0,
+            "type": "other"
+          },
+          {
+            "name": "従業員",
+            "shares": 0,
+            "type": "other"
+          },
+          {
+            "name": "従業員",
+            "shares": 0,
+            "type": "other"
+          }
+        ],
+        "days": 180
+      }
+    ],
+    "stock_options": [],
+    "notes": "auto-scraped from ipokiso.com 2026-06-17",
+    "prospectus_url": "https://www.ipokiso.com/company/2026/ne-is.html"
+  },
+  {
+    "ticker": "584A",
+    "name": "LiNKX[リンクス]（）",
+    "ipo_date": "2026-06-23",
+    "market": "東証グロース",
+    "initial_price": 790,
+    "lockups": [
+      {
+        "label": "VC・主要株主（180日）",
+        "release_date": "2026-12-20",
+        "shares": 0,
+        "holders": [
+          {
+            "name": "小西 祐一",
+            "shares": 0,
+            "type": "other"
+          },
+          {
+            "name": "小西 享",
+            "shares": 0,
+            "type": "other"
+          },
+          {
+            "name": "オサムニア・モハメッド （社長）",
+            "shares": 0,
+            "type": "founder"
+          },
+          {
+            "name": "QR２号ファンド投資事業有限責任組合",
+            "shares": 0,
+            "type": "vc"
+          },
+          {
+            "name": "ベイレリャン・アンソニー",
+            "shares": 0,
+            "type": "corporate"
+          },
+          {
+            "name": "従業員",
+            "shares": 0,
+            "type": "other"
+          },
+          {
+            "name": "従業員",
+            "shares": 0,
+            "type": "other"
+          },
+          {
+            "name": "従業員",
+            "shares": 0,
+            "type": "other"
+          },
+          {
+            "name": "（株）福岡銀行",
+            "shares": 0,
+            "type": "corporate"
+          },
+          {
+            "name": "従業員",
+            "shares": 0,
+            "type": "other"
+          }
+        ],
+        "days": 180
+      }
+    ],
+    "stock_options": [],
+    "notes": "auto-scraped from ipokiso.com 2026-06-17",
+    "prospectus_url": "https://www.ipokiso.com/company/2026/linkx.html"
+  },
+  {
     "ticker": "581A",
     "name": "GO",
     "ipo_date": "2026-06-16",
@@ -282,72 +492,81 @@
   },
   {
     "ticker": "549A",
-    "name": "ヒトトヒトHD",
+    "name": "ヒトトヒトホールディングス（）",
     "ipo_date": "2026-04-07",
     "market": "東証スタンダード",
     "initial_price": 430,
     "lockups": [
       {
-        "label": "VC・主要株主（180日）",
-        "release_date": "2026-07-05",
-        "shares": 1208921594,
+        "label": "VC・主要株主（90日）",
+        "release_date": "2026-07-06",
+        "shares": 0,
         "holders": [
           {
-            "name": "J-GIA１号投資事業有限責任組合VC",
-            "shares": 1184375080,
+            "name": "J-GIA１号投資事業有限責任組合",
+            "shares": 0,
             "type": "vc"
+          }
+        ],
+        "days": 90
+      },
+      {
+        "label": "主要株主（180日）",
+        "release_date": "2026-10-04",
+        "shares": 0,
+        "holders": [
+          {
+            "name": "（株）トリプルトレジャーズ",
+            "shares": 0,
+            "type": "other"
           },
           {
-            "name": "株式会社トリプルトレジャーズ代表取締役社長が議決権の過半数を所有する会社",
-            "shares": 10500007,
+            "name": "三井不動産（株）",
+            "shares": 0,
+            "type": "other"
+          },
+          {
+            "name": "松本 哲裕 （社長）",
+            "shares": 0,
             "type": "founder"
           },
           {
-            "name": "三井不動産株式会社",
-            "shares": 4387503,
+            "name": "東洋テック（株）",
+            "shares": 0,
             "type": "other"
           },
           {
-            "name": "松本 哲裕代表取締役",
-            "shares": 3500002,
-            "type": "founder"
-          },
-          {
-            "name": "東洋テック株式会社",
-            "shares": 1462501,
+            "name": "カルチュア・コンビニエンス・クラブ（株）",
+            "shares": 0,
             "type": "other"
           },
           {
-            "name": "カルチュア・コンビニエンス・ クラブ株式会社",
-            "shares": 1462501,
+            "name": "田中 満",
+            "shares": 0,
             "type": "other"
           },
           {
-            "name": "田中 満取締役",
-            "shares": 1029000,
+            "name": "中田 哲志",
+            "shares": 0,
             "type": "other"
           },
           {
-            "name": "中田 哲志子会社の取締役",
-            "shares": 735000,
+            "name": "根本 輝夫",
+            "shares": 0,
             "type": "other"
           },
           {
-            "name": "根本 輝夫子会社の取締役",
-            "shares": 735000,
-            "type": "other"
-          },
-          {
-            "name": "大山 哲也子会社の取締役",
-            "shares": 735000,
+            "name": "大山 哲也",
+            "shares": 0,
             "type": "other"
           }
-        ]
+        ],
+        "days": 180
       }
     ],
     "stock_options": [],
-    "notes": "auto-scraped from ipokabu.net",
-    "prospectus_url": ""
+    "notes": "auto-scraped from ipokiso.com 2026-06-17",
+    "prospectus_url": "https://www.ipokiso.com/company/2026/hitotohito-hd.html"
   },
   {
     "ticker": "548A",
@@ -421,6 +640,84 @@
     "stock_options": [],
     "notes": "親会社ベクトルが88%超保有。上場後も支配構造は変わらず。",
     "prospectus_url": ""
+  },
+  {
+    "ticker": "529A",
+    "name": "レクメド（）",
+    "ipo_date": "2026-04-02",
+    "market": "東証グロース",
+    "initial_price": 1030,
+    "lockups": [
+      {
+        "label": "VC・主要株主（90日）",
+        "release_date": "2026-07-01",
+        "shares": 0,
+        "holders": [
+          {
+            "name": "サイバニクス・エクセレンス・ジャパン１号投資事業有限責任組合",
+            "shares": 0,
+            "type": "vc"
+          },
+          {
+            "name": "オリックス（株）",
+            "shares": 0,
+            "type": "other"
+          },
+          {
+            "name": "新生響きブリッジ投資事業有限責任組合",
+            "shares": 0,
+            "type": "vc"
+          }
+        ],
+        "days": 90
+      },
+      {
+        "label": "VC・主要株主（180日）",
+        "release_date": "2026-09-29",
+        "shares": 0,
+        "holders": [
+          {
+            "name": "松本 正 （社長）",
+            "shares": 0,
+            "type": "founder"
+          },
+          {
+            "name": "王子ホールディングス（株）",
+            "shares": 0,
+            "type": "other"
+          },
+          {
+            "name": "帝國製薬（株）",
+            "shares": 0,
+            "type": "other"
+          },
+          {
+            "name": "（株）サノ",
+            "shares": 0,
+            "type": "other"
+          },
+          {
+            "name": "TNPスレッズオブライト投資事業有限責任組合",
+            "shares": 0,
+            "type": "vc"
+          },
+          {
+            "name": "（株）EXIT Solutions",
+            "shares": 0,
+            "type": "other"
+          },
+          {
+            "name": "Yokohama Next投資事業有限責任組合",
+            "shares": 0,
+            "type": "vc"
+          }
+        ],
+        "days": 180
+      }
+    ],
+    "stock_options": [],
+    "notes": "auto-scraped from ipokiso.com 2026-06-17",
+    "prospectus_url": "https://www.ipokiso.com/company/2026/reqmed.html"
   },
   {
     "ticker": "523A",
@@ -557,6 +854,24 @@
     "stock_options": [],
     "notes": "VC3社は1.5倍解除条件（1,305円）あり。VC3社が保有株の約78%を売却予定。EXIT色強。",
     "prospectus_url": ""
+  },
+  {
+    "ticker": "509A",
+    "name": "グリーンライト・再エネインフラ投資法人（）",
+    "ipo_date": "2026-03-10",
+    "market": "東証グロース",
+    "initial_price": 80000,
+    "lockups": [
+      {
+        "label": "主要株主（180日）",
+        "release_date": "2026-09-06",
+        "shares": 0,
+        "holders": []
+      }
+    ],
+    "stock_options": [],
+    "notes": "auto-scraped from ipokiso.com 2026-06-17",
+    "prospectus_url": "https://www.ipokiso.com/company/2026/greenlight-infra.html"
   },
   {
     "ticker": "505A",

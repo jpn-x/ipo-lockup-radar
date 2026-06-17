@@ -28,7 +28,10 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Scrape ipokabu.net
+      - name: Scrape ipokiso.com (primary)
+        run: python scripts/scrape_ipokiso.py
+
+      - name: Scrape ipokabu.net (supplement)
         run: python scripts/scrape_ipokabu.py
 
       - name: Check for changes
