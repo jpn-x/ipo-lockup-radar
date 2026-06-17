@@ -2,7 +2,7 @@ name: Update IPO Lockup Data
 
 on:
   schedule:
-    - cron: '0 21 * * 0'   # 毎週月曜 06:00 JST (日曜21:00 UTC)
+    - cron: '10 11 * * *'   # 毎日 20:10 JST (11:10 UTC)
   workflow_dispatch:
 
 jobs:
@@ -33,6 +33,11 @@ jobs:
 
       - name: Scrape ipokabu.net (supplement)
         run: python scripts/scrape_ipokabu.py
+
+      - name: Scrape EDINET (実株数補完)
+        env:
+          EDINET_API_KEY: ${{ secrets.EDINET_API_KEY }}
+        run: python scripts/scrape_edinet.py
 
       - name: Check for changes
         id: diff
