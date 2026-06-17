@@ -9,7 +9,7 @@
       {
         "label": "主要株主（180日）",
         "release_date": "2027-01-11",
-        "shares": 4165000,
+        "shares": 4387306,
         "holders": [
           {
             "name": "マネーストレージ（株）",
@@ -43,8 +43,9 @@
           },
           {
             "name": "古市 直子",
-            "shares": 0,
-            "type": "other"
+            "shares": 172093,
+            "type": "other",
+            "ratio": 3.77
           },
           {
             "name": "西田 大翔",
@@ -66,15 +67,16 @@
           },
           {
             "name": "従業員",
-            "shares": 0,
-            "type": "other"
+            "shares": 50213,
+            "type": "other",
+            "ratio": 1.1
           }
         ],
         "days": 180
       }
     ],
     "stock_options": [],
-    "notes": "auto-scraped from ipokiso.com 2026-06-17 +edinet:2026-06-17",
+    "notes": "auto-scraped from ipokiso.com 2026-06-18",
     "prospectus_url": "https://www.ipokiso.com/company/2026/chatplus.html",
     "total_shares": 4564800
   },
@@ -88,7 +90,7 @@
       {
         "label": "主要株主（180日）",
         "release_date": "2026-12-27",
-        "shares": 4176000,
+        "shares": 4222379,
         "holders": [
           {
             "name": "（株）みなみの島",
@@ -116,46 +118,52 @@
           },
           {
             "name": "従業員",
-            "shares": 0,
-            "type": "other"
+            "shares": 8313,
+            "type": "other",
+            "ratio": 0.19
           },
           {
             "name": "従業員",
-            "shares": 0,
-            "type": "other"
+            "shares": 7876,
+            "type": "other",
+            "ratio": 0.18
           },
           {
             "name": "従業員",
-            "shares": 0,
-            "type": "other"
+            "shares": 7876,
+            "type": "other",
+            "ratio": 0.18
           },
           {
             "name": "従業員",
-            "shares": 0,
-            "type": "other"
+            "shares": 7438,
+            "type": "other",
+            "ratio": 0.17
           },
           {
             "name": "従業員",
-            "shares": 0,
-            "type": "other"
+            "shares": 7438,
+            "type": "other",
+            "ratio": 0.17
           },
           {
             "name": "従業員",
-            "shares": 0,
-            "type": "other"
+            "shares": 7438,
+            "type": "other",
+            "ratio": 0.17
           }
         ],
         "days": 180
       }
     ],
     "stock_options": [],
-    "notes": "auto-scraped from ipokiso.com 2026-06-17 +edinet:2026-06-17",
+    "notes": "auto-scraped from ipokiso.com 2026-06-18",
     "prospectus_url": "https://www.ipokiso.com/company/2026/ne-is.html",
     "total_shares": 4375300
   },
   {
     "ticker": "584A",
-    "name": "LiNKX",
+    "name": "LiNKX[リンクス",
     "ipo_date": "2026-06-23",
     "market": "東証グロース",
     "initial_price": 790,
@@ -163,12 +171,13 @@
       {
         "label": "VC・主要株主（180日）",
         "release_date": "2026-12-20",
-        "shares": 51030000,
+        "shares": 56368025,
         "holders": [
           {
             "name": "小西 祐一",
-            "shares": 0,
-            "type": "other"
+            "shares": 4915734,
+            "type": "other",
+            "ratio": 74.5
           },
           {
             "name": "小西 享",
@@ -184,8 +193,9 @@
           },
           {
             "name": "QR２号ファンド投資事業有限責任組合",
-            "shares": 0,
-            "type": "vc"
+            "shares": 198609,
+            "type": "vc",
+            "ratio": 3.01
           },
           {
             "name": "ベイレリャン・アンソニー",
@@ -195,18 +205,21 @@
           },
           {
             "name": "従業員",
-            "shares": 0,
-            "type": "other"
+            "shares": 64663,
+            "type": "other",
+            "ratio": 0.98
           },
           {
             "name": "従業員",
-            "shares": 0,
-            "type": "other"
+            "shares": 64663,
+            "type": "other",
+            "ratio": 0.98
           },
           {
             "name": "従業員",
-            "shares": 0,
-            "type": "other"
+            "shares": 62684,
+            "type": "other",
+            "ratio": 0.95
           },
           {
             "name": "（株）福岡銀行",
@@ -216,15 +229,16 @@
           },
           {
             "name": "従業員",
-            "shares": 0,
-            "type": "other"
+            "shares": 31672,
+            "type": "other",
+            "ratio": 0.48
           }
         ],
         "days": 180
       }
     ],
     "stock_options": [],
-    "notes": "auto-scraped from ipokiso.com 2026-06-17 +edinet:2026-06-17 +edinet:2026-06-17",
+    "notes": "auto-scraped from ipokiso.com 2026-06-18",
     "prospectus_url": "https://www.ipokiso.com/company/2026/linkx.html",
     "total_shares": 6598300
   },
@@ -238,7 +252,7 @@
       {
         "label": "主要株主（180日）",
         "release_date": "2026-12-12",
-        "shares": 47219100,
+        "shares": 48119100,
         "holders": [
           {
             "name": "DeNA",
@@ -263,12 +277,14 @@
           {
             "name": "中島宏（代表取締役社長）",
             "shares": 2256000,
-            "type": "founder"
+            "type": "founder",
+            "ratio": 2.6
           },
           {
             "name": "川鍋一朗（代表取締役会長）",
             "shares": 1866200,
-            "type": "founder"
+            "type": "founder",
+            "ratio": 2.2
           }
         ]
       },
@@ -343,12 +359,14 @@
           {
             "name": "佐藤淳（代表取締役社長）",
             "shares": 926000,
-            "type": "founder"
+            "type": "founder",
+            "ratio": 36.16
           },
           {
             "name": "近藤誠人（取締役）",
             "shares": 88000,
-            "type": "other"
+            "type": "other",
+            "ratio": 3.44
           },
           {
             "name": "株式会社シンクロ",
@@ -392,7 +410,8 @@
           {
             "name": "株式会社GM",
             "shares": 400000,
-            "type": "corporate"
+            "type": "corporate",
+            "ratio": 11.43
           },
           {
             "name": "ジャフコSV4共有投資事業 VC",
@@ -426,7 +445,8 @@
           {
             "name": "神瀬悠一（創業者）",
             "shares": 100000,
-            "type": "founder"
+            "type": "founder",
+            "ratio": 21.34
           },
           {
             "name": "XTech2号投資事業有限責任組合 VC",
@@ -441,7 +461,8 @@
           {
             "name": "宮竹秀太郎",
             "shares": 19900,
-            "type": "other"
+            "type": "other",
+            "ratio": 14.55
           }
         ]
       }
@@ -460,7 +481,7 @@
       {
         "label": "主要株主（180日）",
         "release_date": "2026-10-05",
-        "shares": 431000,
+        "shares": 481000,
         "holders": [
           {
             "name": "ソフトテックス従業員持株会",
@@ -470,22 +491,26 @@
           {
             "name": "石黒佳彦",
             "shares": 72500,
-            "type": "other"
+            "type": "other",
+            "ratio": 8.99
           },
           {
             "name": "太田晃二",
             "shares": 71000,
-            "type": "other"
+            "type": "other",
+            "ratio": 8.8
           },
           {
             "name": "近藤久美子",
             "shares": 60000,
-            "type": "other"
+            "type": "other",
+            "ratio": 7.44
           },
           {
             "name": "名古屋中小企業投資育成",
             "shares": 60000,
-            "type": "vc"
+            "type": "vc",
+            "ratio": 7.44
           },
           {
             "name": "㈱ミロク情報サービス",
@@ -500,7 +525,8 @@
           {
             "name": "山本哲士",
             "shares": 40000,
-            "type": "other"
+            "type": "other",
+            "ratio": 4.96
           }
         ]
       }
@@ -511,72 +537,89 @@
   },
   {
     "ticker": "549A",
-    "name": "ヒトトヒトHD",
+    "name": "ヒトトヒトホールディングス",
     "ipo_date": "2026-04-07",
     "market": "東証スタンダード",
     "initial_price": 430,
     "lockups": [
       {
-        "label": "VC・主要株主（180日）",
-        "release_date": "2026-07-05",
-        "shares": 1208921594,
+        "label": "VC・主要株主（90日）",
+        "release_date": "2026-07-06",
+        "shares": 0,
         "holders": [
           {
-            "name": "J-GIA１号投資事業有限責任組合VC",
-            "shares": 1184375080,
-            "type": "vc"
-          },
-          {
-            "name": "株式会社トリプルトレジャーズ代表取締役社長が議決権の過半数を所有する会社",
-            "shares": 10500007,
-            "type": "founder"
-          },
-          {
-            "name": "三井不動産株式会社",
-            "shares": 4387503,
-            "type": "other"
-          },
-          {
-            "name": "松本 哲裕代表取締役",
-            "shares": 3500002,
-            "type": "founder"
-          },
-          {
-            "name": "東洋テック株式会社",
-            "shares": 1462501,
-            "type": "other"
-          },
-          {
-            "name": "カルチュア・コンビニエンス・ クラブ株式会社",
-            "shares": 1462501,
-            "type": "other"
-          },
-          {
-            "name": "田中 満取締役",
-            "shares": 1029000,
-            "type": "other"
-          },
-          {
-            "name": "中田 哲志子会社の取締役",
-            "shares": 735000,
-            "type": "other"
-          },
-          {
-            "name": "根本 輝夫子会社の取締役",
-            "shares": 735000,
-            "type": "other"
-          },
-          {
-            "name": "大山 哲也子会社の取締役",
-            "shares": 735000,
-            "type": "other"
+            "name": "J-GIA１号投資事業有限責任組合",
+            "shares": 0,
+            "type": "vc",
+            "ratio": 80.98
           }
-        ]
+        ],
+        "days": 90
+      },
+      {
+        "label": "主要株主（180日）",
+        "release_date": "2026-10-04",
+        "shares": 1112150,
+        "holders": [
+          {
+            "name": "（株）トリプルトレジャーズ",
+            "shares": 0,
+            "type": "other",
+            "ratio": 7.18
+          },
+          {
+            "name": "三井不動産（株）",
+            "shares": 438750,
+            "type": "other",
+            "ratio": 3.0
+          },
+          {
+            "name": "松本 哲裕 （社長）",
+            "shares": 350000,
+            "type": "founder",
+            "ratio": 2.39
+          },
+          {
+            "name": "東洋テック（株）",
+            "shares": 0,
+            "type": "other"
+          },
+          {
+            "name": "カルチュア・コンビニエンス・クラブ（株）",
+            "shares": 0,
+            "type": "other"
+          },
+          {
+            "name": "田中 満",
+            "shares": 102900,
+            "type": "other",
+            "ratio": 0.7
+          },
+          {
+            "name": "中田 哲志",
+            "shares": 73500,
+            "type": "other",
+            "ratio": 0.5
+          },
+          {
+            "name": "根本 輝夫",
+            "shares": 73500,
+            "type": "other",
+            "ratio": 0.5
+          },
+          {
+            "name": "大山 哲也",
+            "shares": 73500,
+            "type": "other",
+            "ratio": 0.5
+          }
+        ],
+        "days": 180
       }
     ],
     "stock_options": [],
-    "notes": "auto-scraped from ipokabu.net",
-    "prospectus_url": ""
+    "notes": "auto-scraped from ipokiso.com 2026-06-18",
+    "prospectus_url": "https://www.ipokiso.com/company/2026/hitotohito-hd.html"
   },
   {
     "ticker": "548A",
@@ -598,12 +641,14 @@
           {
             "name": "高橋光司",
             "shares": 195000,
-            "type": "other"
+            "type": "other",
+            "ratio": 6.1
           },
           {
             "name": "白銀亨",
             "shares": 120000,
-            "type": "other"
+            "type": "other",
+            "ratio": 4.55
           }
         ]
       }
@@ -632,17 +677,20 @@
           {
             "name": "大塚博史（代表取締役社長）",
             "shares": 274000,
-            "type": "founder"
+            "type": "founder",
+            "ratio": 6.7
           },
           {
             "name": "HYUNDAI BIOSCIENCE CO., LTD.",
             "shares": 172000,
-            "type": "corporate"
+            "type": "corporate",
+            "ratio": 4.21
           },
           {
             "name": "関智洋（取締役）",
             "shares": 7200,
-            "type": "other"
+            "type": "other",
+            "ratio": 0.18
           }
         ]
       }
@@ -650,6 +698,94 @@
     "stock_options": [],
     "notes": "親会社ベクトルが88%超保有。上場後も支配構造は変わらず。",
     "prospectus_url": ""
+  },
+  {
+    "ticker": "529A",
+    "name": "レクメド",
+    "ipo_date": "2026-04-02",
+    "market": "東証グロース",
+    "initial_price": 1030,
+    "lockups": [
+      {
+        "label": "VC・主要株主（90日）",
+        "release_date": "2026-07-01",
+        "shares": 0,
+        "holders": [
+          {
+            "name": "サイバニクス・エクセレンス・ジャパン１号投資事業有限責任組合",
+            "shares": 0,
+            "type": "vc",
+            "ratio": 10.02
+          },
+          {
+            "name": "オリックス（株）",
+            "shares": 0,
+            "type": "other",
+            "ratio": 4.76
+          },
+          {
+            "name": "新生響きブリッジ投資事業有限責任組合",
+            "shares": 0,
+            "type": "vc",
+            "ratio": 3.89
+          }
+        ],
+        "days": 90
+      },
+      {
+        "label": "VC・主要株主（180日）",
+        "release_date": "2026-09-29",
+        "shares": 1150000,
+        "holders": [
+          {
+            "name": "松本 正 （社長）",
+            "shares": 885000,
+            "type": "founder",
+            "ratio": 11.87
+          },
+          {
+            "name": "王子ホールディングス（株）",
+            "shares": 0,
+            "type": "other",
+            "ratio": 8.38
+          },
+          {
+            "name": "帝國製薬（株）",
+            "shares": 0,
+            "type": "other",
+            "ratio": 8.38
+          },
+          {
+            "name": "（株）サノ",
+            "shares": 0,
+            "type": "other",
+            "ratio": 5.57
+          },
+          {
+            "name": "TNPスレッズオブライト投資事業有限責任組合",
+            "shares": 0,
+            "type": "vc",
+            "ratio": 3.58
+          },
+          {
+            "name": "（株）EXIT Solutions",
+            "shares": 265000,
+            "type": "other",
+            "ratio": 3.55
+          },
+          {
+            "name": "Yokohama Next投資事業有限責任組合",
+            "shares": 0,
+            "type": "vc",
+            "ratio": 3.35
+          }
+        ],
+        "days": 180
+      }
+    ],
+    "stock_options": [],
+    "notes": "auto-scraped from ipokiso.com 2026-06-18",
+    "prospectus_url": "https://www.ipokiso.com/company/2026/reqmed.html"
   },
   {
     "ticker": "523A",
@@ -679,7 +815,8 @@
           {
             "name": "野見山勇大（代表取締役社長・69.89%）",
             "shares": 11445500,
-            "type": "founder"
+            "type": "founder",
+            "ratio": 69.89
           }
         ]
       }
@@ -766,12 +903,13 @@
       {
         "label": "創業者・VC（180日 / VC1.5倍条件）",
         "release_date": "2026-09-20",
-        "shares": 2664323,
+        "shares": 2565123,
         "holders": [
           {
             "name": "秋山勝（代表取締役）",
             "shares": 1882185,
-            "type": "founder"
+            "type": "founder",
+            "ratio": 34.74
           },
           {
             "name": "One Capital1号投資事業有限責任組合 VC",
@@ -810,7 +948,7 @@
       }
     ],
     "stock_options": [],
-    "notes": "auto-scraped from ipokiso.com 2026-06-17",
+    "notes": "auto-scraped from ipokiso.com 2026-06-18",
     "prospectus_url": "https://www.ipokiso.com/company/2026/greenlight-infra.html"
   },
   {
@@ -823,7 +961,7 @@
       {
         "label": "創業者・役員（180日）",
         "release_date": "2026-08-25",
-        "shares": 12765000,
+        "shares": 10325000,
         "holders": [
           {
             "name": "ブリッジインベストメント（代表取締役資産管理会社）",
@@ -833,7 +971,8 @@
           {
             "name": "奥山貴広（代表取締役社長）",
             "shares": 2310000,
-            "type": "founder"
+            "type": "founder",
+            "ratio": 36.37
           },
           {
             "name": "株式会社アーキスト（代表取締役資産管理会社）",
@@ -843,17 +982,20 @@
           {
             "name": "西内信（取締役）",
             "shares": 400000,
-            "type": "other"
+            "type": "other",
+            "ratio": 3.13
           },
           {
             "name": "浅野大樹人（取締役）",
             "shares": 200000,
-            "type": "other"
+            "type": "other",
+            "ratio": 1.56
           },
           {
             "name": "永井正樹（取締役）",
             "shares": 134000,
-            "type": "other"
+            "type": "other",
+            "ratio": 1.05
           },
           {
             "name": "ギークリー従業員持株会",
@@ -877,17 +1019,19 @@
       {
         "label": "外国人株主・VC・創業者（180日）",
         "release_date": "2026-08-22",
-        "shares": 18840295,
+        "shares": 19844295,
         "holders": [
           {
             "name": "Peppermint Grove Limited",
             "shares": 3609815,
-            "type": "other"
+            "type": "other",
+            "ratio": 9.45
           },
           {
             "name": "Insanna Stiftung",
             "shares": 3607988,
-            "type": "other"
+            "type": "other",
+            "ratio": 9.45
           },
           {
             "name": "シーズ・インベストメント有限責任事業組合 VC",
@@ -912,12 +1056,14 @@
           {
             "name": "坂野敦",
             "shares": 1643914,
-            "type": "other"
+            "type": "other",
+            "ratio": 4.31
           },
           {
             "name": "Glymur Biotech Ventures LP VC",
             "shares": 1339508,
-            "type": "vc"
+            "type": "vc",
+            "ratio": 3.51
           }
         ]
       }
@@ -941,32 +1087,38 @@
           {
             "name": "㈱MTS（代表取締役資産管理会社）",
             "shares": 2000000,
-            "type": "founder"
+            "type": "founder",
+            "ratio": 57.97
           },
           {
             "name": "本田武市（代表取締役）",
             "shares": 1000000,
-            "type": "founder"
+            "type": "founder",
+            "ratio": 28.99
           },
           {
             "name": "柴田維（専務取締役）",
             "shares": 250000,
-            "type": "other"
+            "type": "other",
+            "ratio": 7.25
           },
           {
             "name": "小山倫良（取締役）",
             "shares": 60000,
-            "type": "other"
+            "type": "other",
+            "ratio": 1.74
           },
           {
             "name": "鳥海裕喜（取締役）",
             "shares": 45000,
-            "type": "other"
+            "type": "other",
+            "ratio": 1.3
           },
           {
             "name": "長谷川隆一（監査役）",
             "shares": 10000,
-            "type": "other"
+            "type": "other",
+            "ratio": 0.29
           }
         ]
       }
@@ -995,7 +1147,8 @@
           {
             "name": "権田和士（取締役）",
             "shares": 918000,
-            "type": "other"
+            "type": "other",
+            "ratio": 15.15
           }
         ]
       }
@@ -1029,12 +1182,14 @@
           {
             "name": "栗山 規夫代表取締役",
             "shares": 48745010,
-            "type": "founder"
+            "type": "founder",
+            "ratio": 10.37
           },
           {
             "name": "柴田 大介代表取締役",
             "shares": 4013208,
-            "type": "founder"
+            "type": "founder",
+            "ratio": 8.54
           },
           {
             "name": "ＭＩＣイノベーション５号投資事業有限責任組合VC",
@@ -1098,7 +1253,8 @@
           {
             "name": "GA3号投資組合 VC",
             "shares": 114000,
-            "type": "vc"
+            "type": "vc",
+            "ratio": 2.3
           },
           {
             "name": "三菱UFJキャピタル8号投資事業有限責任組合 VC",
@@ -1125,17 +1281,20 @@
           {
             "name": "大西洋",
             "shares": 150000,
-            "type": "founder"
+            "type": "founder",
+            "ratio": 26.4
           },
           {
             "name": "黒瀬康太",
             "shares": 175000,
-            "type": "founder"
+            "type": "founder",
+            "ratio": 11.2
           },
           {
             "name": "弓場一輝",
             "shares": 150000,
-            "type": "founder"
+            "type": "founder",
+            "ratio": 8.7
           }
         ]
       }
@@ -1164,7 +1323,8 @@
           {
             "name": "宮本一成（代表取締役）",
             "shares": 690000,
-            "type": "founder"
+            "type": "founder",
+            "ratio": 38.31
           }
         ]
       }
@@ -1198,22 +1358,26 @@
           {
             "name": "西村賢治代表取締役",
             "shares": 27900010,
-            "type": "founder"
+            "type": "founder",
+            "ratio": 10.0
           },
           {
             "name": "長谷川新里取締役",
             "shares": 27900010,
-            "type": "other"
+            "type": "other",
+            "ratio": 10.0
           },
           {
             "name": "白木孝一取締役",
             "shares": 27900010,
-            "type": "other"
+            "type": "other",
+            "ratio": 10.0
           },
           {
             "name": "井上剛取締役",
             "shares": 770002,
-            "type": "other"
+            "type": "other",
+            "ratio": 2.8
           },
           {
             "name": "ディーエムソリューションズ株式会社",
@@ -1233,7 +1397,8 @@
           {
             "name": "石川敬啓取締役",
             "shares": 300001,
-            "type": "other"
+            "type": "other",
+            "ratio": 1.1
           }
         ]
       }
@@ -1274,12 +1439,14 @@
           {
             "name": "Hongo holdings株式会社",
             "shares": 310000,
-            "type": "founder"
+            "type": "founder",
+            "ratio": 56.18
           },
           {
             "name": "伊藤忠商事",
             "shares": 451210,
-            "type": "corporate"
+            "type": "corporate",
+            "ratio": 24.07
           }
         ]
       }
@@ -1303,17 +1470,20 @@
           {
             "name": "Y-Blood（横嶋大輔代表の資産管理会社）",
             "shares": 1800000,
-            "type": "founder"
+            "type": "founder",
+            "ratio": 42.95
           },
           {
             "name": "横嶋大輔（代表取締役）",
             "shares": 1620000,
-            "type": "founder"
+            "type": "founder",
+            "ratio": 38.66
           },
           {
             "name": "横嶋洋子（配偶者）",
             "shares": 188000,
-            "type": "other"
+            "type": "other",
+            "ratio": 4.49
           }
         ]
       }
@@ -1419,12 +1589,13 @@
       {
         "label": "VC・創業者（180日）",
         "release_date": "2026-06-15",
-        "shares": 11841950,
+        "shares": 11842000,
         "holders": [
           {
             "name": "赤川隼一（代表取締役）",
             "shares": 3507900,
-            "type": "founder"
+            "type": "founder",
+            "ratio": 19.82
           },
           {
             "name": "グロービス5号ファンド投資事業有限責任組合 VC",
@@ -1444,7 +1615,8 @@
           {
             "name": "Globis Fund V, L.P. VC",
             "shares": 1407550,
-            "type": "vc"
+            "type": "vc",
+            "ratio": 7.95
           }
         ]
       }
@@ -1478,12 +1650,14 @@
           {
             "name": "川島 克哉代表取締役",
             "shares": 2169000,
-            "type": "founder"
+            "type": "founder",
+            "ratio": 0.02
           },
           {
             "name": "畑尾 勝巳取締役",
             "shares": 868000,
-            "type": "other"
+            "type": "other",
+            "ratio": 0.01
           },
           {
             "name": "寺澤 英輔取締役",
@@ -1542,17 +1716,20 @@
           {
             "name": "BCPE Say Cayman, L.P. PE",
             "shares": 20862240,
-            "type": "vc"
+            "type": "vc",
+            "ratio": 36.97
           },
           {
             "name": "BCPE Say Cayman2, L.P. PE",
             "shares": 5737116,
-            "type": "vc"
+            "type": "vc",
+            "ratio": 10.17
           },
           {
             "name": "大谷彰宏",
             "shares": 2086224,
-            "type": "other"
+            "type": "other",
+            "ratio": 3.7
           }
         ]
       }
@@ -1576,7 +1753,8 @@
           {
             "name": "内木場隼（役員）",
             "shares": 61000,
-            "type": "other"
+            "type": "other",
+            "ratio": 18.2
           }
         ]
       },
@@ -1588,7 +1766,8 @@
           {
             "name": "河田憲二（代表取締役）",
             "shares": 1610000,
-            "type": "founder"
+            "type": "founder",
+            "ratio": 77.13
           }
         ]
       }
@@ -1629,7 +1808,8 @@
           {
             "name": "鹿島紘樹（代表取締役社長）",
             "shares": 592500,
-            "type": "founder"
+            "type": "founder",
+            "ratio": 58.44
           }
         ]
       }
@@ -1658,12 +1838,14 @@
           {
             "name": "平石 智紀執行役員",
             "shares": 16650006,
-            "type": "other"
+            "type": "other",
+            "ratio": 6.06
           },
           {
             "name": "松井 宏記",
             "shares": 11369204,
-            "type": "other"
+            "type": "other",
+            "ratio": 4.14
           },
           {
             "name": "i-Lab５号投資事業有限責任組合VC",
@@ -1673,7 +1855,8 @@
           {
             "name": "藤井 優紀従業員",
             "shares": 6373152,
-            "type": "other"
+            "type": "other",
+            "ratio": 2.32
           },
           {
             "name": "株式会社岡三証券グループ",
@@ -1688,17 +1871,20 @@
           {
             "name": "松岡 司従業員",
             "shares": 4952561,
-            "type": "other"
+            "type": "other",
+            "ratio": 1.8
           },
           {
             "name": "柴原 祐喜代表取締役",
             "shares": 4800001,
-            "type": "founder"
+            "type": "founder",
+            "ratio": 1.75
           },
           {
             "name": "大浦 学代表取締役",
             "shares": 4800001,
-            "type": "founder"
+            "type": "founder",
+            "ratio": 1.75
           }
         ]
       }
@@ -1722,7 +1908,8 @@
           {
             "name": "名富達也（代表取締役）",
             "shares": 2140000,
-            "type": "founder"
+            "type": "founder",
+            "ratio": 50.83
           },
           {
             "name": "株式会社名富（資産管理会社）",
@@ -1732,12 +1919,14 @@
           {
             "name": "毒島大輔（元取締役）",
             "shares": 20000,
-            "type": "other"
+            "type": "other",
+            "ratio": 0.48
           },
           {
             "name": "片山雄輔（元取締役）",
             "shares": 20000,
-            "type": "other"
+            "type": "other",
+            "ratio": 0.48
           }
         ]
       }
@@ -1761,22 +1950,26 @@
           {
             "name": "株式会社NIGOLD",
             "shares": 980000043,
-            "type": "other"
+            "type": "other",
+            "ratio": 43.42
           },
           {
             "name": "Pharrell Williams",
             "shares": 580000025,
-            "type": "other"
+            "type": "other",
+            "ratio": 25.7
           },
           {
             "name": "長尾 智明",
             "shares": 440000019,
-            "type": "other"
+            "type": "other",
+            "ratio": 19.49
           },
           {
             "name": "松沼 礼代表取締役",
             "shares": 6600002,
-            "type": "founder"
+            "type": "founder",
+            "ratio": 2.92
           },
           {
             "name": "柳澤 純一取締役",
@@ -1786,17 +1979,20 @@
           {
             "name": "鳩山 玲人取締役",
             "shares": 6600002,
-            "type": "other"
+            "type": "other",
+            "ratio": 2.92
           },
           {
             "name": "Brian Donnelly",
             "shares": 2000000,
-            "type": "other"
+            "type": "other",
+            "ratio": 0.89
           },
           {
             "name": "田中 慧",
             "shares": 2000000,
-            "type": "other"
+            "type": "other",
+            "ratio": 0.89
           },
           {
             "name": "―従業員",
@@ -1835,27 +2031,32 @@
           {
             "name": "前田 知紘代表取締役",
             "shares": 660000010,
-            "type": "founder"
+            "type": "founder",
+            "ratio": 10.48
           },
           {
             "name": "佐々木 耕平取締役",
             "shares": 42000006,
-            "type": "other"
+            "type": "other",
+            "ratio": 6.67
           },
           {
             "name": "加藤 博己執行役員",
             "shares": 42000006,
-            "type": "other"
+            "type": "other",
+            "ratio": 6.67
           },
           {
             "name": "小松 亮太執行役員",
             "shares": 42000006,
-            "type": "other"
+            "type": "other",
+            "ratio": 6.67
           },
           {
             "name": "河野 智晃取締役",
             "shares": 30000004,
-            "type": "other"
+            "type": "other",
+            "ratio": 4.76
           },
           {
             "name": "コタエル信託株式会社",
@@ -1917,7 +2118,8 @@
           {
             "name": "大和新代表取締役社長",
             "shares": 705225,
-            "type": "founder"
+            "type": "founder",
+            "ratio": 36.89
           },
           {
             "name": "株式会社エラン",
@@ -1932,27 +2134,32 @@
           {
             "name": "大豆生田伸夫",
             "shares": 145250,
-            "type": "other"
+            "type": "other",
+            "ratio": 7.6
           },
           {
             "name": "狩野高志",
             "shares": 100000,
-            "type": "other"
+            "type": "other",
+            "ratio": 5.23
           },
           {
             "name": "福島信広取締役",
             "shares": 78875,
-            "type": "other"
+            "type": "other",
+            "ratio": 4.13
           },
           {
             "name": "株式会社an butter役員等により総株主の議決権の過半数が所有されている会社",
             "shares": 37875,
-            "type": "other"
+            "type": "other",
+            "ratio": 1.98
           },
           {
             "name": "相馬知明取締役",
             "shares": 36000,
-            "type": "other"
+            "type": "other",
+            "ratio": 1.88
           },
           {
             "name": "―",
@@ -1991,12 +2198,14 @@
           {
             "name": "比護 則良代表取締役社長",
             "shares": 150000,
-            "type": "founder"
+            "type": "founder",
+            "ratio": 0.91
           },
           {
             "name": "鈴木 淳也取締役会長",
             "shares": 50000,
-            "type": "other"
+            "type": "other",
+            "ratio": 0.3
           },
           {
             "name": "―従業員",
@@ -2006,7 +2215,8 @@
           {
             "name": "北村 京監査役",
             "shares": 15000,
-            "type": "other"
+            "type": "other",
+            "ratio": 0.09
           },
           {
             "name": "―従業員",
@@ -2060,17 +2270,20 @@
           {
             "name": "株式会社三井住友銀行資本業務提携先",
             "shares": 270320012,
-            "type": "corporate"
+            "type": "corporate",
+            "ratio": 12.52
           },
           {
             "name": "丸山 弘毅代表取締役",
             "shares": 243120011,
-            "type": "founder"
+            "type": "founder",
+            "ratio": 11.26
           },
           {
             "name": "来田 武則取締役",
             "shares": 21316009,
-            "type": "other"
+            "type": "other",
+            "ratio": 9.87
           },
           {
             "name": "神澤 順",
@@ -2090,7 +2303,8 @@
           {
             "name": "株式会社りそな銀行",
             "shares": 7368003,
-            "type": "corporate"
+            "type": "corporate",
+            "ratio": 3.41
           },
           {
             "name": "JPインベストメント１号投資事業有限責任組合VC",
@@ -2124,7 +2338,8 @@
           {
             "name": "林 界宏代表取締役",
             "shares": 794999048,
-            "type": "founder"
+            "type": "founder",
+            "ratio": 48.43
           },
           {
             "name": "林 盈貝血族",
@@ -2144,7 +2359,8 @@
           {
             "name": "東 明浩",
             "shares": 7350004,
-            "type": "other"
+            "type": "other",
+            "ratio": 4.47
           },
           {
             "name": "Openfind Information Technology,Inc.",
@@ -2164,12 +2380,14 @@
           {
             "name": "土谷 祐三郎従業員",
             "shares": 1720001,
-            "type": "other"
+            "type": "other",
+            "ratio": 1.04
           },
           {
             "name": "廖 長健取締役",
             "shares": 440000,
-            "type": "other"
+            "type": "other",
+            "ratio": 0.26
           }
         ]
       }
@@ -2193,7 +2411,8 @@
           {
             "name": "福富 七海取締役会長",
             "shares": 515200065,
-            "type": "other"
+            "type": "other",
+            "ratio": 65.9
           },
           {
             "name": "三井物産企業投資投資事業有限責任組合VC",
@@ -2203,7 +2422,8 @@
           {
             "name": "株式会社日本政策投資銀行",
             "shares": 86800011,
-            "type": "corporate"
+            "type": "corporate",
+            "ratio": 11.1
           },
           {
             "name": "株式会社ゼンリン",
@@ -2242,22 +2462,26 @@
           {
             "name": "Infinity Gamma Ice L.P.PE",
             "shares": 82808228,
-            "type": "vc"
+            "type": "vc",
+            "ratio": 8.5
           },
           {
             "name": "Initiative Delta Ice L.P.PE",
             "shares": 71747007,
-            "type": "vc"
+            "type": "vc",
+            "ratio": 7.36
           },
           {
             "name": "Insight Beta Ice L.P.PE",
             "shares": 65062126,
-            "type": "vc"
+            "type": "vc",
+            "ratio": 6.68
           },
           {
             "name": "Innovation Alpha Ice L.P.PE",
             "shares": 55078515,
-            "type": "vc"
+            "type": "vc",
+            "ratio": 5.65
           },
           {
             "name": "Iceインテグラル1投資事業有限責任組合PE",
@@ -2272,12 +2496,14 @@
           {
             "name": "Michael G. Hadsell取締役",
             "shares": 850000,
-            "type": "other"
+            "type": "other",
+            "ratio": 0.09
           },
           {
             "name": "糸雅 誠一取締役",
             "shares": 500000,
-            "type": "other"
+            "type": "other",
+            "ratio": 0.05
           }
         ]
       }
@@ -2301,27 +2527,32 @@
           {
             "name": "株式会社大塚商会",
             "shares": 1200000036,
-            "type": "other"
+            "type": "other",
+            "ratio": 36.85
           },
           {
             "name": "福井 資",
             "shares": 13725254,
-            "type": "other"
+            "type": "other",
+            "ratio": 4.22
           },
           {
             "name": "福井 靖",
             "shares": 11928253,
-            "type": "other"
+            "type": "other",
+            "ratio": 3.66
           },
           {
             "name": "福井 務",
             "shares": 10985503,
-            "type": "other"
+            "type": "other",
+            "ratio": 3.37
           },
           {
             "name": "株式会社みずほ銀行",
             "shares": 8440002,
-            "type": "corporate"
+            "type": "corporate",
+            "ratio": 2.59
           },
           {
             "name": "ライオン事務器社員持株会",
@@ -2331,17 +2562,20 @@
           {
             "name": "勝又 祐一郎",
             "shares": 4005001,
-            "type": "other"
+            "type": "other",
+            "ratio": 1.23
           },
           {
             "name": "株式会社三井住友銀行",
             "shares": 3900001,
-            "type": "corporate"
+            "type": "corporate",
+            "ratio": 1.2
           },
           {
             "name": "寺西 八",
             "shares": 3641501,
-            "type": "other"
+            "type": "other",
+            "ratio": 1.12
           },
           {
             "name": "日本生命保険相互会社",
@@ -2380,7 +2614,8 @@
           {
             "name": "東 稔哉代表取締役社長",
             "shares": 8208696,
-            "type": "founder"
+            "type": "founder",
+            "ratio": 6.17
           },
           {
             "name": "尾澤 一彦取締役",
@@ -2390,12 +2625,14 @@
           {
             "name": "Marunouchi Global Fund II L.P.PE",
             "shares": 1017000,
-            "type": "vc"
+            "type": "vc",
+            "ratio": 0.76
           },
           {
             "name": "稲葉 好紀子会社の取締役",
             "shares": 631000,
-            "type": "other"
+            "type": "other",
+            "ratio": 0.47
           },
           {
             "name": "―子会社の従業員",
@@ -2439,7 +2676,8 @@
           {
             "name": "木暮 康雄代表取締役",
             "shares": 70624029,
-            "type": "founder"
+            "type": "founder",
+            "ratio": 29.29
           },
           {
             "name": "パズー株式会社代表取締役の資産管理会社",
@@ -2454,7 +2692,8 @@
           {
             "name": "田中 祥太郎取締役",
             "shares": 1025104,
-            "type": "other"
+            "type": "other",
+            "ratio": 4.25
           },
           {
             "name": "ディップ株式会社",
@@ -2479,7 +2718,8 @@
           {
             "name": "木暮 正彦血族",
             "shares": 400001,
-            "type": "other"
+            "type": "other",
+            "ratio": 1.66
           },
           {
             "name": "株式会社エルテスキャピタルCVC",
@@ -2508,7 +2748,8 @@
           {
             "name": "神川 貴実彦代表取締役社長",
             "shares": 280000034,
-            "type": "founder"
+            "type": "founder",
+            "ratio": 34.33
           },
           {
             "name": "株式会社リオディオス代表取締役の資産管理会社",
@@ -2518,22 +2759,26 @@
           {
             "name": "神川 宏子代表取締役の配偶者",
             "shares": 140000017,
-            "type": "founder"
+            "type": "founder",
+            "ratio": 17.17
           },
           {
             "name": "神川 志悠血族",
             "shares": 7000008,
-            "type": "other"
+            "type": "other",
+            "ratio": 8.58
           },
           {
             "name": "神川 芽伊血族",
             "shares": 7000008,
-            "type": "other"
+            "type": "other",
+            "ratio": 8.58
           },
           {
             "name": "西田 和雅取締役",
             "shares": 700000,
-            "type": "other"
+            "type": "other",
+            "ratio": 0.86
           },
           {
             "name": "－従業員",
@@ -2577,27 +2822,32 @@
           {
             "name": "NIC Fund II Cayman, LP投資ファンド",
             "shares": 347380015,
-            "type": "vc"
+            "type": "vc",
+            "ratio": 15.86
           },
           {
             "name": "Cerasus Fund II Cayman, LP投資ファンド",
             "shares": 292360013,
-            "type": "vc"
+            "type": "vc",
+            "ratio": 13.35
           },
           {
             "name": "Wisteria Fund II Cayman, LP投資ファンド",
             "shares": 282800012,
-            "type": "vc"
+            "type": "vc",
+            "ratio": 12.91
           },
           {
             "name": "Camellia Fund II Cayman, LP投資ファンド",
             "shares": 266480012,
-            "type": "vc"
+            "type": "vc",
+            "ratio": 12.17
           },
           {
             "name": "株式会社小学館",
             "shares": 20000009,
-            "type": "other"
+            "type": "other",
+            "ratio": 9.13
           },
           {
             "name": "株式会社ポケモン",
@@ -2612,12 +2862,14 @@
           {
             "name": "永田 勝治代表取締役",
             "shares": 12000005,
-            "type": "founder"
+            "type": "founder",
+            "ratio": 5.48
           },
           {
             "name": "OSK合同会社",
             "shares": 10000004,
-            "type": "other"
+            "type": "other",
+            "ratio": 4.57
           },
           {
             "name": "岩﨑 篤史",
@@ -2651,47 +2903,56 @@
           {
             "name": "小山 和夫血族",
             "shares": 3077003,
-            "type": "other"
+            "type": "other",
+            "ratio": 3.11
           },
           {
             "name": "小山 剛代表取締役社長",
             "shares": 1600001,
-            "type": "founder"
+            "type": "founder",
+            "ratio": 1.62
           },
           {
             "name": "小野 貞人子会社の取締役",
             "shares": 100000,
-            "type": "other"
+            "type": "other",
+            "ratio": 0.1
           },
           {
             "name": "植村 賢二取締役",
             "shares": 80000,
-            "type": "other"
+            "type": "other",
+            "ratio": 0.08
           },
           {
             "name": "井上 孝取締役",
             "shares": 30000,
-            "type": "other"
+            "type": "other",
+            "ratio": 0.03
           },
           {
             "name": "黒沼 理子会社の取締役",
             "shares": 24000,
-            "type": "other"
+            "type": "other",
+            "ratio": 0.02
           },
           {
             "name": "植村 卓馬子会社の取締役",
             "shares": 24000,
-            "type": "other"
+            "type": "other",
+            "ratio": 0.02
           },
           {
             "name": "飯塚 信子会社の取締役",
             "shares": 20000,
-            "type": "other"
+            "type": "other",
+            "ratio": 0.02
           },
           {
             "name": "大浦 和久取締役",
             "shares": 11000,
-            "type": "other"
+            "type": "other",
+            "ratio": 0.01
           }
         ]
       }
@@ -2720,12 +2981,14 @@
           {
             "name": "山名 正人代表取締役社長",
             "shares": 159840,
-            "type": "founder"
+            "type": "founder",
+            "ratio": 4.07
           },
           {
             "name": "伊勢 主税取締役",
             "shares": 59940,
-            "type": "other"
+            "type": "other",
+            "ratio": 1.53
           },
           {
             "name": "－従業員",
@@ -2804,12 +3067,14 @@
           {
             "name": "村野 一",
             "shares": 4824001,
-            "type": "other"
+            "type": "other",
+            "ratio": 1.08
           },
           {
             "name": "Patric Dougan",
             "shares": 4402000,
-            "type": "other"
+            "type": "other",
+            "ratio": 0.98
           },
           {
             "name": "オリオンビール従業員持株会",
@@ -2819,17 +3084,20 @@
           {
             "name": "嘉手苅 義男",
             "shares": 2824000,
-            "type": "other"
+            "type": "other",
+            "ratio": 0.63
           },
           {
             "name": "吹田 龍平太",
             "shares": 2330000,
-            "type": "other"
+            "type": "other",
+            "ratio": 0.52
           },
           {
             "name": "亀田 浩",
             "shares": 1845000,
-            "type": "other"
+            "type": "other",
+            "ratio": 0.41
           }
         ]
       }
@@ -2863,27 +3131,32 @@
           {
             "name": "中村 友哉代表取締役",
             "shares": 3450000,
-            "type": "founder"
+            "type": "founder",
+            "ratio": 7.07
           },
           {
             "name": "永島 隆子会社の従業員",
             "shares": 2680000,
-            "type": "other"
+            "type": "other",
+            "ratio": 5.49
           },
           {
             "name": "宮下 直己",
             "shares": 2260000,
-            "type": "other"
+            "type": "other",
+            "ratio": 4.63
           },
           {
             "name": "株式会社SMBC信託銀行",
             "shares": 2194400,
-            "type": "corporate"
+            "type": "corporate",
+            "ratio": 4.5
           },
           {
             "name": "株式会社Space Compass事業会社",
             "shares": 1916000,
-            "type": "other"
+            "type": "other",
+            "ratio": 3.93
           },
           {
             "name": "Kepple Liquidity１号投資事業有限責任組合VC",
@@ -2942,27 +3215,32 @@
           {
             "name": "細江 盛方取締役",
             "shares": 146001,
-            "type": "other"
+            "type": "other",
+            "ratio": 1.27
           },
           {
             "name": "奥田 慶太取締役",
             "shares": 87000,
-            "type": "other"
+            "type": "other",
+            "ratio": 0.76
           },
           {
             "name": "山忠従業員持株会",
             "shares": 84000,
-            "type": "other"
+            "type": "other",
+            "ratio": 0.73
           },
           {
             "name": "伊藤 良徳取締役",
             "shares": 63000,
-            "type": "other"
+            "type": "other",
+            "ratio": 0.55
           },
           {
             "name": "岐阜信用金庫",
             "shares": 60000,
-            "type": "other"
+            "type": "other",
+            "ratio": 0.52
           },
           {
             "name": "山﨑 美由紀代表取締役の配偶者",
@@ -3001,7 +3279,8 @@
           {
             "name": "渋谷 修太取締役",
             "shares": 19899111,
-            "type": "other"
+            "type": "other",
+            "ratio": 11.21
           },
           {
             "name": "Ｂ Ｄａｓｈ Ｆｕｎｄ４号投資事業有限責任組合VC",
@@ -3021,7 +3300,8 @@
           {
             "name": "山本 公哉",
             "shares": 486002,
-            "type": "other"
+            "type": "other",
+            "ratio": 2.74
           },
           {
             "name": "櫻井 裕基取締役",
@@ -3065,17 +3345,20 @@
           {
             "name": "正木 宏和代表取締役社長",
             "shares": 95600031,
-            "type": "founder"
+            "type": "founder",
+            "ratio": 31.87
           },
           {
             "name": "おかしのまちおか従業員持株会",
             "shares": 2740009,
-            "type": "other"
+            "type": "other",
+            "ratio": 9.13
           },
           {
             "name": "内田 和枝血族",
             "shares": 2700009,
-            "type": "other"
+            "type": "other",
+            "ratio": 9.0
           },
           {
             "name": "正木 美惠代表取締役の配偶者",
@@ -3090,22 +3373,26 @@
           {
             "name": "株式会社武蔵野銀行",
             "shares": 500001,
-            "type": "corporate"
+            "type": "corporate",
+            "ratio": 1.67
           },
           {
             "name": "正木 惇也血族",
             "shares": 300001,
-            "type": "other"
+            "type": "other",
+            "ratio": 1.0
           },
           {
             "name": "正木 友梨血族",
             "shares": 300001,
-            "type": "other"
+            "type": "other",
+            "ratio": 1.0
           },
           {
             "name": "正木 理子血族",
             "shares": 300001,
-            "type": "other"
+            "type": "other",
+            "ratio": 1.0
           }
         ]
       }
@@ -3129,7 +3416,8 @@
           {
             "name": "松丸 敦之代表取締役会長",
             "shares": 345280055,
-            "type": "founder"
+            "type": "founder",
+            "ratio": 55.07
           },
           {
             "name": "(株)ボンド・ホールディングス",
@@ -3139,37 +3427,44 @@
           {
             "name": "深井 英樹代表取締役社長",
             "shares": 80340012,
-            "type": "founder"
+            "type": "founder",
+            "ratio": 12.81
           },
           {
             "name": "松丸 さつき",
             "shares": 2000003,
-            "type": "other"
+            "type": "other",
+            "ratio": 3.19
           },
           {
             "name": "安田 仁裕取締役",
             "shares": 1210001,
-            "type": "other"
+            "type": "other",
+            "ratio": 1.93
           },
           {
             "name": "江口 雄一従業員",
             "shares": 748001,
-            "type": "other"
+            "type": "other",
+            "ratio": 1.19
           },
           {
             "name": "勝山 宏哉取締役",
             "shares": 730001,
-            "type": "other"
+            "type": "other",
+            "ratio": 1.16
           },
           {
             "name": "曽我 正史従業員",
             "shares": 668001,
-            "type": "other"
+            "type": "other",
+            "ratio": 1.07
           },
           {
             "name": "宮内 理司従業員",
             "shares": 414000,
-            "type": "other"
+            "type": "other",
+            "ratio": 0.66
           },
           {
             "name": "髙橋 徹取締役",
@@ -3198,7 +3493,8 @@
           {
             "name": "双日㈱",
             "shares": 38700011,
-            "type": "other"
+            "type": "other",
+            "ratio": 11.92
           },
           {
             "name": "ヤンマー建機㈱",
@@ -3223,7 +3519,8 @@
           {
             "name": "丸紅㈱",
             "shares": 1600004,
-            "type": "other"
+            "type": "other",
+            "ratio": 4.93
           },
           {
             "name": "コベルコ建機㈱",
@@ -3277,17 +3574,20 @@
           {
             "name": "的場 隆光代表取締役社長",
             "shares": 45000016,
-            "type": "founder"
+            "type": "founder",
+            "ratio": 16.01
           },
           {
             "name": "長島 幹孟取締役",
             "shares": 450001,
-            "type": "other"
+            "type": "other",
+            "ratio": 1.6
           },
           {
             "name": "上原 大輔取締役",
             "shares": 450001,
-            "type": "other"
+            "type": "other",
+            "ratio": 1.6
           },
           {
             "name": "平 剛取締役",
@@ -3336,7 +3636,8 @@
           {
             "name": "樺山 伸一血族",
             "shares": 240000058,
-            "type": "other"
+            "type": "other",
+            "ratio": 58.37
           },
           {
             "name": "株式会社エージーアイ役員等により総株主の議決権の過半数が所有されている会社",
@@ -3346,22 +3647,26 @@
           {
             "name": "樺山 玄基代表取締役社長",
             "shares": 4000009,
-            "type": "founder"
+            "type": "founder",
+            "ratio": 9.73
           },
           {
             "name": "森 英之監査役",
             "shares": 180000,
-            "type": "other"
+            "type": "other",
+            "ratio": 0.44
           },
           {
             "name": "山本 守",
             "shares": 150000,
-            "type": "other"
+            "type": "other",
+            "ratio": 0.36
           },
           {
             "name": "田中 佑治取締役",
             "shares": 117500,
-            "type": "other"
+            "type": "other",
+            "ratio": 0.29
           },
           {
             "name": "－従業員",
@@ -3405,7 +3710,8 @@
           {
             "name": "北里商事株式会社代表取締役の資産管理会社",
             "shares": 2340000058,
-            "type": "founder"
+            "type": "founder",
+            "ratio": 58.5
           },
           {
             "name": "井上 太綬代表取締役社長",
@@ -3425,7 +3731,8 @@
           {
             "name": "北里商事株式会社代表取締役社長の資産管理会社",
             "shares": 23400000,
-            "type": "founder"
+            "type": "founder",
+            "ratio": 58.5
           },
           {
             "name": "井上 太綬代表取締役社長",
@@ -3484,7 +3791,8 @@
           {
             "name": "藤江 秀一取締役",
             "shares": 1049651,
-            "type": "other"
+            "type": "other",
+            "ratio": 1.09
           },
           {
             "name": "田邊 健一",
@@ -3494,7 +3802,8 @@
           {
             "name": "沖 康輔",
             "shares": 437350,
-            "type": "other"
+            "type": "other",
+            "ratio": 0.45
           },
           {
             "name": "─",
@@ -3504,12 +3813,14 @@
           {
             "name": "谷本 有輝典",
             "shares": 349880,
-            "type": "other"
+            "type": "other",
+            "ratio": 0.36
           },
           {
             "name": "宮田 智崇",
             "shares": 349880,
-            "type": "other"
+            "type": "other",
+            "ratio": 0.36
           }
         ]
       }
@@ -3538,7 +3849,8 @@
           {
             "name": "LHP Holdings,L.P.",
             "shares": 223370037,
-            "type": "vc"
+            "type": "vc",
+            "ratio": 37.94
           },
           {
             "name": "㈱アドバンテッジ リスク マネジメント",
@@ -3553,12 +3865,14 @@
           {
             "name": "伊藤忠商事㈱",
             "shares": 1689002,
-            "type": "corporate"
+            "type": "corporate",
+            "ratio": 2.87
           },
           {
             "name": "松田 泰秀",
             "shares": 1600002,
-            "type": "other"
+            "type": "other",
+            "ratio": 2.72
           },
           {
             "name": "伊藤忠テクノソリューションズ㈱",
@@ -3568,7 +3882,8 @@
           {
             "name": "佐々木 雅之",
             "shares": 400000,
-            "type": "other"
+            "type": "other",
+            "ratio": 0.68
           },
           {
             "name": "－",
@@ -3622,7 +3937,8 @@
           {
             "name": "甫天 和宏取締役",
             "shares": 240000,
-            "type": "other"
+            "type": "other",
+            "ratio": 0.23
           },
           {
             "name": "―従業員",
@@ -3632,7 +3948,8 @@
           {
             "name": "三好 拓人取締役",
             "shares": 200000,
-            "type": "other"
+            "type": "other",
+            "ratio": 0.19
           },
           {
             "name": "―従業員",
@@ -3642,7 +3959,8 @@
           {
             "name": "藤田 有香取締役",
             "shares": 180000,
-            "type": "other"
+            "type": "other",
+            "ratio": 0.17
           },
           {
             "name": "―従業員",

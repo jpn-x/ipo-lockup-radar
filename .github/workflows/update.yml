@@ -34,6 +34,9 @@ jobs:
       - name: Scrape ipokabu.net (supplement)
         run: python scripts/scrape_ipokabu.py
 
+      - name: Scrape traders.co.jp (株数・比率補完)
+        run: python scripts/scrape_traders.py
+
       - name: Scrape EDINET (実株数補完)
         env:
           EDINET_API_KEY: ${{ secrets.EDINET_API_KEY }}
