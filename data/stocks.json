@@ -9,31 +9,31 @@
       {
         "label": "主要株主（180日）",
         "release_date": "2027-01-11",
-        "shares": 0,
+        "shares": 4165000,
         "holders": [
           {
             "name": "マネーストレージ（株）",
-            "shares": 0,
+            "shares": 1600000,
             "type": "other"
           },
           {
             "name": "大江 繭子 （社長）",
-            "shares": 0,
+            "shares": 1335000,
             "type": "founder"
           },
           {
             "name": "西田 厚生",
-            "shares": 0,
+            "shares": 344000,
             "type": "other"
           },
           {
             "name": "赤松 哲典",
-            "shares": 0,
+            "shares": 314000,
             "type": "other"
           },
           {
             "name": "西田 幸子",
-            "shares": 0,
+            "shares": 172000,
             "type": "other"
           },
           {
@@ -43,17 +43,17 @@
           },
           {
             "name": "西田 大翔",
-            "shares": 0,
+            "shares": 140000,
             "type": "other"
           },
           {
             "name": "西田 美朝",
-            "shares": 0,
+            "shares": 140000,
             "type": "other"
           },
           {
             "name": "森下 俊光",
-            "shares": 0,
+            "shares": 120000,
             "type": "other"
           },
           {
@@ -66,7 +66,7 @@
       }
     ],
     "stock_options": [],
-    "notes": "auto-scraped from ipokiso.com 2026-06-17",
+    "notes": "auto-scraped from ipokiso.com 2026-06-17 +edinet:2026-06-17",
     "prospectus_url": "https://www.ipokiso.com/company/2026/chatplus.html"
   },
   {
@@ -79,26 +79,26 @@
       {
         "label": "主要株主（180日）",
         "release_date": "2026-12-27",
-        "shares": 0,
+        "shares": 4176000,
         "holders": [
           {
             "name": "（株）みなみの島",
-            "shares": 0,
+            "shares": 2400000,
             "type": "other"
           },
           {
             "name": "南 友介 （社長）",
-            "shares": 0,
+            "shares": 1600000,
             "type": "founder"
           },
           {
             "name": "山崎 拓也",
-            "shares": 0,
+            "shares": 88000,
             "type": "other"
           },
           {
             "name": "田島 幸樹",
-            "shares": 0,
+            "shares": 88000,
             "type": "other"
           },
           {
@@ -136,7 +136,7 @@
       }
     ],
     "stock_options": [],
-    "notes": "auto-scraped from ipokiso.com 2026-06-17",
+    "notes": "auto-scraped from ipokiso.com 2026-06-17 +edinet:2026-06-17",
     "prospectus_url": "https://www.ipokiso.com/company/2026/ne-is.html"
   },
   {
@@ -149,7 +149,7 @@
       {
         "label": "VC・主要株主（180日）",
         "release_date": "2026-12-20",
-        "shares": 0,
+        "shares": 51030000,
         "holders": [
           {
             "name": "小西 祐一",
@@ -158,12 +158,12 @@
           },
           {
             "name": "小西 享",
-            "shares": 0,
+            "shares": 556000,
             "type": "other"
           },
           {
             "name": "オサムニア・モハメッド （社長）",
-            "shares": 0,
+            "shares": 418000,
             "type": "founder"
           },
           {
@@ -173,7 +173,7 @@
           },
           {
             "name": "ベイレリャン・アンソニー",
-            "shares": 0,
+            "shares": 100000,
             "type": "corporate"
           },
           {
@@ -193,7 +193,7 @@
           },
           {
             "name": "（株）福岡銀行",
-            "shares": 0,
+            "shares": 49956000,
             "type": "corporate"
           },
           {
@@ -206,7 +206,7 @@
       }
     ],
     "stock_options": [],
-    "notes": "auto-scraped from ipokiso.com 2026-06-17",
+    "notes": "auto-scraped from ipokiso.com 2026-06-17 +edinet:2026-06-17 +edinet:2026-06-17",
     "prospectus_url": "https://www.ipokiso.com/company/2026/linkx.html"
   },
   {
@@ -756,21 +756,21 @@
       {
         "label": "VC・創業者（90日 / 1.5倍条件）",
         "release_date": "2026-06-22",
-        "shares": 0,
+        "shares": 2102475,
         "holders": [
           {
             "name": "JICベンチャー・グロース・ファンド1号 VC",
-            "shares": 0,
+            "shares": 2021325,
             "type": "vc"
           },
           {
             "name": "Eight Roads Ventures Japan II VC",
-            "shares": 0,
+            "shares": 80000,
             "type": "vc"
           },
           {
             "name": "Newton Biocapital VC",
-            "shares": 0,
+            "shares": 1150,
             "type": "vc"
           },
           {
@@ -783,16 +783,16 @@
       {
         "label": "事業会社・経営陣（180日）",
         "release_date": "2026-09-24",
-        "shares": 0,
+        "shares": 1940000,
         "holders": [
           {
             "name": "大原薬品工業",
-            "shares": 0,
+            "shares": 875000,
             "type": "corporate"
           },
           {
             "name": "スペラファーマ",
-            "shares": 0,
+            "shares": 625000,
             "type": "corporate"
           },
           {
@@ -804,7 +804,7 @@
       }
     ],
     "stock_options": [],
-    "notes": "1.5倍解除条件あり（1,320円到達で解除）。株数は目論見書要確認。",
+    "notes": "1.5倍解除条件あり（1,320円到達で解除）。株数は目論見書要確認。 +edinet:2026-06-17",
     "prospectus_url": ""
   },
   {
@@ -1383,7 +1383,7 @@
       {
         "label": "事業会社・大株主（180日）",
         "release_date": "2026-06-16",
-        "shares": 2740600,
+        "shares": 5818048,
         "holders": [
           {
             "name": "日本郵船",
@@ -1412,24 +1412,24 @@
           },
           {
             "name": "伊藤忠商事（2.34%）",
-            "shares": 0,
+            "shares": 253448,
             "type": "corporate"
           },
           {
             "name": "今治造船（5.69%）",
-            "shares": 0,
+            "shares": 2184000,
             "type": "corporate"
           },
           {
             "name": "日本瓦斯（2.97%）",
-            "shares": 0,
+            "shares": 1140000,
             "type": "corporate"
           }
         ]
       }
     ],
     "stock_options": [],
-    "notes": "伊藤正裕社長は「継続所有」条件。大型蓄電池・EVチャージ・船舶蓄電システム。",
+    "notes": "伊藤正裕社長は「継続所有」条件。大型蓄電池・EVチャージ・船舶蓄電システム。 +edinet:2026-06-17 +edinet:2026-06-17",
     "prospectus_url": ""
   },
   {
