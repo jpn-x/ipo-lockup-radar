@@ -1,0 +1,12 @@
+{
+  "name": "IPO ロックアップ解除レーダー",
+  "short_name": "IPO Lockup",
+  "description": "VC・大株主・1円SOの売り需給カレンダー",
+  "start_url": "/ipo-lockup-radar/",
+  "display": "standalone",
+  "background_color": "#0f1117",
+  "theme_color": "#6366f1",
+  "icons": [
+    { "src": "favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}

@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IPO ロックアップ解除レーダー</title>
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="manifest" href="manifest.json">
+<style>
+  :root {
+    --bg: #0f1117;
+    --bg2: #1a1d27;
+    --bg3: #242736;
+    --border: #2e3248;
+    --text: #e2e8f0;
+    --text2: #94a3b8;
+    --text3: #64748b;
+    --accent: #6366f1;
+    --accent2: #818cf8;
+    --danger: #ef4444;
+    --warn: #f59e0b;
+    --success: #10b981;
+    --vc: #8b5cf6;
+    --founder: #ec4899;
+    --corporate: #06b6d4;
+    --other: #64748b;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Hiragino Sans', sans-serif;
+    font-size: 14px;
+    min-height: 100vh;
+  }
+
+  /* ── Header ── */
+  header {
+    background: var(--bg2);
+    border-bottom: 1px solid var(--border);
+    padding: 14px 20px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  header img { width: 28px; height: 28px; }
+  header h1 { font-size: 16px; font-weight: 700; color: var(--text); }
+  header .subtitle { font-size: 11px; color: var(--text3); margin-left: 4px; }
+  .header-spacer { flex: 1; }
+  .updated-at { font-size: 11px; color: var(--text3); }
+
+  /* ── Layout ── */
+  .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+
+  /* ── Stats bar ── */
+  .stats-bar {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    margin-bottom: 20px;
+  }
+  .stat-card {
+    background: var(--bg2);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 14px 16px;
+  }
+  .stat-card .label { font-size: 11px; color: var(--text3); margin-bottom: 4px; }
+  .stat-card .value { font-size: 22px; font-weight: 700; }
+  .stat-card.danger .value { color: var(--danger); }
+  .stat-card.warn .value { color: var(--warn); }
+  .stat-card.success .value { color: var(--success); }
+  .stat-card.accent .value { color: var(--accent2); }
+
+  /* ── Filters ── */
+  .filter-bar {
+    background: var(--bg2);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 14px 16px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+  .filter-label { font-size: 12px; color: var(--text3); white-space: nowrap; }
+  .filter-group { display: flex; gap: 6px; flex-wrap: wrap; }
+  .chip {
+    background: var(--bg3);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    padding: 4px 12px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: all .15s;
+    color: var(--text2);
+    white-space: nowrap;
+  }
+  .chip:hover { border-color: var(--accent); color: var(--accent2); }
+  .chip.active { background: var(--accent); border-color: var(--accent); color: #fff; }
+  .search-box {
+    background: var(--bg3);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 6px 12px;
+    font-size: 13px;
+    color: var(--text);
+    outline: none;
+    width: 180px;
+  }
+  .search-box:focus { border-color: var(--accent); }
+  ::placeholder { color: var(--text3); }
+
+  /* ── View tabs ── */
+  .view-tabs {
+    display: flex;
+    gap: 0;
+    margin-bottom: 20px;
+    border-bottom: 1px solid var(--border);
+  }
+  .view-tab {
+    padding: 10px 20px;
+    font-size: 13px;
+    cursor: pointer;
+    color: var(--text3);
+    border-bottom: 2px solid transparent;
+    transition: all .15s;
+    background: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
+  .view-tab:hover { color: var(--text2); }
+  .view-tab.active { color: var(--accent2); border-bottom-color: var(--accent); }
+
+  /* ── Timeline view ── */
+  .timeline { display: flex; flex-direction: column; gap: 8px; }
+  .month-group { }
+  .month-header {
+    font-size: 12px;
+    color: var(--text3);
+    font-weight: 600;
+    padding: 8px 0 6px;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 8px;
+    letter-spacing: .05em;
+  }
+  .month-header.current { color: var(--warn); }
+  .month-header.past { color: var(--text3); opacity: .5; }
+
+  /* ── Stock card ── */
+  .stock-card {
+    background: var(--bg2);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 14px 16px;
+    cursor: pointer;
+    transition: border-color .15s, background .15s;
+    display: grid;
+    grid-template-columns: 80px 1fr auto;
+    gap: 12px;
+    align-items: start;
+    margin-bottom: 8px;
+  }
+  .stock-card:hover { border-color: var(--accent); background: var(--bg3); }
+  .stock-card.expanded { border-color: var(--accent); background: var(--bg3); }
+  .stock-card.urgent { border-color: var(--danger); }
+  .stock-card.soon { border-color: var(--warn); }
+
+  .stock-ticker {
+    font-size: 18px;
+    font-weight: 800;
+    color: var(--accent2);
+    line-height: 1;
+  }
+  .stock-market {
+    font-size: 10px;
+    color: var(--text3);
+    margin-top: 2px;
+  }
+  .stock-name {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text);
+    margin-bottom: 4px;
+  }
+  .stock-meta {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .badge {
+    font-size: 10px;
+    padding: 2px 8px;
+    border-radius: 10px;
+    font-weight: 600;
+  }
+  .badge.vc { background: #3b1f7a; color: #c4b5fd; }
+  .badge.founder { background: #5b0d2e; color: #f9a8d4; }
+  .badge.so { background: #1a3a2a; color: #6ee7b7; }
+  .badge.corporate { background: #0e3045; color: #67e8f9; }
+  .badge.other { background: #1e293b; color: #94a3b8; }
+
+  .stock-right { text-align: right; }
+  .release-date {
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--text);
+    white-space: nowrap;
+  }
+  .days-left {
+    font-size: 12px;
+    margin-top: 2px;
+    white-space: nowrap;
+  }
+  .days-left.urgent { color: var(--danger); font-weight: 700; }
+  .days-left.soon { color: var(--warn); font-weight: 700; }
+  .days-left.future { color: var(--text3); }
+  .days-left.past { color: var(--text3); opacity: .5; }
+
+  /* ── Expanded detail ── */
+  .stock-detail {
+    display: none;
+    grid-column: 1 / -1;
+    border-top: 1px solid var(--border);
+    margin-top: 10px;
+    padding-top: 14px;
+  }
+  .stock-card.expanded .stock-detail { display: block; }
+
+  .detail-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+  .detail-section h4 {
+    font-size: 11px;
+    color: var(--text3);
+    font-weight: 600;
+    letter-spacing: .05em;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+  }
+
+  .lockup-item {
+    background: var(--bg);
+    border-radius: 8px;
+    padding: 10px 12px;
+    margin-bottom: 8px;
+  }
+  .lockup-label {
+    font-size: 12px;
+    color: var(--text2);
+    font-weight: 600;
+    margin-bottom: 6px;
+  }
+  .lockup-release {
+    font-size: 11px;
+    color: var(--text3);
+    margin-bottom: 6px;
+  }
+  .holder-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 3px 0;
+  }
+  .holder-name { font-size: 12px; color: var(--text2); flex: 1; }
+  .holder-shares { font-size: 12px; color: var(--text); font-weight: 600; font-variant-numeric: tabular-nums; }
+  .holder-type-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+  .dot-vc { background: var(--vc); }
+  .dot-founder { background: var(--founder); }
+  .dot-corporate { background: var(--corporate); }
+  .dot-other { background: var(--other); }
+
+  .lockup-total {
+    margin-top: 6px;
+    padding-top: 6px;
+    border-top: 1px solid var(--border);
+    font-size: 12px;
+    color: var(--text3);
+  }
+  .lockup-total span { color: var(--text); font-weight: 700; }
+
+  .so-item {
+    background: var(--bg);
+    border-radius: 8px;
+    padding: 10px 12px;
+    margin-bottom: 8px;
+  }
+  .so-holder { font-size: 12px; color: var(--text2); font-weight: 600; margin-bottom: 4px; }
+  .so-meta { font-size: 11px; color: var(--text3); line-height: 1.6; }
+  .so-meta strong { color: var(--success); }
+
+  .tdnet-section {
+    margin-top: 12px;
+    border-top: 1px solid var(--border);
+    padding-top: 12px;
+  }
+  .tdnet-section h4 {
+    font-size: 11px;
+    color: var(--text3);
+    font-weight: 600;
+    letter-spacing: .05em;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+  }
+  .tdnet-item {
+    padding: 6px 0;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    gap: 10px;
+    align-items: baseline;
+  }
+  .tdnet-item:last-child { border-bottom: none; }
+  .tdnet-date { font-size: 11px; color: var(--text3); white-space: nowrap; }
+  .tdnet-title { font-size: 12px; color: var(--text2); }
+  .tdnet-title a { color: var(--accent2); text-decoration: none; }
+  .tdnet-title a:hover { text-decoration: underline; }
+  .tdnet-loading { font-size: 12px; color: var(--text3); font-style: italic; }
+
+  /* ── List view ── */
+  .list-view { display: flex; flex-direction: column; gap: 8px; }
+
+  /* ── Legend ── */
+  .legend {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    padding: 10px 0;
+    margin-bottom: 8px;
+  }
+  .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 11px;
+    color: var(--text3);
+  }
+  .legend-dot { width: 10px; height: 10px; border-radius: 50%; }
+
+  /* ── Empty state ── */
+  .empty { text-align: center; padding: 48px; color: var(--text3); }
+
+  /* ── Footer ── */
+  footer {
+    text-align: center;
+    padding: 24px;
+    color: var(--text3);
+    font-size: 11px;
+    border-top: 1px solid var(--border);
+    margin-top: 32px;
+    line-height: 1.8;
+  }
+  footer a { color: var(--accent2); text-decoration: none; }
+
+  /* ── Responsive ── */
+  @media (max-width: 640px) {
+    .stats-bar { grid-template-columns: repeat(2, 1fr); }
+    .stock-card { grid-template-columns: 70px 1fr auto; gap: 8px; }
+    .detail-grid { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <img src="favicon.svg" alt="logo">
+  <div>
+    <h1>IPO ロックアップ解除レーダー</h1>
+    <span class="subtitle">VC・大株主・1円SO の売り需給カレンダー</span>
+  </div>
+  <div class="header-spacer"></div>
+  <div class="updated-at" id="updatedAt"></div>
+</header>
+
+<div class="container">
+
+  <!-- Stats -->
+  <div class="stats-bar" id="statsBar">
+    <div class="stat-card danger">
+      <div class="label">30日以内に解除</div>
+      <div class="value" id="stat30">—</div>
+    </div>
+    <div class="stat-card warn">
+      <div class="label">90日以内に解除</div>
+      <div class="value" id="stat90">—</div>
+    </div>
+    <div class="stat-card accent">
+      <div class="label">追跡銘柄数</div>
+      <div class="value" id="statTotal">—</div>
+    </div>
+    <div class="stat-card success">
+      <div class="label">1円SO保有銘柄</div>
+      <div class="value" id="statSO">—</div>
+    </div>
+  </div>
+
+  <!-- Filters -->
+  <div class="filter-bar">
+    <span class="filter-label">絞り込み：</span>
+    <div class="filter-group">
+      <div class="chip active" data-filter="all" onclick="setFilter('all')">すべて</div>
+      <div class="chip" data-filter="30d" onclick="setFilter('30d')">30日以内</div>
+      <div class="chip" data-filter="90d" onclick="setFilter('90d')">90日以内</div>
+      <div class="chip" data-filter="so" onclick="setFilter('so')">1円SO含む</div>
+      <div class="chip" data-filter="vc" onclick="setFilter('vc')">VC含む</div>
+      <div class="chip" data-filter="future" onclick="setFilter('future')">未解除のみ</div>
+    </div>
+    <div class="header-spacer"></div>
+    <input class="search-box" type="text" id="searchBox" placeholder="銘柄名・コード検索" oninput="renderAll()">
+  </div>
+
+  <!-- View Tabs -->
+  <div class="view-tabs">
+    <button class="view-tab active" onclick="setView('timeline')">タイムライン</button>
+    <button class="view-tab" onclick="setView('list')">リスト（日付順）</button>
+  </div>
+
+  <!-- Legend -->
+  <div class="legend">
+    <div class="legend-item"><div class="legend-dot" style="background:var(--founder)"></div>創業者</div>
+    <div class="legend-item"><div class="legend-dot" style="background:var(--vc)"></div>VC/投資家</div>
+    <div class="legend-item"><div class="legend-dot" style="background:var(--corporate)"></div>事業会社</div>
+    <div class="legend-item"><div class="legend-dot" style="background:var(--other)"></div>その他</div>
+    <div class="legend-item"><div class="legend-dot" style="background:var(--success)"></div>1円SO</div>
+    <div class="legend-item" style="margin-left:12px">
+      <div class="legend-dot" style="background:var(--danger)"></div><span style="color:var(--danger)">30日以内</span>
+    </div>
+    <div class="legend-item">
+      <div class="legend-dot" style="background:var(--warn)"></div><span style="color:var(--warn)">90日以内</span>
+    </div>
+  </div>
+
+  <!-- Main content area -->
+  <div id="mainContent"></div>
+
+</div>
+
+<footer>
+  データ出典：各社目論見書（EDINET）／適時開示情報：
+  <a href="https://webapi.yanoshin.jp/" target="_blank">やのしん TDnet WebAPI</a><br>
+  ※ 本サイトのデータは目論見書から抽出した参考情報です。実際の売却可能時期・株数は各社開示をご確認ください。投資判断の参考情報に過ぎません。<br>
+  <a href="https://github.com/jpn-x/ipo-lockup-radar" target="_blank">GitHub</a>
+</footer>
+
+<script>
+// ── State ──
+let stocks = [];
+let currentFilter = 'all';
+let currentView = 'timeline';
+let expandedTicker = null;
+const today = new Date();
+today.setHours(0, 0, 0, 0);
+
+// ── Helpers ──
+function daysUntil(dateStr) {
+  const d = new Date(dateStr);
+  d.setHours(0, 0, 0, 0);
+  return Math.round((d - today) / 86400000);
+}
+
+function fmt(dateStr) {
+  const d = new Date(dateStr);
+  return `${d.getFullYear()}/${String(d.getMonth()+1).padStart(2,'0')}/${String(d.getDate()).padStart(2,'0')}`;
+}
+
+function fmtShares(n) {
+  if (n >= 10000) return (n/10000).toFixed(1) + '万株';
+  return n.toLocaleString() + '株';
+}
+
+function urgencyClass(days) {
+  if (days < 0) return 'past';
+  if (days <= 30) return 'urgent';
+  if (days <= 90) return 'soon';
+  return 'future';
+}
+
+function urgencyLabel(days) {
+  if (days < 0) return `${Math.abs(days)}日前解除済`;
+  if (days === 0) return '本日解除！';
+  return `あと${days}日`;
+}
+
+// Stock の "earliest non-past lockup" を返す
+function earliestLockup(stock) {
+  const future = stock.lockups.filter(l => daysUntil(l.release_date) >= 0);
+  if (future.length === 0) return stock.lockups[0]; // all past → just return first
+  return future.sort((a,b) => new Date(a.release_date)-new Date(b.release_date))[0];
+}
+
+function has1YenSO(stock) {
+  return stock.stock_options.some(so => so.strike_price === 1);
+}
+
+function hasVC(stock) {
+  return stock.lockups.some(l => l.holders.some(h => h.type === 'vc'));
+}
+
+// ── Filter logic ──
+function applyFilters() {
+  const q = document.getElementById('searchBox').value.toLowerCase();
+  return stocks.filter(s => {
+    const earliest = earliestLockup(s);
+    const days = daysUntil(earliest.release_date);
+    const matchSearch = !q || s.ticker.toLowerCase().includes(q) || s.name.toLowerCase().includes(q);
+    if (!matchSearch) return false;
+    if (currentFilter === '30d') return days >= 0 && days <= 30;
+    if (currentFilter === '90d') return days >= 0 && days <= 90;
+    if (currentFilter === 'so') return has1YenSO(s);
+    if (currentFilter === 'vc') return hasVC(s);
+    if (currentFilter === 'future') return days >= 0;
+    return true;
+  });
+}
+
+// ── Stats ──
+function renderStats() {
+  const s30 = stocks.filter(s => { const d = daysUntil(earliestLockup(s).release_date); return d >= 0 && d <= 30; }).length;
+  const s90 = stocks.filter(s => { const d = daysUntil(earliestLockup(s).release_date); return d >= 0 && d <= 90; }).length;
+  const soCount = stocks.filter(has1YenSO).length;
+  document.getElementById('stat30').textContent = s30;
+  document.getElementById('stat90').textContent = s90;
+  document.getElementById('statTotal').textContent = stocks.length;
+  document.getElementById('statSO').textContent = soCount;
+  document.getElementById('updatedAt').textContent = `更新: ${today.getFullYear()}/${String(today.getMonth()+1).padStart(2,'0')}/${String(today.getDate()).padStart(2,'0')}`;
+}
+
+// ── TDnet loader ──
+const tdnetCache = {};
+async function loadTDnet(ticker) {
+  if (tdnetCache[ticker]) return tdnetCache[ticker];
+  const url = `https://webapi.yanoshin.jp/webapi/tdnet/list/${ticker}.json`;
+  try {
+    const res = await fetch(url);
+    if (!res.ok) throw new Error();
+    const data = await res.json();
+    tdnetCache[ticker] = (data.items || []).slice(0, 5);
+    return tdnetCache[ticker];
+  } catch {
+    tdnetCache[ticker] = null;
+    return null;
+  }
+}
+
+// ── Card HTML ──
+function buildBadges(stock) {
+  const parts = [];
+  if (hasVC(stock)) parts.push('<span class="badge vc">VC</span>');
+  const founderCount = stock.lockups.flatMap(l => l.holders).filter(h => h.type === 'founder').length;
+  if (founderCount > 0) parts.push('<span class="badge founder">創業者</span>');
+  if (has1YenSO(stock)) parts.push('<span class="badge so">1円SO</span>');
+  return parts.join('');
+}
+
+function buildHolderRows(holders) {
+  return holders.map(h => `
+    <div class="holder-row">
+      <div class="holder-type-dot dot-${h.type}"></div>
+      <div class="holder-name">${h.name}</div>
+      <div class="holder-shares">${fmtShares(h.shares)}</div>
+    </div>
+  `).join('');
+}
+
+function buildLockupItems(stock) {
+  return stock.lockups.map(l => {
+    const days = daysUntil(l.release_date);
+    const cls = urgencyClass(days);
+    return `
+      <div class="lockup-item">
+        <div class="lockup-label">${l.label}</div>
+        <div class="lockup-release">解除日: <strong class="days-left ${cls}">${fmt(l.release_date)}（${urgencyLabel(days)}）</strong></div>
+        ${buildHolderRows(l.holders)}
+        <div class="lockup-total">合計: <span>${fmtShares(l.shares)}</span></div>
+      </div>
+    `;
+  }).join('');
+}
+
+function buildSOItems(stock) {
+  if (stock.stock_options.length === 0) return '<div style="font-size:12px;color:var(--text3)">SO情報なし</div>';
+  return stock.stock_options.map(so => {
+    const days = daysUntil(so.exercisable_from);
+    const cls = urgencyClass(days);
+    return `
+      <div class="so-item">
+        <div class="so-holder">${so.holder}</div>
+        <div class="so-meta">
+          行使価格: <strong>${so.strike_price.toLocaleString()}円</strong>
+          株数: <strong>${fmtShares(so.shares)}</strong><br>
+          行使可能: <strong class="days-left ${cls}">${fmt(so.exercisable_from)}（${urgencyLabel(days)}）</strong><br>
+          <span style="color:var(--text3)">${so.note}</span>
+        </div>
+      </div>
+    `;
+  }).join('');
+}
+
+function buildCard(stock) {
+  const earliest = earliestLockup(stock);
+  const days = daysUntil(earliest.release_date);
+  const urgCls = days >= 0 && days <= 30 ? 'urgent' : days >= 0 && days <= 90 ? 'soon' : '';
+  const expanded = expandedTicker === stock.ticker;
+
+  return `
+    <div class="stock-card ${urgCls} ${expanded?'expanded':''}" onclick="toggleCard('${stock.ticker}')">
+      <div>
+        <div class="stock-ticker">${stock.ticker}</div>
+        <div class="stock-market">${stock.market}</div>
+      </div>
+      <div>
+        <div class="stock-name">${stock.name}</div>
+        <div class="stock-meta">
+          <span style="font-size:11px;color:var(--text3)">上場: ${fmt(stock.ipo_date)}</span>
+          ${buildBadges(stock)}
+        </div>
+      </div>
+      <div class="stock-right">
+        <div class="release-date">${fmt(earliest.release_date)}</div>
+        <div class="days-left ${urgencyClass(days)}">${urgencyLabel(days)}</div>
+      </div>
+
+      <div class="stock-detail">
+        <div class="detail-grid">
+          <div class="detail-section">
+            <h4>🔒 ロックアップ解除スケジュール</h4>
+            ${buildLockupItems(stock)}
+          </div>
+          <div class="detail-section">
+            <h4>📋 ストックオプション（SO）</h4>
+            ${buildSOItems(stock)}
+          </div>
+        </div>
+        <div class="tdnet-section">
+          <h4>📡 最新TDnet開示（やのしんAPI）</h4>
+          <div class="tdnet-loading" id="tdnet-${stock.ticker}">読み込み中...</div>
+        </div>
+      </div>
+    </div>
+  `;
+}
+
+// ── TDnet render ──
+async function loadAndRenderTDnet(ticker) {
+  const el = document.getElementById(`tdnet-${ticker}`);
+  if (!el) return;
+  const items = await loadTDnet(ticker);
+  if (!items || items.length === 0) {
+    el.innerHTML = '<span style="color:var(--text3)">開示情報なし</span>';
+    return;
+  }
+  el.innerHTML = items.map(item => {
+    const t = item.Tdnet || item;
+    const title = t.title || '—';
+    const date = (t.pubdate || '').slice(0, 10);
+    const pdfUrl = t.document_url || '';
+    return `
+      <div class="tdnet-item">
+        <div class="tdnet-date">${date}</div>
+        <div class="tdnet-title">
+          ${pdfUrl ? `<a href="${pdfUrl}" target="_blank">${title}</a>` : title}
+        </div>
+      </div>
+    `;
+  }).join('');
+}
+
+// ── Toggle card ──
+function toggleCard(ticker) {
+  if (expandedTicker === ticker) {
+    expandedTicker = null;
+    renderAll();
+  } else {
+    expandedTicker = ticker;
+    renderAll();
+    setTimeout(() => loadAndRenderTDnet(ticker), 50);
+  }
+}
+
+// ── Timeline view ──
+function renderTimeline(filtered) {
+  // Group by year-month of earliest lockup
+  const groups = {};
+  filtered.forEach(s => {
+    const d = new Date(earliestLockup(s).release_date);
+    const key = `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}`;
+    if (!groups[key]) groups[key] = [];
+    groups[key].push(s);
+  });
+
+  const sortedKeys = Object.keys(groups).sort();
+  const nowKey = `${today.getFullYear()}-${String(today.getMonth()+1).padStart(2,'0')}`;
+
+  const html = sortedKeys.map(key => {
+    const [y, m] = key.split('-');
+    const monthName = new Date(+y, +m-1, 1).toLocaleDateString('ja-JP', { year:'numeric', month:'long' });
+    const isPast = key < nowKey;
+    const isCurrent = key === nowKey;
+    const cls = isPast ? 'past' : isCurrent ? 'current' : '';
+    const cards = groups[key].map(buildCard).join('');
+    return `
+      <div class="month-group">
+        <div class="month-header ${cls}">${monthName}${isCurrent ? ' ← 今月' : ''}</div>
+        ${cards}
+      </div>
+    `;
+  }).join('');
+
+  return html || '<div class="empty">該当銘柄がありません</div>';
+}
+
+// ── List view ──
+function renderList(filtered) {
+  const sorted = [...filtered].sort((a, b) => {
+    const da = new Date(earliestLockup(a).release_date);
+    const db = new Date(earliestLockup(b).release_date);
+    return da - db;
+  });
+  return sorted.map(buildCard).join('') || '<div class="empty">該当銘柄がありません</div>';
+}
+
+// ── Main render ──
+function renderAll() {
+  const filtered = applyFilters();
+  const el = document.getElementById('mainContent');
+  if (currentView === 'timeline') {
+    el.innerHTML = `<div class="timeline">${renderTimeline(filtered)}</div>`;
+  } else {
+    el.innerHTML = `<div class="list-view">${renderList(filtered)}</div>`;
+  }
+  // If expanded card visible, trigger tdnet
+  if (expandedTicker) {
+    setTimeout(() => loadAndRenderTDnet(expandedTicker), 100);
+  }
+}
+
+// ── UI controls ──
+function setFilter(f) {
+  currentFilter = f;
+  document.querySelectorAll('.chip').forEach(c => c.classList.toggle('active', c.dataset.filter === f));
+  renderAll();
+}
+
+function setView(v) {
+  currentView = v;
+  document.querySelectorAll('.view-tab').forEach(t => t.classList.toggle('active', t.textContent.includes(v === 'timeline' ? 'タイムライン' : 'リスト')));
+  renderAll();
+}
+
+// ── Init ──
+async function init() {
+  try {
+    const res = await fetch('./data/stocks.json');
+    stocks = await res.json();
+    // Sort by earliest lockup date
+    stocks.sort((a, b) => new Date(earliestLockup(a).release_date) - new Date(earliestLockup(b).release_date));
+  } catch(e) {
+    console.error('stocks.json の読み込みに失敗:', e);
+  }
+  renderStats();
+  renderAll();
+}
+
+init();
+</script>
+</body>
+</html>
