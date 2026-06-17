@@ -1,240 +1,123 @@
 [
   {
-    "ticker": "143A",
-    "name": "イシン",
-    "ipo_date": "2024-03-28",
+    "ticker": "581A",
+    "name": "GO",
+    "ipo_date": "2026-06-16",
     "market": "東証グロース",
-    "initial_price": 1700,
-    "lockups": [
-      {
-        "label": "主要株主・役員（180日）",
-        "release_date": "2024-09-23",
-        "shares": 2850000,
-        "holders": [
-          { "name": "創業者 石原靖士", "shares": 1950000, "type": "founder" },
-          { "name": "〇〇キャピタル", "shares": 900000, "type": "vc" }
-        ]
-      }
-    ],
-    "stock_options": [
-      { "holder": "役員・従業員", "shares": 150000, "strike_price": 1, "exercisable_from": "2024-09-28", "note": "1円SO（上場後6ヶ月）" }
-    ],
-    "notes": "目論見書2024年3月時点",
-    "prospectus_url": ""
-  },
-  {
-    "ticker": "151A",
-    "name": "Veritas In Silico",
-    "ipo_date": "2024-04-11",
-    "market": "東証グロース",
-    "initial_price": 920,
-    "lockups": [
-      {
-        "label": "主要株主（180日）",
-        "release_date": "2024-10-08",
-        "shares": 5200000,
-        "holders": [
-          { "name": "VC・エンジェル投資家", "shares": 3000000, "type": "vc" },
-          { "name": "創業者", "shares": 2200000, "type": "founder" }
-        ]
-      }
-    ],
-    "stock_options": [
-      { "holder": "役員・従業員", "shares": 320000, "strike_price": 1, "exercisable_from": "2025-04-11", "note": "1円SO（上場後1年）" }
-    ],
-    "notes": "",
-    "prospectus_url": ""
-  },
-  {
-    "ticker": "181A",
-    "name": "エコナビスタ",
-    "ipo_date": "2024-06-20",
-    "market": "東証グロース",
-    "initial_price": 760,
-    "lockups": [
-      {
-        "label": "主要株主（180日）",
-        "release_date": "2024-12-17",
-        "shares": 3100000,
-        "holders": [
-          { "name": "インキュベイトファンド", "shares": 1200000, "type": "vc" },
-          { "name": "代表取締役 林浩一郎", "shares": 900000, "type": "founder" },
-          { "name": "その他役員・大株主", "shares": 1000000, "type": "other" }
-        ]
-      }
-    ],
-    "stock_options": [
-      { "holder": "役員・従業員", "shares": 180000, "strike_price": 1, "exercisable_from": "2024-12-20", "note": "1円SO" }
-    ],
-    "notes": "",
-    "prospectus_url": ""
-  },
-  {
-    "ticker": "148A",
-    "name": "ワンストップシステムズ",
-    "ipo_date": "2024-04-02",
-    "market": "東証グロース",
-    "initial_price": 1180,
-    "lockups": [
-      {
-        "label": "VCロックアップ（180日）",
-        "release_date": "2024-09-29",
-        "shares": 800000,
-        "holders": [
-          { "name": "SBI証券系VC", "shares": 500000, "type": "vc" },
-          { "name": "その他VC", "shares": 300000, "type": "vc" }
-        ]
-      },
-      {
-        "label": "主要株主（90日）",
-        "release_date": "2024-07-01",
-        "shares": 1200000,
-        "holders": [
-          { "name": "大株主A", "shares": 700000, "type": "other" },
-          { "name": "大株主B", "shares": 500000, "type": "other" }
-        ]
-      }
-    ],
-    "stock_options": [],
-    "notes": "",
-    "prospectus_url": ""
-  },
-  {
-    "ticker": "215A",
-    "name": "メンタルヘルステクノロジーズ",
-    "ipo_date": "2024-09-19",
-    "market": "東証グロース",
-    "initial_price": 2100,
-    "lockups": [
-      {
-        "label": "主要株主・VC（180日）",
-        "release_date": "2025-03-18",
-        "shares": 4800000,
-        "holders": [
-          { "name": "リードVC", "shares": 2000000, "type": "vc" },
-          { "name": "フォローオンVC", "shares": 1000000, "type": "vc" },
-          { "name": "創業者", "shares": 1800000, "type": "founder" }
-        ]
-      }
-    ],
-    "stock_options": [
-      { "holder": "役員", "shares": 200000, "strike_price": 1, "exercisable_from": "2025-09-19", "note": "1円SO（1年後）" },
-      { "holder": "従業員", "shares": 150000, "strike_price": 500, "exercisable_from": "2026-09-19", "note": "有償SO" }
-    ],
-    "notes": "",
-    "prospectus_url": ""
-  },
-  {
-    "ticker": "232A",
-    "name": "グリーンエナジー&カンパニー",
-    "ipo_date": "2024-10-31",
-    "market": "東証グロース",
-    "initial_price": 1550,
-    "lockups": [
-      {
-        "label": "主要株主（180日）",
-        "release_date": "2025-04-29",
-        "shares": 3600000,
-        "holders": [
-          { "name": "創業者 前田知廣", "shares": 2100000, "type": "founder" },
-          { "name": "VC各社", "shares": 1500000, "type": "vc" }
-        ]
-      }
-    ],
-    "stock_options": [
-      { "holder": "役員・従業員", "shares": 280000, "strike_price": 1, "exercisable_from": "2025-10-31", "note": "1円SO（上場後1年）" }
-    ],
-    "notes": "",
-    "prospectus_url": ""
-  },
-  {
-    "ticker": "241A",
-    "name": "ネクストバンク",
-    "ipo_date": "2024-12-10",
-    "market": "東証グロース",
-    "initial_price": 1320,
-    "lockups": [
-      {
-        "label": "VC・主要株主（180日）",
-        "release_date": "2025-06-08",
-        "shares": 2900000,
-        "holders": [
-          { "name": "JAFCO", "shares": 900000, "type": "vc" },
-          { "name": "グロービス・キャピタル", "shares": 800000, "type": "vc" },
-          { "name": "創業者・役員", "shares": 1200000, "type": "founder" }
-        ]
-      }
-    ],
-    "stock_options": [
-      { "holder": "役員", "shares": 90000, "strike_price": 1, "exercisable_from": "2025-12-10", "note": "1円SO" }
-    ],
-    "notes": "",
-    "prospectus_url": ""
-  },
-  {
-    "ticker": "251A",
-    "name": "Finatextホールディングス",
-    "ipo_date": "2025-01-23",
-    "market": "東証グロース",
-    "initial_price": 880,
-    "lockups": [
-      {
-        "label": "主要株主・VC（180日）",
-        "release_date": "2025-07-22",
-        "shares": 6100000,
-        "holders": [
-          { "name": "Salesforce Ventures", "shares": 1200000, "type": "vc" },
-          { "name": "SBIインベストメント", "shares": 800000, "type": "vc" },
-          { "name": "NTTドコモ", "shares": 1000000, "type": "corporate" },
-          { "name": "創業者 林 良太", "shares": 3100000, "type": "founder" }
-        ]
-      }
-    ],
-    "stock_options": [
-      { "holder": "役員・従業員", "shares": 500000, "strike_price": 1, "exercisable_from": "2026-01-23", "note": "1円SO（上場後1年）" }
-    ],
-    "notes": "",
-    "prospectus_url": ""
-  },
-  {
-    "ticker": "271A",
-    "name": "スタメン",
-    "ipo_date": "2025-03-19",
-    "market": "東証グロース",
-    "initial_price": 1040,
-    "lockups": [
-      {
-        "label": "VC・主要株主（180日）",
-        "release_date": "2025-09-15",
-        "shares": 2300000,
-        "holders": [
-          { "name": "インキュベイトファンド", "shares": 700000, "type": "vc" },
-          { "name": "DGインキュベーション", "shares": 500000, "type": "vc" },
-          { "name": "創業者 加藤 厚史", "shares": 1100000, "type": "founder" }
-        ]
-      }
-    ],
-    "stock_options": [
-      { "holder": "役員", "shares": 120000, "strike_price": 1, "exercisable_from": "2026-03-19", "note": "1円SO" },
-      { "holder": "従業員", "shares": 80000, "strike_price": 1, "exercisable_from": "2026-03-19", "note": "1円SO" }
-    ],
-    "notes": "",
-    "prospectus_url": ""
-  },
-  {
-    "ticker": "287A",
-    "name": "トレードワークス",
-    "ipo_date": "2025-04-24",
-    "market": "東証スタンダード",
     "initial_price": 2400,
     "lockups": [
       {
         "label": "主要株主（180日）",
-        "release_date": "2025-10-21",
-        "shares": 1800000,
+        "release_date": "2026-12-12",
+        "shares": 47219100,
         "holders": [
-          { "name": "創業者 池端 由基", "shares": 1200000, "type": "founder" },
-          { "name": "役員・大株主", "shares": 600000, "type": "other" }
+          { "name": "DeNA", "shares": 20000000, "type": "corporate" },
+          { "name": "NTTドコモ", "shares": 14198400, "type": "corporate" },
+          { "name": "トヨタ自動車", "shares": 5000000, "type": "corporate" },
+          { "name": "あいおいニッセイ同和損保", "shares": 4798500, "type": "corporate" },
+          { "name": "中島宏（代表取締役社長）", "shares": 2256000, "type": "founder" },
+          { "name": "川鍋一朗（代表取締役会長）", "shares": 1866200, "type": "founder" }
+        ]
+      },
+      {
+        "label": "日本交通HD（360日）",
+        "release_date": "2027-06-11",
+        "shares": 20000000,
+        "holders": [
+          { "name": "日本交通ホールディングス", "shares": 20000000, "type": "corporate" }
+        ]
+      }
+    ],
+    "stock_options": [],
+    "notes": "DeNA・NTTドコモ・トヨタなど大手事業会社が大量売出。SMBC信託・KDDIは全株売出済み。",
+    "prospectus_url": ""
+  },
+  {
+    "ticker": "559A",
+    "name": "梅乃宿酒造",
+    "ipo_date": "2026-04-24",
+    "market": "東証スタンダード",
+    "initial_price": 600,
+    "lockups": [
+      {
+        "label": "PE・創業者（180日 / 1.5倍条件）",
+        "release_date": "2026-10-20",
+        "shares": 1893500,
+        "holders": [
+          { "name": "J-GIA2号投資事業有限責任組合 PE", "shares": 1642000, "type": "vc" },
+          { "name": "JGⅡ(CAYMAN),L.P. PE", "shares": 191300, "type": "vc" },
+          { "name": "吉田佳代（代表取締役）", "shares": 60200, "type": "founder" }
+        ]
+      }
+    ],
+    "stock_options": [],
+    "notes": "1.5倍解除条件あり（900円到達で解除）。グッドフィールド・ビーチサイド（31.29%）はロックアップなし。",
+    "prospectus_url": ""
+  },
+  {
+    "ticker": "558A",
+    "name": "SQUEEZE",
+    "ipo_date": "2026-04-22",
+    "market": "東証グロース",
+    "initial_price": 3110,
+    "lockups": [
+      {
+        "label": "創業者・事業会社・VC（180日）",
+        "release_date": "2026-10-18",
+        "shares": 2471900,
+        "holders": [
+          { "name": "舘林真一（創業者）", "shares": 760500, "type": "founder" },
+          { "name": "株式会社エスコン", "shares": 571400, "type": "corporate" },
+          { "name": "インキュベイトファンド3号 VC", "shares": 570000, "type": "vc" },
+          { "name": "株式会社GM", "shares": 400000, "type": "corporate" },
+          { "name": "ジャフコSV4共有投資事業 VC", "shares": 170000, "type": "vc" }
+        ]
+      }
+    ],
+    "stock_options": [],
+    "notes": "VC（インキュベイトF・ジャフコ）は1.5倍解除条件（4,665円）あり。",
+    "prospectus_url": ""
+  },
+  {
+    "ticker": "556A",
+    "name": "犬猫生活",
+    "ipo_date": "2026-04-23",
+    "market": "東証グロース",
+    "initial_price": 2990,
+    "lockups": [
+      {
+        "label": "前澤ファンド・創業者（180日）",
+        "release_date": "2026-10-19",
+        "shares": 2210000,
+        "holders": [
+          { "name": "株式会社前澤ファンド（ZOZO前澤友作系）", "shares": 1142000, "type": "vc" },
+          { "name": "佐藤淳（代表取締役社長）", "shares": 926000, "type": "founder" },
+          { "name": "近藤誠人（取締役）", "shares": 88000, "type": "other" },
+          { "name": "株式会社シンクロ", "shares": 54000, "type": "corporate" }
+        ]
+      }
+    ],
+    "stock_options": [],
+    "notes": "前澤ファンドが筆頭株主（44.59%）。",
+    "prospectus_url": ""
+  },
+  {
+    "ticker": "554A",
+    "name": "バトンズ",
+    "ipo_date": "2026-04-21",
+    "market": "東証グロース",
+    "initial_price": 660,
+    "lockups": [
+      {
+        "label": "主要株主（180日）",
+        "release_date": "2026-10-17",
+        "shares": 327300,
+        "holders": [
+          { "name": "日本M&AセンターHD", "shares": 150000, "type": "corporate" },
+          { "name": "神瀬悠一（創業者）", "shares": 100000, "type": "founder" },
+          { "name": "XTech2号投資事業有限責任組合 VC", "shares": 29200, "type": "vc" },
+          { "name": "アニマルスピリッツ1号投資事業有限責任組合 VC", "shares": 28200, "type": "vc" },
+          { "name": "宮竹秀太郎", "shares": 19900, "type": "other" }
         ]
       }
     ],
@@ -243,197 +126,635 @@
     "prospectus_url": ""
   },
   {
-    "ticker": "295A",
-    "name": "カラダノート",
-    "ipo_date": "2025-05-15",
-    "market": "東証グロース",
-    "initial_price": 1680,
+    "ticker": "550A",
+    "name": "ソフトテックス",
+    "ipo_date": "2026-04-09",
+    "market": "東証スタンダード",
+    "initial_price": 1940,
     "lockups": [
       {
-        "label": "VC・主要株主（180日）",
-        "release_date": "2025-11-11",
-        "shares": 4200000,
+        "label": "主要株主（180日）",
+        "release_date": "2026-10-05",
+        "shares": 431000,
         "holders": [
-          { "name": "伊藤忠テクノロジーベンチャーズ", "shares": 1100000, "type": "vc" },
-          { "name": "Archetype Ventures", "shares": 700000, "type": "vc" },
-          { "name": "創業者 佐藤 竜也", "shares": 2400000, "type": "founder" }
+          { "name": "ソフトテックス従業員持株会", "shares": 74400, "type": "other" },
+          { "name": "石黒佳彦", "shares": 72500, "type": "other" },
+          { "name": "太田晃二", "shares": 71000, "type": "other" },
+          { "name": "近藤久美子", "shares": 60000, "type": "other" },
+          { "name": "名古屋中小企業投資育成", "shares": 60000, "type": "vc" },
+          { "name": "㈱ミロク情報サービス", "shares": 53100, "type": "corporate" },
+          { "name": "キムラユニティー㈱", "shares": 50000, "type": "corporate" },
+          { "name": "山本哲士", "shares": 40000, "type": "other" }
         ]
       }
     ],
-    "stock_options": [
-      { "holder": "役員・従業員", "shares": 350000, "strike_price": 1, "exercisable_from": "2026-05-15", "note": "1円SO（上場後1年）" }
-    ],
+    "stock_options": [],
     "notes": "",
     "prospectus_url": ""
   },
   {
-    "ticker": "303A",
-    "name": "エンバイオ・ホールディングス",
-    "ipo_date": "2025-06-05",
+    "ticker": "549A",
+    "name": "ヒトトヒトホールディングス",
+    "ipo_date": "2026-04-07",
+    "market": "東証スタンダード",
+    "initial_price": 430,
+    "lockups": [
+      {
+        "label": "VC（90日）",
+        "release_date": "2026-07-05",
+        "shares": 0,
+        "holders": [
+          { "name": "J-GIA1号投資事業有限責任組合 VC（80.98%）", "shares": 0, "type": "vc" }
+        ]
+      },
+      {
+        "label": "創業者・役員・事業会社（180日）",
+        "release_date": "2026-10-03",
+        "shares": 0,
+        "holders": [
+          { "name": "株式会社トリプルトレジャーズ（代表取締役）", "shares": 0, "type": "founder" },
+          { "name": "三井不動産", "shares": 0, "type": "corporate" },
+          { "name": "松本哲裕（代表取締役）", "shares": 0, "type": "founder" }
+        ]
+      }
+    ],
+    "stock_options": [],
+    "notes": "VCが80.98%保有、90日ロックアップ。EXIT色強い案件。株数は目論見書要確認。",
+    "prospectus_url": ""
+  },
+  {
+    "ticker": "548A",
+    "name": "システムエグゼ",
+    "ipo_date": "2026-04-06",
+    "market": "東証スタンダード",
+    "initial_price": 950,
+    "lockups": [
+      {
+        "label": "主要株主（180日）",
+        "release_date": "2026-10-02",
+        "shares": 715000,
+        "holders": [
+          { "name": "アセット310合同会社", "shares": 400000, "type": "other" },
+          { "name": "高橋光司", "shares": 195000, "type": "other" },
+          { "name": "白銀亨", "shares": 120000, "type": "other" }
+        ]
+      }
+    ],
+    "stock_options": [],
+    "notes": "代表取締役・ウイングアーク1stはロックアップなし。",
+    "prospectus_url": ""
+  },
+  {
+    "ticker": "542A",
+    "name": "ビタブリッドジャパン",
+    "ipo_date": "2026-04-02",
+    "market": "東証グロース",
+    "initial_price": 1370,
+    "lockups": [
+      {
+        "label": "親会社・創業者（180日）",
+        "release_date": "2026-09-28",
+        "shares": 4053200,
+        "holders": [
+          { "name": "株式会社ベクトル（親会社・88.02%）", "shares": 3600000, "type": "corporate" },
+          { "name": "大塚博史（代表取締役社長）", "shares": 274000, "type": "founder" },
+          { "name": "HYUNDAI BIOSCIENCE CO., LTD.", "shares": 172000, "type": "corporate" },
+          { "name": "関智洋（取締役）", "shares": 7200, "type": "other" }
+        ]
+      }
+    ],
+    "stock_options": [],
+    "notes": "親会社ベクトルが88%超保有。上場後も支配構造は変わらず。",
+    "prospectus_url": ""
+  },
+  {
+    "ticker": "523A",
+    "name": "セイワホールディングス",
+    "ipo_date": "2026-03-27",
+    "market": "東証グロース",
+    "initial_price": 1250,
+    "lockups": [
+      {
+        "label": "フューチャーラボ（制度180日）",
+        "release_date": "2026-09-23",
+        "shares": 1274200,
+        "holders": [
+          { "name": "株式会社フューチャーラボ（7.78%）", "shares": 1274200, "type": "corporate" }
+        ]
+      },
+      {
+        "label": "代表取締役（360日）",
+        "release_date": "2027-03-22",
+        "shares": 11445500,
+        "holders": [
+          { "name": "野見山勇大（代表取締役社長・69.89%）", "shares": 11445500, "type": "founder" }
+        ]
+      }
+    ],
+    "stock_options": [],
+    "notes": "創業者が360日ロックアップ。あいぎん未来創造ファンド4号は全株売出。",
+    "prospectus_url": ""
+  },
+  {
+    "ticker": "520A",
+    "name": "ジェイファーマ",
+    "ipo_date": "2026-03-25",
+    "market": "東証グロース",
+    "initial_price": 880,
+    "lockups": [
+      {
+        "label": "VC・創業者（90日 / 1.5倍条件）",
+        "release_date": "2026-06-22",
+        "shares": 0,
+        "holders": [
+          { "name": "JICベンチャー・グロース・ファンド1号 VC", "shares": 0, "type": "vc" },
+          { "name": "Eight Roads Ventures Japan II VC", "shares": 0, "type": "vc" },
+          { "name": "Newton Biocapital VC", "shares": 0, "type": "vc" },
+          { "name": "栗山規夫（創業者）", "shares": 0, "type": "founder" }
+        ]
+      },
+      {
+        "label": "事業会社・経営陣（180日）",
+        "release_date": "2026-09-24",
+        "shares": 0,
+        "holders": [
+          { "name": "大原薬品工業", "shares": 0, "type": "corporate" },
+          { "name": "スペラファーマ", "shares": 0, "type": "corporate" },
+          { "name": "藤本裕（取締役）", "shares": 440000, "type": "other" }
+        ]
+      }
+    ],
+    "stock_options": [],
+    "notes": "1.5倍解除条件あり（1,320円到達で解除）。株数は目論見書要確認。",
+    "prospectus_url": ""
+  },
+  {
+    "ticker": "519A",
+    "name": "ベーシック",
+    "ipo_date": "2026-03-25",
+    "market": "東証グロース",
+    "initial_price": 870,
+    "lockups": [
+      {
+        "label": "創業者・VC（180日 / VC1.5倍条件）",
+        "release_date": "2026-09-20",
+        "shares": 2664323,
+        "holders": [
+          { "name": "秋山勝（代表取締役）", "shares": 1882185, "type": "founder" },
+          { "name": "One Capital1号投資事業有限責任組合 VC", "shares": 332196, "type": "vc" },
+          { "name": "i-nest1号投資事業有限責任組合 VC", "shares": 207799, "type": "vc" },
+          { "name": "One Capital DX1号投資事業有限責任組合 VC", "shares": 142943, "type": "vc" }
+        ]
+      }
+    ],
+    "stock_options": [],
+    "notes": "VC3社は1.5倍解除条件（1,305円）あり。VC3社が保有株の約78%を売却予定。EXIT色強。",
+    "prospectus_url": ""
+  },
+  {
+    "ticker": "505A",
+    "name": "ギークリー",
+    "ipo_date": "2026-02-27",
+    "market": "東証スタンダード",
+    "initial_price": 1900,
+    "lockups": [
+      {
+        "label": "創業者・役員（180日）",
+        "release_date": "2026-08-25",
+        "shares": 12765000,
+        "holders": [
+          { "name": "ブリッジインベストメント（代表取締役資産管理会社）", "shares": 6300000, "type": "founder" },
+          { "name": "奥山貴広（代表取締役社長）", "shares": 2310000, "type": "founder" },
+          { "name": "株式会社アーキスト（代表取締役資産管理会社）", "shares": 900000, "type": "founder" },
+          { "name": "西内信（取締役）", "shares": 400000, "type": "other" },
+          { "name": "浅野大樹人（取締役）", "shares": 200000, "type": "other" },
+          { "name": "永井正樹（取締役）", "shares": 134000, "type": "other" },
+          { "name": "ギークリー従業員持株会", "shares": 81000, "type": "other" }
+        ]
+      }
+    ],
+    "stock_options": [],
+    "notes": "",
+    "prospectus_url": ""
+  },
+  {
+    "ticker": "504A",
+    "name": "イノバセル",
+    "ipo_date": "2026-02-24",
+    "market": "東証グロース",
+    "initial_price": 1350,
+    "lockups": [
+      {
+        "label": "外国人株主・VC・創業者（180日）",
+        "release_date": "2026-08-22",
+        "shares": 18840295,
+        "holders": [
+          { "name": "Peppermint Grove Limited", "shares": 3609815, "type": "other" },
+          { "name": "Insanna Stiftung", "shares": 3607988, "type": "other" },
+          { "name": "シーズ・インベストメント有限責任事業組合 VC", "shares": 2464100, "type": "vc" },
+          { "name": "ノビック・コーリン（代表取締役）", "shares": 2427921, "type": "founder" },
+          { "name": "シーガー・ジェイソン（代表取締役）", "shares": 2427921, "type": "founder" },
+          { "name": "マークシュタイナー・ライナー（取締役）", "shares": 2323128, "type": "other" },
+          { "name": "坂野敦", "shares": 1643914, "type": "other" },
+          { "name": "Glymur Biotech Ventures LP VC", "shares": 1339508, "type": "vc" }
+        ]
+      }
+    ],
+    "stock_options": [],
+    "notes": "Prudential・アルフレッサはロックアップなし（継続所有）。",
+    "prospectus_url": ""
+  },
+  {
+    "ticker": "500A",
+    "name": "TOブックス",
+    "ipo_date": "2026-02-13",
+    "market": "東証スタンダード",
+    "initial_price": 3910,
+    "lockups": [
+      {
+        "label": "創業者・役員（180日）",
+        "release_date": "2026-08-11",
+        "shares": 3365000,
+        "holders": [
+          { "name": "㈱MTS（代表取締役資産管理会社）", "shares": 2000000, "type": "founder" },
+          { "name": "本田武市（代表取締役）", "shares": 1000000, "type": "founder" },
+          { "name": "柴田維（専務取締役）", "shares": 250000, "type": "other" },
+          { "name": "小山倫良（取締役）", "shares": 60000, "type": "other" },
+          { "name": "鳥海裕喜（取締役）", "shares": 45000, "type": "other" },
+          { "name": "長谷川隆一（監査役）", "shares": 10000, "type": "other" }
+        ]
+      }
+    ],
+    "stock_options": [],
+    "notes": "本田代表は売出421,800株もあり。",
+    "prospectus_url": ""
+  },
+  {
+    "ticker": "483A",
+    "name": "テラテクノロジー",
+    "ipo_date": "2025-12-23",
+    "market": "東証グロース",
+    "initial_price": 2090,
+    "lockups": [
+      {
+        "label": "創業者・資産管理会社（180日）",
+        "release_date": "2026-06-20",
+        "shares": 1630000,
+        "holders": [
+          { "name": "ネッツ代表の資産管理会社", "shares": 940000, "type": "founder" },
+          { "name": "宮本一成（代表取締役）", "shares": 690000, "type": "founder" }
+        ]
+      }
+    ],
+    "stock_options": [],
+    "notes": "",
+    "prospectus_url": ""
+  },
+  {
+    "ticker": "480A",
+    "name": "リブ・コンサルティング",
+    "ipo_date": "2025-12-25",
+    "market": "東証グロース",
+    "initial_price": 1000,
+    "lockups": [
+      {
+        "label": "創業者・役員（180日）",
+        "release_date": "2026-06-22",
+        "shares": 4794000,
+        "holders": [
+          { "name": "関厳（代表取締役）", "shares": 3876000, "type": "founder" },
+          { "name": "権田和士（取締役）", "shares": 918000, "type": "other" }
+        ]
+      }
+    ],
+    "stock_options": [],
+    "notes": "売り圧力小。役員中心の保有構造。",
+    "prospectus_url": ""
+  },
+  {
+    "ticker": "479A",
+    "name": "PRONI",
+    "ipo_date": "2025-12-24",
+    "market": "東証グロース",
+    "initial_price": 1750,
+    "lockups": [
+      {
+        "label": "VC・創業者（90日 / 1.5倍条件）",
+        "release_date": "2026-03-23",
+        "shares": 0,
+        "holders": [
+          { "name": "JICベンチャー・グロース・ファンド1号 VC", "shares": 0, "type": "vc" },
+          { "name": "栗山規夫（代表取締役）", "shares": 0, "type": "founder" },
+          { "name": "柴田大介（代表取締役）", "shares": 0, "type": "founder" }
+        ]
+      },
+      {
+        "label": "VC（360日 / 1.5倍条件）",
+        "release_date": "2026-12-23",
+        "shares": 0,
+        "holders": [
+          { "name": "MICイノベーション5号 VC", "shares": 0, "type": "vc" },
+          { "name": "Spiral Capital Japan Fund 2号 VC", "shares": 0, "type": "vc" },
+          { "name": "SBI4＆5投資事業有限責任組合 VC", "shares": 0, "type": "vc" }
+        ]
+      }
+    ],
+    "stock_options": [],
+    "notes": "1.5倍解除条件（2,625円）。EXIT色強い案件。株数は目論見書要確認。",
+    "prospectus_url": ""
+  },
+  {
+    "ticker": "478A",
+    "name": "フツパー",
+    "ipo_date": "2025-12-24",
+    "market": "東証グロース",
+    "initial_price": 1020,
+    "lockups": [
+      {
+        "label": "VC（90日 / 1.5倍条件）",
+        "release_date": "2026-03-23",
+        "shares": 1232500,
+        "holders": [
+          { "name": "ANRI4号投資事業有限責任組合 VC", "shares": 695500, "type": "vc" },
+          { "name": "広島大学・広島県内大学発ベンチャー支援ファンド VC", "shares": 130500, "type": "vc" },
+          { "name": "GA3号投資組合 VC", "shares": 114000, "type": "vc" },
+          { "name": "三菱UFJキャピタル8号投資事業有限責任組合 VC", "shares": 97500, "type": "vc" },
+          { "name": "関西イノベーションネットワーク投資事業有限責任組合 VC", "shares": 97500, "type": "vc" },
+          { "name": "創発の莟1号投資事業有限責任組合 VC", "shares": 97500, "type": "vc" }
+        ]
+      },
+      {
+        "label": "創業者・社員（180日）",
+        "release_date": "2026-06-21",
+        "shares": 475000,
+        "holders": [
+          { "name": "大西洋", "shares": 150000, "type": "founder" },
+          { "name": "黒瀬康太", "shares": 175000, "type": "founder" },
+          { "name": "弓場一輝", "shares": 150000, "type": "founder" }
+        ]
+      }
+    ],
+    "stock_options": [],
+    "notes": "VC1.5倍解除（1,530円）。VCの保有割合大。",
+    "prospectus_url": ""
+  },
+  {
+    "ticker": "477A",
+    "name": "スタートライン",
+    "ipo_date": "2025-12-22",
+    "market": "東証グロース",
+    "initial_price": 480,
+    "lockups": [
+      {
+        "label": "創業者・役員（180日）",
+        "release_date": "2026-06-19",
+        "shares": 0,
+        "holders": [
+          { "name": "ストーン（取締役資産管理会社）（40.60%）", "shares": 0, "type": "founder" },
+          { "name": "ウエスト（代表取締役資産管理会社）（15.30%）", "shares": 0, "type": "founder" },
+          { "name": "西村賢治（代表取締役）（10.00%）", "shares": 0, "type": "founder" },
+          { "name": "長谷川新里（取締役）（10.00%）", "shares": 0, "type": "other" },
+          { "name": "白木孝一（取締役）（10.00%）", "shares": 0, "type": "other" }
+        ]
+      }
+    ],
+    "stock_options": [],
+    "notes": "株数は目論見書要確認。",
+    "prospectus_url": ""
+  },
+  {
+    "ticker": "476A",
+    "name": "辻・本郷ITコンサルティング",
+    "ipo_date": "2025-12-19",
+    "market": "東証グロース",
+    "initial_price": 1850,
+    "lockups": [
+      {
+        "label": "VC（90日 / 1.5倍条件）",
+        "release_date": "2026-03-18",
+        "shares": 75514,
+        "holders": [
+          { "name": "ニッセイ・キャピタル9号投資事業有限責任組合 CVC", "shares": 40510, "type": "vc" },
+          { "name": "ニッセイ・キャピタル10号投資事業有限責任組合 CVC", "shares": 35004, "type": "vc" }
+        ]
+      },
+      {
+        "label": "筆頭株主・役員・伊藤忠商事（180日）",
+        "release_date": "2026-06-16",
+        "shares": 761210,
+        "holders": [
+          { "name": "Hongo holdings株式会社", "shares": 310000, "type": "founder" },
+          { "name": "伊藤忠商事", "shares": 451210, "type": "corporate" }
+        ]
+      }
+    ],
+    "stock_options": [],
+    "notes": "VC1.5倍解除条件あり。伊藤忠商事がロックアップ対象。",
+    "prospectus_url": ""
+  },
+  {
+    "ticker": "475A",
+    "name": "ギミック",
+    "ipo_date": "2025-12-19",
+    "market": "東証グロース",
+    "initial_price": 1150,
+    "lockups": [
+      {
+        "label": "創業者・資産管理会社（180日）",
+        "release_date": "2026-06-16",
+        "shares": 3608000,
+        "holders": [
+          { "name": "Y-Blood（横嶋大輔代表の資産管理会社）", "shares": 1800000, "type": "founder" },
+          { "name": "横嶋大輔（代表取締役）", "shares": 1620000, "type": "founder" },
+          { "name": "横嶋洋子（配偶者）", "shares": 188000, "type": "other" }
+        ]
+      }
+    ],
+    "stock_options": [],
+    "notes": "配偶者保有分は上場時全株売却済み。",
+    "prospectus_url": ""
+  },
+  {
+    "ticker": "485A",
+    "name": "パワーエックス",
+    "ipo_date": "2025-12-19",
+    "market": "東証グロース",
+    "initial_price": 1220,
+    "lockups": [
+      {
+        "label": "事業会社・大株主（180日）",
+        "release_date": "2026-06-16",
+        "shares": 2740600,
+        "holders": [
+          { "name": "日本郵船", "shares": 550000, "type": "corporate" },
+          { "name": "FRONTIVE X LIMITED", "shares": 455600, "type": "other" },
+          { "name": "三菱UFJ銀行", "shares": 507000, "type": "corporate" },
+          { "name": "アキュメン（12.91%）", "shares": 500000, "type": "vc" },
+          { "name": "株式会社FAROUT（12.95%）", "shares": 228000, "type": "vc" },
+          { "name": "伊藤忠商事（2.34%）", "shares": 0, "type": "corporate" },
+          { "name": "今治造船（5.69%）", "shares": 0, "type": "corporate" },
+          { "name": "日本瓦斯（2.97%）", "shares": 0, "type": "corporate" }
+        ]
+      }
+    ],
+    "stock_options": [],
+    "notes": "伊藤正裕社長は「継続所有」条件。大型蓄電池・EVチャージ・船舶蓄電システム。",
+    "prospectus_url": ""
+  },
+  {
+    "ticker": "472A",
+    "name": "ミラティブ",
+    "ipo_date": "2025-12-18",
+    "market": "東証グロース",
+    "initial_price": 860,
+    "lockups": [
+      {
+        "label": "VC・創業者（180日）",
+        "release_date": "2026-06-15",
+        "shares": 11841950,
+        "holders": [
+          { "name": "赤川隼一（代表取締役）", "shares": 3507900, "type": "founder" },
+          { "name": "グロービス5号ファンド投資事業有限責任組合 VC", "shares": 3295900, "type": "vc" },
+          { "name": "ANRI3号投資事業有限責任組合 VC", "shares": 1954250, "type": "vc" },
+          { "name": "テクノロジーベンチャーズ4号投資事業有限責任組合 VC", "shares": 1676400, "type": "vc" },
+          { "name": "Globis Fund V, L.P. VC", "shares": 1407550, "type": "vc" }
+        ]
+      }
+    ],
+    "stock_options": [],
+    "notes": "YJ3号・ジャフコSV5・グローバル・ブレイン6号7号も180日ロックアップ対象。VC保有が多くEXIT色強。",
+    "prospectus_url": ""
+  },
+  {
+    "ticker": "471A",
+    "name": "NSグループ",
+    "ipo_date": "2025-12-16",
+    "market": "東証スタンダード",
+    "initial_price": 1480,
+    "lockups": [
+      {
+        "label": "PE・大株主（180日）",
+        "release_date": "2026-06-13",
+        "shares": 52155600,
+        "holders": [
+          { "name": "BVアセット㈱", "shares": 23470020, "type": "vc" },
+          { "name": "BCPE Say Cayman, L.P. PE", "shares": 20862240, "type": "vc" },
+          { "name": "BCPE Say Cayman2, L.P. PE", "shares": 5737116, "type": "vc" },
+          { "name": "大谷彰宏", "shares": 2086224, "type": "other" }
+        ]
+      }
+    ],
+    "stock_options": [],
+    "notes": "清水信・鳳山一洋・岩本祐司（取締役）はロックアップなしで売出可能。",
+    "prospectus_url": ""
+  },
+  {
+    "ticker": "5537",
+    "name": "AlbaLink（アルバリンク）",
+    "ipo_date": "2025-12-15",
+    "market": "東証プライム",
+    "initial_price": 1300,
+    "lockups": [
+      {
+        "label": "役員（90日）",
+        "release_date": "2026-03-14",
+        "shares": 61000,
+        "holders": [
+          { "name": "内木場隼（役員）", "shares": 61000, "type": "other" }
+        ]
+      },
+      {
+        "label": "代表取締役（180日）",
+        "release_date": "2026-06-12",
+        "shares": 1610000,
+        "holders": [
+          { "name": "河田憲二（代表取締役）", "shares": 1610000, "type": "founder" }
+        ]
+      }
+    ],
+    "stock_options": [],
+    "notes": "",
+    "prospectus_url": ""
+  },
+  {
+    "ticker": "469A",
+    "name": "フィットクルー",
+    "ipo_date": "2025-12-12",
     "market": "東証グロース",
     "initial_price": 2200,
     "lockups": [
       {
-        "label": "VC・主要株主（180日）",
-        "release_date": "2025-12-02",
-        "shares": 3300000,
+        "label": "VC（90日 / 1.5倍条件）",
+        "release_date": "2026-06-09",
+        "shares": 340487,
         "holders": [
-          { "name": "三菱UFJキャピタル", "shares": 900000, "type": "vc" },
-          { "name": "SMBCベンチャーキャピタル", "shares": 600000, "type": "vc" },
-          { "name": "創業者・経営陣", "shares": 1800000, "type": "founder" }
+          { "name": "サファイア第一号投資事業有限責任組合 VC", "shares": 265487, "type": "vc" },
+          { "name": "Social Entrepreneur3投資事業有限責任組合 VC", "shares": 75000, "type": "vc" }
+        ]
+      },
+      {
+        "label": "代表取締役（180日）",
+        "release_date": "2026-06-09",
+        "shares": 592500,
+        "holders": [
+          { "name": "鹿島紘樹（代表取締役社長）", "shares": 592500, "type": "founder" }
         ]
       }
     ],
-    "stock_options": [
-      { "holder": "役員", "shares": 160000, "strike_price": 1, "exercisable_from": "2026-06-05", "note": "1円SO" }
-    ],
-    "notes": "",
+    "stock_options": [],
+    "notes": "VC1.5倍解除（3,300円）。",
     "prospectus_url": ""
   },
   {
-    "ticker": "315A",
-    "name": "マーキュリーリアルテックイノベーター",
-    "ipo_date": "2025-07-10",
+    "ticker": "462A",
+    "name": "FUNDINNO",
+    "ipo_date": "2025-12-05",
     "market": "東証グロース",
-    "initial_price": 1900,
+    "initial_price": 620,
     "lockups": [
       {
-        "label": "主要VC（180日）",
-        "release_date": "2026-01-06",
-        "shares": 2600000,
+        "label": "i-Lab VC（180日 / 2倍条件）",
+        "release_date": "2026-06-02",
+        "shares": 0,
         "holders": [
-          { "name": "グローバル・ブレイン", "shares": 800000, "type": "vc" },
-          { "name": "ディープコア", "shares": 600000, "type": "vc" },
-          { "name": "創業者", "shares": 1200000, "type": "founder" }
+          { "name": "i-Lab5号投資事業有限責任組合 VC", "shares": 0, "type": "vc" }
+        ]
+      },
+      {
+        "label": "主要株主・JCC（180日）",
+        "release_date": "2026-06-02",
+        "shares": 0,
+        "holders": [
+          { "name": "株式会社JCC（代表取締役資産管理会社・17.42%）", "shares": 0, "type": "founder" },
+          { "name": "三菱UFJ信託銀行（3年）", "shares": 0, "type": "corporate" }
         ]
       }
     ],
-    "stock_options": [
-      { "holder": "役員・従業員", "shares": 420000, "strike_price": 1, "exercisable_from": "2026-07-10", "note": "1円SO" }
-    ],
-    "notes": "",
+    "stock_options": [],
+    "notes": "i-Labは2倍解除条件。三菱UFJ信託は3年ロックアップ。株数は目論見書要確認。",
     "prospectus_url": ""
   },
   {
-    "ticker": "321A",
-    "name": "テクノロジーワン",
-    "ipo_date": "2025-08-21",
+    "ticker": "460A",
+    "name": "BRANU",
+    "ipo_date": "2025-12-01",
     "market": "東証グロース",
-    "initial_price": 3100,
+    "initial_price": 980,
     "lockups": [
       {
-        "label": "主要株主・VC（180日）",
-        "release_date": "2026-02-17",
-        "shares": 5500000,
+        "label": "創業者・役員（180日）",
+        "release_date": "2026-05-29",
+        "shares": 3980000,
         "holders": [
-          { "name": "SoftBank Vision Fund", "shares": 2000000, "type": "vc" },
-          { "name": "DCMベンチャーズ", "shares": 1000000, "type": "vc" },
-          { "name": "創業者 田中 一郎", "shares": 2500000, "type": "founder" }
+          { "name": "名富達也（代表取締役）", "shares": 2140000, "type": "founder" },
+          { "name": "株式会社名富（資産管理会社）", "shares": 1800000, "type": "founder" },
+          { "name": "毒島大輔（元取締役）", "shares": 20000, "type": "other" },
+          { "name": "片山雄輔（元取締役）", "shares": 20000, "type": "other" }
         ]
       }
     ],
-    "stock_options": [
-      { "holder": "役員", "shares": 300000, "strike_price": 1, "exercisable_from": "2026-08-21", "note": "1円SO（1年後）" },
-      { "holder": "従業員", "shares": 250000, "strike_price": 1000, "exercisable_from": "2027-08-21", "note": "有償SO" }
-    ],
-    "notes": "",
-    "prospectus_url": ""
-  },
-  {
-    "ticker": "332A",
-    "name": "AIQマーケティング",
-    "ipo_date": "2025-10-02",
-    "market": "東証グロース",
-    "initial_price": 1450,
-    "lockups": [
-      {
-        "label": "VC・主要株主（180日）",
-        "release_date": "2026-03-31",
-        "shares": 3900000,
-        "holders": [
-          { "name": "East Ventures", "shares": 1000000, "type": "vc" },
-          { "name": "WiL", "shares": 800000, "type": "vc" },
-          { "name": "創業者・経営陣", "shares": 2100000, "type": "founder" }
-        ]
-      }
-    ],
-    "stock_options": [
-      { "holder": "役員・従業員", "shares": 480000, "strike_price": 1, "exercisable_from": "2026-10-02", "note": "1円SO" }
-    ],
-    "notes": "",
-    "prospectus_url": ""
-  },
-  {
-    "ticker": "345A",
-    "name": "ライフタイムテック",
-    "ipo_date": "2025-11-20",
-    "market": "東証グロース",
-    "initial_price": 2650,
-    "lockups": [
-      {
-        "label": "主要株主（180日）",
-        "release_date": "2026-05-19",
-        "shares": 4100000,
-        "holders": [
-          { "name": "ジャフコ", "shares": 1200000, "type": "vc" },
-          { "name": "グロービス・キャピタル", "shares": 900000, "type": "vc" },
-          { "name": "創業者 鈴木 健太", "shares": 2000000, "type": "founder" }
-        ]
-      }
-    ],
-    "stock_options": [
-      { "holder": "役員・従業員", "shares": 550000, "strike_price": 1, "exercisable_from": "2026-11-20", "note": "1円SO（上場後1年）" }
-    ],
-    "notes": "",
-    "prospectus_url": ""
-  },
-  {
-    "ticker": "358A",
-    "name": "フューチャーリンク",
-    "ipo_date": "2026-01-15",
-    "market": "東証グロース",
-    "initial_price": 1800,
-    "lockups": [
-      {
-        "label": "VC・主要株主（180日）",
-        "release_date": "2026-07-14",
-        "shares": 2800000,
-        "holders": [
-          { "name": "サイバーエージェント・キャピタル", "shares": 700000, "type": "vc" },
-          { "name": "Z Venture Capital", "shares": 500000, "type": "vc" },
-          { "name": "創業者", "shares": 1600000, "type": "founder" }
-        ]
-      }
-    ],
-    "stock_options": [
-      { "holder": "役員・従業員", "shares": 390000, "strike_price": 1, "exercisable_from": "2027-01-15", "note": "1円SO" }
-    ],
-    "notes": "",
-    "prospectus_url": ""
-  },
-  {
-    "ticker": "371A",
-    "name": "グリーンテック",
-    "ipo_date": "2026-03-05",
-    "market": "東証グロース",
-    "initial_price": 2300,
-    "lockups": [
-      {
-        "label": "主要株主・VC（180日）",
-        "release_date": "2026-09-01",
-        "shares": 3700000,
-        "holders": [
-          { "name": "環境省系ファンド", "shares": 800000, "type": "corporate" },
-          { "name": "リードVC", "shares": 1200000, "type": "vc" },
-          { "name": "創業者 山田 太郎", "shares": 1700000, "type": "founder" }
-        ]
-      }
-    ],
-    "stock_options": [
-      { "holder": "役員", "shares": 200000, "strike_price": 1, "exercisable_from": "2027-03-05", "note": "1円SO" },
-      { "holder": "従業員", "shares": 300000, "strike_price": 1, "exercisable_from": "2027-03-05", "note": "1円SO" }
-    ],
-    "notes": "",
+    "stock_options": [],
+    "notes": "役員中心の保有。一部元取締役も含む。",
     "prospectus_url": ""
   }
 ]
