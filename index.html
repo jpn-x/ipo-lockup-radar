@@ -298,8 +298,8 @@
     display: flex;
     align-items: center;
     gap: 4px;
-    font-size: 10px;
-    color: var(--text3);
+    font-size: 11px;
+    color: #4a5a72;
   }
   .card-type-legend .leg-dot {
     width: 7px;
@@ -1021,7 +1021,7 @@ function buildBadges(stock) {
 
 function buildHolderRows(holders) {
   return holders.map(h => {
-    const ratioStr  = h.ratio > 0 ? `<span style="font-size:10px;color:var(--text3);margin-left:4px">(${h.ratio}%)</span>` : '';
+    const ratioStr  = h.ratio > 0 ? `<span style="font-size:13px;color:#5a6e88;margin-left:5px;font-weight:500">(${h.ratio}%)</span>` : '';
     const tekiyoStr = h.tekiyo ? `<div class="holder-tekiyo">${h.tekiyo}</div>` : '';
     return `
     <div class="holder-row">
@@ -1089,7 +1089,7 @@ function buildCard(stock) {
       <div>
         <div class="stock-name">${stock.name}</div>
         <div class="stock-meta">
-          <span style="font-size:11px;color:var(--text3)">上場: ${fmt(stock.ipo_date)}</span>
+          <span style="font-size:12px;color:#4a5a72;font-weight:500">上場: ${fmt(stock.ipo_date)}</span>
           ${buildBadges(stock)}
         </div>
         ${buildCardTypeLegend(stock)}
