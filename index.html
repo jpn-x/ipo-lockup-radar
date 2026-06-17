@@ -9,49 +9,74 @@
 <link rel="manifest" href="manifest.json">
 <style>
   :root {
-    --bg: #0f1117;
-    --bg2: #1a1d27;
-    --bg3: #242736;
-    --border: #2e3248;
-    --text: #e2e8f0;
-    --text2: #94a3b8;
-    --text3: #64748b;
-    --accent: #6366f1;
-    --accent2: #818cf8;
-    --danger: #ef4444;
-    --warn: #f59e0b;
-    --success: #10b981;
-    --vc: #8b5cf6;
-    --founder: #ec4899;
-    --corporate: #06b6d4;
-    --other: #64748b;
+    --bg:      #0d0f1a;
+    --bg2:     #141726;
+    --bg3:     #1c2035;
+    --border:  #252a42;
+    --text:    #dde4f0;
+    --text2:   #8fa3c0;
+    --text3:   #546278;
+    --accent:  #00c8d4;
+    --accent2: #3de0ea;
+    --reload:  #e07b20;
+    --reload2: #f5a040;
+    --danger:  #e84040;
+    --warn:    #e8a020;
+    --success: #00c48a;
+    --vc:      #9b6fe8;
+    --founder: #e85090;
+    --corporate:#00b8d4;
+    --other:   #546278;
   }
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body {
     background: var(--bg);
     color: var(--text);
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Hiragino Sans', sans-serif;
-    font-size: 14px;
+    font-size: 15px;
     min-height: 100vh;
   }
 
   /* ── Header ── */
   header {
-    background: var(--bg2);
-    border-bottom: 1px solid var(--border);
-    padding: 14px 20px;
+    background: linear-gradient(90deg, #0e1120 0%, #141a2e 100%);
+    border-bottom: 1px solid #1e2840;
+    padding: 11px 20px;
     display: flex;
     align-items: center;
     gap: 12px;
     position: sticky;
     top: 0;
     z-index: 100;
+    box-shadow: 0 2px 12px rgba(0,0,0,.5);
   }
-  header img { width: 28px; height: 28px; }
-  header h1 { font-size: 16px; font-weight: 700; color: var(--text); }
-  header .subtitle { font-size: 11px; color: var(--text3); margin-left: 4px; }
+  header img { width: 26px; height: 26px; }
+  header h1 { font-size: 15px; font-weight: 700; color: var(--accent2); letter-spacing:.03em; }
+  header .subtitle { font-size: 11px; color: var(--text3); margin-left: 2px; }
   .header-spacer { flex: 1; }
   .updated-at { font-size: 11px; color: var(--text3); }
+
+  /* 強制リロードボタン */
+  .reload-btn {
+    background: linear-gradient(135deg, #c06010 0%, var(--reload) 60%, var(--reload2) 100%);
+    border: 1px solid #d08030;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 6px 14px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    transition: filter .15s, transform .1s;
+    white-space: nowrap;
+    letter-spacing: .02em;
+    box-shadow: 0 2px 8px rgba(200,100,0,.35);
+  }
+  .reload-btn:hover { filter: brightness(1.15); transform: translateY(-1px); }
+  .reload-btn:active { transform: translateY(0); filter: brightness(.95); }
+  .reload-btn svg { width:13px; height:13px; flex-shrink:0; }
 
   /* ── Layout ── */
   .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
@@ -102,7 +127,7 @@
     white-space: nowrap;
   }
   .chip:hover { border-color: var(--accent); color: var(--accent2); }
-  .chip.active { background: var(--accent); border-color: var(--accent); color: #fff; }
+  .chip.active { background: rgba(0,200,212,.18); border-color: var(--accent); color: var(--accent2); font-weight:700; }
   .search-box {
     background: var(--bg3);
     border: 1px solid var(--border);
@@ -383,6 +408,13 @@
   </div>
   <div class="header-spacer"></div>
   <div class="updated-at" id="updatedAt"></div>
+  <button class="reload-btn" onclick="forceReload()" title="強制リロード (Shift+Ctrl+R)">
+    <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M1.5 8A6.5 6.5 0 1 0 4 3.1"/>
+      <polyline points="1.5,1 1.5,4.5 5,4.5"/>
+    </svg>
+    強制リロード
+  </button>
 </header>
 
 <div class="container">
@@ -759,6 +791,18 @@ function setView(v) {
   document.querySelectorAll('.view-tab').forEach(t => t.classList.toggle('active', t.textContent.includes(v === 'timeline' ? 'タイムライン' : 'リスト')));
   renderAll();
 }
+
+// ── 強制リロード ──
+function forceReload() {
+  stocks = [];
+  expandedTicker = null;
+  Object.keys(tdnetCache).forEach(k => delete tdnetCache[k]);
+  init();
+}
+
+document.addEventListener('keydown', e => {
+  if (e.shiftKey && e.ctrlKey && e.key === 'R') { e.preventDefault(); forceReload(); }
+});
 
 // ── Init ──
 async function init() {
