@@ -626,10 +626,10 @@
 <header>
   <img src="favicon.svg" alt="logo">
   <div>
-    <h1><a href="#" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;" style="color:#dc2626;text-decoration:none;">IPO ロックアップ解除レーダー</a></h1>
+    <h1><a href="#" onclick="window.scrollTo({top:0,behavior:'instant'});return false;" style="color:#dc2626;text-decoration:none;">IPO ロックアップ解除レーダー</a></h1>
     <span class="subtitle">VC・大株主・1円SO の売り需給カレンダー</span>
   </div>
-  <button class="reload-btn" onclick="window.scrollTo({top:0,behavior:'smooth'})" title="最上部に戻る" style="background:linear-gradient(135deg,#1e3a5f 0%,#1e4976 60%,#1a5990 100%);border-color:#2563a8;box-shadow:0 2px 8px rgba(0,80,160,.3)">
+  <button class="reload-btn" onclick="window.scrollTo({top:0,behavior:'instant'})" title="最上部に戻る" style="background:linear-gradient(135deg,#1e3a5f 0%,#1e4976 60%,#1a5990 100%);border-color:#2563a8;box-shadow:0 2px 8px rgba(0,80,160,.3)">
     <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <polyline points="2,10 8,4 14,10"/>
       <line x1="8" y1="4" x2="8" y2="14"/>
@@ -958,7 +958,7 @@ function jumpToStock(ticker) {
   renderAll();
   setTimeout(() => {
     const el = document.querySelector(`.stock-card[data-ticker="${ticker}"]`);
-    if (el) el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    if (el) el.scrollIntoView({ behavior: 'instant', block: 'center' });
   }, 100);
 }
 
