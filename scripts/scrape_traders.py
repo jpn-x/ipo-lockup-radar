@@ -24,10 +24,14 @@ def get(url, delay=3.0):
     r.encoding = r.apparent_encoding
     return BeautifulSoup(r.text, "lxml")
 
+_SMALL_KANA = str.maketrans("ァィゥェォッャュョヮヵヶぁぃぅぇぉっゃゅょゎ",
+                             "アイウエオツヤユヨワカケあいうえおつやゆよわ")
+
 def normalize(name):
     name = re.sub(r"[　\s]+", "", name)
     name = re.sub(r"株式会社|（株）|\(株\)|合同会社|有限会社|㈱", "", name)
     name = name.replace("（", "(").replace("）", ")")
+    name = name.translate(_SMALL_KANA)   # 小書き仮名 → 大書き（ウェ→ウエ等）
     return name.upper()
 
 def _guess_type(name):
@@ -53,11 +57,14 @@ def parse_shareholders(soup):
     result = []
     for table in soup.find_all("table"):
         ths = [th.get_text(strip=True) for th in table.find_all("th")]
-        name_idx   = next((i for i, h in enumerate(ths) if "株主" in h or "氏名" in h), None)
+        # 「大株主名」列を優先、なければ「株主名」「氏名」で探す
+        name_idx   = next((i for i, h in enumerate(ths) if "大株主" in h), None)
+        if name_idx is None:
+            name_idx = next((i for i, h in enumerate(ths) if h in ("株主名", "氏名")), None)
         tekiyo_idx = next((i for i, h in enumerate(ths) if "摘要" in h or "属性" in h), None)
         share_idx  = next((i for i, h in enumerate(ths) if "株数" in h or "株式数" in h), None)
         ratio_idx  = next((i for i, h in enumerate(ths) if "比率" in h or "割合" in h), None)
-        if name_idx is None:
+        if name_idx is None or ratio_idx is None:
             continue
         for row in table.find_all("tr")[1:]:
             cells = row.find_all(["td", "th"])
@@ -149,15 +156,18 @@ def main():
                 for src in traders_holders:
                     if not name_match(h["name"], src["name"]):
                         continue
-                    if not has_shares and src["shares"] > 0:
-                        h["shares"] = src["shares"]
-                        lk_changed = True
-                        stock_updated = True
-                    if not has_ratio and src["ratio"] > 0:
+                    # 株数: 未設定 OR traders値と現在値が大きく乖離（10倍以上）なら上書き
+                    if src["shares"] > 0:
+                        cur = h.get("shares", 0)
+                        if cur == 0 or (cur > src["shares"] * 5):
+                            h["shares"] = src["shares"]
+                            lk_changed = True
+                            stock_updated = True
+                    if src["ratio"] > 0:
                         h["ratio"] = src["ratio"]
                         lk_changed = True
                         stock_updated = True
-                    if not has_tekiyo and src.get("tekiyo"):
+                    if src.get("tekiyo"):
                         h["tekiyo"] = src["tekiyo"]
                         stock_updated = True
                     break
