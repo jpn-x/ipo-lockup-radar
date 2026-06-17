@@ -26,7 +26,7 @@ def get(url, delay=1.5):
     return BeautifulSoup(r.text, "lxml")
 
 # ── 対象月リスト（直近6ヶ月）──
-def target_months(n=8):
+def target_months(n=14):  # 約1年分
     """直近n ヶ月分の (year, month) リストを返す"""
     today = date.today()
     months = []

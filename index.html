@@ -81,6 +81,81 @@
   /* ── Layout ── */
   .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
 
+  /* ── カウントダウンパネル ── */
+  .countdown-panel {
+    background: linear-gradient(135deg, #0d1020 0%, #111628 100%);
+    border: 1px solid #1e2840;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    overflow: hidden;
+  }
+  .countdown-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 16px 10px;
+    border-bottom: 1px solid #1a2035;
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--text3);
+    letter-spacing: .06em;
+    text-transform: uppercase;
+  }
+  .countdown-header span { color: var(--accent2); }
+  .countdown-rows { display: flex; flex-direction: column; }
+  .cd-row {
+    display: grid;
+    grid-template-columns: 68px 1fr 130px 110px;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 16px;
+    border-bottom: 1px solid #151a2a;
+    transition: background .12s;
+    cursor: pointer;
+  }
+  .cd-row:last-child { border-bottom: none; }
+  .cd-row:hover { background: rgba(0,200,212,.05); }
+
+  .cd-ticker { font-size: 15px; font-weight: 800; color: var(--accent2); }
+  .cd-market  { font-size: 10px; color: var(--text3); margin-top: 1px; }
+
+  .cd-name { font-size: 13px; font-weight: 600; color: var(--text); }
+  .cd-label { font-size: 11px; color: var(--text3); margin-top: 2px; }
+
+  .cd-date { font-size: 13px; font-weight: 700; color: var(--text2); text-align: right; }
+  .cd-date-sub { font-size: 11px; color: var(--text3); text-align: right; margin-top: 1px; }
+
+  .cd-count {
+    text-align: right;
+    font-size: 20px;
+    font-weight: 900;
+    font-variant-numeric: tabular-nums;
+    line-height: 1;
+  }
+  .cd-count-label { font-size: 10px; color: var(--text3); text-align: right; margin-top: 3px; }
+  .cd-count.urgent  { color: var(--danger); }
+  .cd-count.soon    { color: var(--warn); }
+  .cd-count.future  { color: var(--accent2); }
+  .cd-count.past    { color: var(--text3); font-size: 14px; }
+
+  /* 解除済みバー */
+  .cd-row.past-row { opacity: .45; }
+
+  /* 今日ハイライト */
+  .cd-row.today-row { background: rgba(232,160,32,.08); border-left: 3px solid var(--warn); }
+
+  /* もっと見るボタン */
+  .cd-more {
+    text-align: center;
+    padding: 10px;
+    font-size: 12px;
+    color: var(--text3);
+    cursor: pointer;
+    transition: color .15s;
+    border-top: 1px solid #151a2a;
+  }
+  .cd-more:hover { color: var(--accent2); }
+
   /* ── Stats bar ── */
   .stats-bar {
     display: grid;
@@ -454,6 +529,17 @@
 
 <div class="container">
 
+  <!-- カウントダウンパネル -->
+  <div class="countdown-panel">
+    <div class="countdown-header">
+      <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="var(--accent2)" stroke-width="2" stroke-linecap="round"><circle cx="8" cy="8" r="6"/><path d="M8 5v3l2 2"/></svg>
+      <span>ロックアップ解除カウントダウン</span>
+      &nbsp;— 解除日順
+    </div>
+    <div class="countdown-rows" id="cdRows"></div>
+    <div class="cd-more" id="cdMore" onclick="toggleCdMore()">▼ 解除済みを表示</div>
+  </div>
+
   <!-- Stats -->
   <div class="stats-bar" id="statsBar">
     <div class="stat-card danger">
@@ -617,8 +703,114 @@ function applyFilters() {
   });
 }
 
+// ── カウントダウンパネル ──
+let cdShowPast = false;
+
+function buildCountdownRows() {
+  // 全ロックアップイベントをフラット化
+  const events = [];
+  for (const s of stocks) {
+    for (const lk of s.lockups) {
+      events.push({
+        ticker:       s.ticker,
+        name:         s.name,
+        market:       s.market,
+        release_date: lk.release_date,
+        label:        lk.label,
+        shares:       lk.shares,
+        holders:      lk.holders,
+      });
+    }
+  }
+  // 解除日順ソート（近い順）
+  events.sort((a, b) => new Date(a.release_date) - new Date(b.release_date));
+  return events;
+}
+
+function renderCountdown() {
+  const events  = buildCountdownRows();
+  const future  = events.filter(e => daysUntil(e.release_date) >= 0);
+  const past    = events.filter(e => daysUntil(e.release_date) <  0).reverse(); // 直近の過去順
+
+  const shown = cdShowPast ? [...past.slice(0,5).reverse(), ...future] : future;
+
+  const html = shown.map(e => {
+    const days = daysUntil(e.release_date);
+    const isPast = days < 0;
+    const isToday = days === 0;
+
+    const cls = isPast ? 'past-row' : isToday ? 'today-row' : '';
+    const countCls = isPast ? 'past' : days <= 7 ? 'urgent' : days <= 30 ? 'urgent' : days <= 90 ? 'soon' : 'future';
+
+    let countText, countSub;
+    if (isPast) {
+      countText = `${Math.abs(days)}日前`;
+      countSub  = '解除済み';
+    } else if (isToday) {
+      countText = '本日';
+      countSub  = '解除！';
+    } else {
+      countText = `${days}`;
+      countSub  = '日後に解除';
+    }
+
+    const dateStr = fmt(e.release_date);
+    const totalShares = e.shares || e.holders.reduce((s, h) => s + h.shares, 0);
+    const sharesStr = totalShares > 0 ? fmtShares(totalShares) : '株数未確認';
+
+    return `
+      <div class="cd-row ${cls}" onclick="jumpToStock('${e.ticker}')">
+        <div>
+          <div class="cd-ticker">${e.ticker}</div>
+          <div class="cd-market">${e.market}</div>
+        </div>
+        <div>
+          <div class="cd-name">${e.name}</div>
+          <div class="cd-label">${e.label} / ${sharesStr}</div>
+        </div>
+        <div>
+          <div class="cd-date">${dateStr}</div>
+          <div class="cd-date-sub">${e.holders.slice(0,2).map(h=>h.name.replace(/（.*）/,'')).join(' / ')}</div>
+        </div>
+        <div>
+          <div class="cd-count ${countCls}">${countText}</div>
+          <div class="cd-count-label">${countSub}</div>
+        </div>
+      </div>
+    `;
+  }).join('');
+
+  document.getElementById('cdRows').innerHTML = html || '<div style="padding:16px;color:var(--text3);font-size:13px">データなし</div>';
+
+  const moreEl = document.getElementById('cdMore');
+  if (past.length === 0) {
+    moreEl.style.display = 'none';
+  } else {
+    moreEl.textContent = cdShowPast ? '▲ 解除済みを隠す' : `▼ 解除済み ${past.length}件を表示`;
+  }
+}
+
+function toggleCdMore() {
+  cdShowPast = !cdShowPast;
+  renderCountdown();
+}
+
+function jumpToStock(ticker) {
+  expandedTicker = ticker;
+  currentFilter = 'all';
+  currentIpoMonth = null;
+  document.querySelectorAll('.chip').forEach(c => c.classList.toggle('active', c.dataset.filter === 'all'));
+  renderIpoMonthBar();
+  renderAll();
+  setTimeout(() => {
+    const el = document.querySelector(`.stock-card[data-ticker="${ticker}"]`);
+    if (el) el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  }, 100);
+}
+
 // ── Stats ──
 function renderStats() {
+  renderCountdown();
   renderIpoMonthBar();
   const s30 = stocks.filter(s => { const d = daysUntil(earliestLockup(s).release_date); return d >= 0 && d <= 30; }).length;
   const s90 = stocks.filter(s => { const d = daysUntil(earliestLockup(s).release_date); return d >= 0 && d <= 90; }).length;
@@ -708,7 +900,7 @@ function buildCard(stock) {
   const expanded = expandedTicker === stock.ticker;
 
   return `
-    <div class="stock-card ${urgCls} ${expanded?'expanded':''}" onclick="toggleCard('${stock.ticker}')">
+    <div class="stock-card ${urgCls} ${expanded?'expanded':''}" data-ticker="${stock.ticker}" onclick="toggleCard('${stock.ticker}')">
       <div>
         <div class="stock-ticker">${stock.ticker}</div>
         <div class="stock-market">${stock.market}</div>

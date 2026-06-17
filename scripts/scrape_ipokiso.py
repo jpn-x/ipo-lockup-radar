@@ -236,12 +236,11 @@ def save(data):
         json.dump(data, f, ensure_ascii=False, indent=2)
     print(f"[OK] {len(data)} stocks -> {DATA_FILE}")
 
-# ── 対象年リスト ──
+# ── 対象年リスト（直近1年分） ──
 def target_years():
     today = date.today()
     years = [today.year]
-    if today.month <= 6:
-        years.append(today.year - 1)
+    years.append(today.year - 1)   # 常に前年も含める
     return years
 
 # ── メイン ──
