@@ -624,6 +624,13 @@
   </div>
   <div class="header-spacer"></div>
   <div class="updated-at" id="updatedAt"></div>
+  <button class="reload-btn" onclick="window.scrollTo({top:0,behavior:'smooth'})" title="最上部に戻る" style="background:linear-gradient(135deg,#1e3a5f 0%,#1e4976 60%,#1a5990 100%);border-color:#2563a8;box-shadow:0 2px 8px rgba(0,80,160,.3)">
+    <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="2,10 8,4 14,10"/>
+      <line x1="8" y1="4" x2="8" y2="14"/>
+    </svg>
+    最上部に戻る
+  </button>
   <button class="reload-btn" onclick="forceReload()" title="強制リロード (Shift+Ctrl+R)">
     <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <path d="M1.5 8A6.5 6.5 0 1 0 4 3.1"/>
