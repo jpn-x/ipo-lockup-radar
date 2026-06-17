@@ -17,7 +17,7 @@ HEADERS   = {
     "Accept-Language": "ja,en;q=0.9",
 }
 
-def get(url, delay=1.5):
+def get(url, delay=3.0):
     time.sleep(delay)
     r = requests.get(url, headers=HEADERS, timeout=20)
     r.raise_for_status()
@@ -30,6 +30,15 @@ def normalize(name):
     name = name.replace("（", "(").replace("）", ")")
     return name.upper()
 
+def _guess_type(name):
+    if any(k in name for k in ["ファンド","投資事業","キャピタル","Ventures","組合","VC","L.P.","CVC","投資業"]):
+        return "vc"
+    if any(k in name for k in ["社長","代表取締役","創業者","会長","CEO","代表執行役"]):
+        return "founder"
+    if any(k in name for k in ["銀行","証券","保険","商事","造船","電機","三菱","住友","伊藤忠","KDDI","NTT","トヨタ","ドコモ"]):
+        return "corporate"
+    return "other"
+
 def name_match(a, b):
     na, nb = normalize(a), normalize(b)
     if not na or not nb:
@@ -40,14 +49,14 @@ def name_match(a, b):
     return len(short) >= 3 and short in long
 
 def parse_shareholders(soup):
-    """大株主テーブルをパース → [{name, shares, ratio}]"""
+    """大株主テーブルをパース → [{name, tekiyo, shares, ratio}]"""
     result = []
     for table in soup.find_all("table"):
         ths = [th.get_text(strip=True) for th in table.find_all("th")]
-        # 大株主名 / 株数 / 比率 の列を探す
-        name_idx  = next((i for i, h in enumerate(ths) if "株主" in h or "氏名" in h), None)
-        share_idx = next((i for i, h in enumerate(ths) if "株数" in h or "株式数" in h), None)
-        ratio_idx = next((i for i, h in enumerate(ths) if "比率" in h or "割合" in h), None)
+        name_idx   = next((i for i, h in enumerate(ths) if "株主" in h or "氏名" in h), None)
+        tekiyo_idx = next((i for i, h in enumerate(ths) if "摘要" in h or "属性" in h), None)
+        share_idx  = next((i for i, h in enumerate(ths) if "株数" in h or "株式数" in h), None)
+        ratio_idx  = next((i for i, h in enumerate(ths) if "比率" in h or "割合" in h), None)
         if name_idx is None:
             continue
         for row in table.find_all("tr")[1:]:
@@ -57,17 +66,17 @@ def parse_shareholders(soup):
             name = re.sub(r"\s+", " ", cells[name_idx].get_text(" ", strip=True))
             if not name or name in ["-", "—", "合計"]:
                 continue
+            tekiyo = ""
+            if tekiyo_idx is not None and len(cells) > tekiyo_idx:
+                tekiyo = re.sub(r"\s+", " ", cells[tekiyo_idx].get_text(" ", strip=True))
             shares = 0
             if share_idx is not None and len(cells) > share_idx:
-                m = re.search(r"[\d,]+", cells[share_idx].get_text(strip=True).replace(",", ""))
-                if m:
-                    raw = cells[share_idx].get_text(strip=True).replace(",", "")
-                    digits = re.sub(r"[^\d]", "", raw)
-                    if digits:
-                        val = int(digits)
-                        # 年っぽい数字（1900〜2100）は除外
-                        if not (1900 <= val <= 2100):
-                            shares = val
+                raw = cells[share_idx].get_text(strip=True).replace(",", "")
+                digits = re.sub(r"[^\d]", "", raw)
+                if digits:
+                    val = int(digits)
+                    if not (1900 <= val <= 2100):
+                        shares = val
             ratio = 0.0
             if ratio_idx is not None and len(cells) > ratio_idx:
                 m = re.search(r"(\d+\.\d+)", cells[ratio_idx].get_text(strip=True))
@@ -77,7 +86,7 @@ def parse_shareholders(soup):
                     except ValueError:
                         pass
             if name:
-                result.append({"name": name, "shares": shares, "ratio": ratio})
+                result.append({"name": name, "tekiyo": tekiyo, "shares": shares, "ratio": ratio})
     return result
 
 def parse_total_shares(soup):
@@ -129,14 +138,13 @@ def main():
 
         stock_updated = False
 
+        # ── 既存ホルダーを更新（shares / ratio / tekiyo 補完） ──
         for lk in stock.get("lockups", []):
             lk_changed = False
             for h in lk.get("holders", []):
-                # shares と ratio どちらも埋まっていればスキップ
                 has_shares = h.get("shares", 0) > 0
                 has_ratio  = h.get("ratio", 0) > 0
-                if has_shares and has_ratio:
-                    continue
+                has_tekiyo = bool(h.get("tekiyo", ""))
 
                 for src in traders_holders:
                     if not name_match(h["name"], src["name"]):
@@ -149,12 +157,53 @@ def main():
                         h["ratio"] = src["ratio"]
                         lk_changed = True
                         stock_updated = True
+                    if not has_tekiyo and src.get("tekiyo"):
+                        h["tekiyo"] = src["tekiyo"]
+                        stock_updated = True
                     break
 
             if lk_changed:
                 lk["shares"] = sum(h.get("shares", 0) for h in lk["holders"])
 
-        # total_shares がある場合、ratio から shares を計算（shares=0 のホルダー）
+        # ── traders にいて JSON にいない株主を追加 ──
+        # 全既存ホルダー名を収集
+        existing_names = [
+            h["name"]
+            for lk in stock.get("lockups", [])
+            for h in lk.get("holders", [])
+        ]
+        # 非継続所有のロックアップグループ（追加先候補）
+        non_cont_lks = [
+            lk for lk in stock.get("lockups", [])
+            if lk.get("release_date") != "2099-12-31"
+        ]
+        if non_cont_lks:
+            # 最もホルダー数が多いグループを追加先とする
+            target_lk = max(non_cont_lks, key=lambda lk: len(lk.get("holders", [])))
+            added_names = []
+            for src in traders_holders:
+                # 既存ホルダーと一致するものはスキップ
+                if any(name_match(src["name"], en) for en in existing_names):
+                    continue
+                # 継続所有系（会社役員など）は別途スキップしない — すべて追加
+                new_holder = {
+                    "name": src["name"],
+                    "shares": src["shares"],
+                    "type": _guess_type(src["name"]),
+                }
+                if src["ratio"] > 0:
+                    new_holder["ratio"] = src["ratio"]
+                if src.get("tekiyo"):
+                    new_holder["tekiyo"] = src["tekiyo"]
+                target_lk["holders"].append(new_holder)
+                existing_names.append(src["name"])
+                added_names.append(src["name"])
+                stock_updated = True
+            if added_names:
+                target_lk["shares"] = sum(h.get("shares", 0) for h in target_lk["holders"])
+                print(f"+{len(added_names)}名追加 ", end="")
+
+        # ── total_shares がある場合、ratio → shares 計算 ──
         ts = stock.get("total_shares", 0)
         if ts > 0:
             for lk in stock.get("lockups", []):
