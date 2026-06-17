@@ -143,38 +143,50 @@ def parse_lockups(soup, ipo_date):
 
             lock_text = cells[lock_idx].get_text(strip=True)
 
-            # ロック日数を解析（360日 / 180日 / 90日 / 継続所有）
-            if "継続所有" in lock_text or "なし" in lock_text:
+            is_cont = "継続所有" in lock_text
+            if "なし" in lock_text:
                 continue
-            days = 180
-            if "360" in lock_text:
-                days = 360
-            elif "90" in lock_text:
-                days = 90
 
-            # 1.5倍条件・2倍条件の注記
-            condition = ""
-            if "1.5倍" in lock_text:
-                condition = "/1.5倍条件"
-            elif "2倍" in lock_text:
-                condition = "/2倍条件"
+            if is_cont:
+                key = "継続所有"
+                if key not in lockups_raw:
+                    lockups_raw[key] = {
+                        "label": "継続所有（売却制限なし）",
+                        "release_date": "2099-12-31",
+                        "shares": 0,
+                        "holders": [],
+                        "days": 0
+                    }
+            else:
+                days = 180
+                if "360" in lock_text:
+                    days = 360
+                elif "90" in lock_text:
+                    days = 90
 
-            release = calc_release(ipo_date, days) if ipo_date else None
-            if not release:
-                continue
+                # 1.5倍条件・2倍条件の注記
+                condition = ""
+                if "1.5倍" in lock_text:
+                    condition = "/1.5倍条件"
+                elif "2倍" in lock_text:
+                    condition = "/2倍条件"
+
+                release = calc_release(ipo_date, days) if ipo_date else None
+                if not release:
+                    continue
+
+                key = release
+                if key not in lockups_raw:
+                    label_base = "VC・主要株主" if guess_type(holder_name) == "vc" else "主要株主"
+                    lockups_raw[key] = {
+                        "label": f"{label_base}（{days}日{condition}）",
+                        "release_date": release,
+                        "shares": 0,
+                        "holders": [],
+                        "days": days
+                    }
 
             htype = guess_type(holder_name)
-
-            key = release
-            if key not in lockups_raw:
-                label_base = "VC・主要株主" if htype == "vc" else "主要株主"
-                lockups_raw[key] = {
-                    "label": f"{label_base}（{days}日{condition}）",
-                    "release_date": release,
-                    "shares": 0,
-                    "holders": [],
-                    "days": days
-                }
             # 比率を取得
             ratio = 0.0
             if ratio_idx is not None and len(cells) > ratio_idx:

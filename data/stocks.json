@@ -1332,55 +1332,74 @@
       {
         "label": "事業会社・大株主（180日）",
         "release_date": "2026-06-16",
-        "shares": 5818048,
+        "shares": 13993486,
         "holders": [
           {
-            "name": "日本郵船",
-            "shares": 550000,
+            "name": "株式会社FAROUT",
+            "ratio": 12.95,
             "type": "corporate",
-            "ratio": 1.71
+            "shares": 4161094
+          },
+          {
+            "name": "アキュメン株式会社",
+            "ratio": 12.91,
+            "type": "corporate",
+            "shares": 4148241
+          },
+          {
+            "name": "今治造船株式会社",
+            "ratio": 5.69,
+            "type": "corporate",
+            "shares": 1828311
+          },
+          {
+            "name": "日本瓦斯株式会社",
+            "ratio": 2.97,
+            "type": "corporate",
+            "shares": 954320
+          },
+          {
+            "name": "日本郵船株式会社",
+            "ratio": 2.39,
+            "type": "corporate",
+            "shares": 767955
+          },
+          {
+            "name": "伊藤忠商事株式会社",
+            "ratio": 2.34,
+            "type": "corporate",
+            "shares": 751889
           },
           {
             "name": "FRONTIVE X LIMITED",
-            "shares": 455600,
-            "type": "other",
-            "ratio": 1.42
-          },
-          {
-            "name": "三菱UFJ銀行",
-            "shares": 507000,
+            "ratio": 2.29,
             "type": "corporate",
-            "ratio": 1.58
+            "shares": 735823
           },
           {
-            "name": "アキュメン",
-            "shares": 500000,
+            "name": "Spiral Capital Japan Fund2号投資事業有限責任組合",
+            "ratio": 2.01,
             "type": "vc",
-            "ratio": 1.56
+            "shares": 645853
+          }
+        ]
+      },
+      {
+        "label": "継続所有（売却制限なし）",
+        "release_date": "2099-12-31",
+        "shares": 3560226,
+        "holders": [
+          {
+            "name": "伊藤 正裕（社長）",
+            "ratio": 8.85,
+            "type": "founder",
+            "shares": 2843682
           },
           {
-            "name": "株式会社FAROUT",
-            "shares": 228000,
-            "type": "vc",
-            "ratio": 0.71
-          },
-          {
-            "name": "伊藤忠商事",
-            "shares": 253448,
+            "name": "株式会社三菱UFJ銀行",
+            "ratio": 2.23,
             "type": "corporate",
-            "ratio": 0.79
-          },
-          {
-            "name": "今治造船",
-            "shares": 2184000,
-            "type": "corporate",
-            "ratio": 6.8
-          },
-          {
-            "name": "日本瓦斯",
-            "shares": 1140000,
-            "type": "corporate",
-            "ratio": 3.55
+            "shares": 716544
           }
         ]
       }

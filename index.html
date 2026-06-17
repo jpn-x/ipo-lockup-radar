@@ -767,23 +767,28 @@ function fmtShares(n) {
   return n.toLocaleString() + '株';
 }
 
-function urgencyClass(days) {
+function isCont(dateStr) { return dateStr === '2099-12-31'; }
+
+function urgencyClass(days, dateStr) {
+  if (dateStr && isCont(dateStr)) return 'future';
   if (days < 0) return 'past';
   if (days <= 30) return 'urgent';
   if (days <= 90) return 'soon';
   return 'future';
 }
 
-function urgencyLabel(days) {
+function urgencyLabel(days, dateStr) {
+  if (dateStr && isCont(dateStr)) return '継続所有';
   if (days < 0) return `${Math.abs(days)}日前解除済`;
   if (days === 0) return '本日解除！';
   return `あと${days}日`;
 }
 
-// Stock の "earliest non-past lockup" を返す
+// Stock の "earliest non-past lockup" を返す（継続所有は除外）
 function earliestLockup(stock) {
-  const future = stock.lockups.filter(l => daysUntil(l.release_date) >= 0);
-  if (future.length === 0) return stock.lockups[0]; // all past → just return first
+  const candidates = stock.lockups.filter(l => !isCont(l.release_date));
+  const future = candidates.filter(l => daysUntil(l.release_date) >= 0);
+  if (future.length === 0) return candidates[0] || stock.lockups[0];
   return future.sort((a,b) => new Date(a.release_date)-new Date(b.release_date))[0];
 }
 
@@ -1028,11 +1033,15 @@ function buildHolderRows(holders) {
 function buildLockupItems(stock) {
   return stock.lockups.map(l => {
     const days = daysUntil(l.release_date);
-    const cls = urgencyClass(days);
+    const cont = isCont(l.release_date);
+    const cls = urgencyClass(days, l.release_date);
+    const relStr = cont
+      ? '<strong class="days-left future">継続所有（売却制限なし）</strong>'
+      : `<strong class="days-left ${cls}">${fmt(l.release_date)}（${urgencyLabel(days)}）</strong>`;
     return `
       <div class="lockup-item">
         <div class="lockup-label">${l.label}</div>
-        <div class="lockup-release">解除日: <strong class="days-left ${cls}">${fmt(l.release_date)}（${urgencyLabel(days)}）</strong></div>
+        <div class="lockup-release">${cont ? '' : '解除日: '}${relStr}</div>
         ${buildHolderRows(l.holders)}
         <div class="lockup-total">合計: <span>${fmtShares(l.shares)}</span></div>
       </div>
@@ -1081,7 +1090,7 @@ function buildCard(stock) {
       </div>
       <div class="stock-right">
         <div class="release-date">${fmt(earliest.release_date)}</div>
-        <div class="days-left ${urgencyClass(days)}">${urgencyLabel(days)}</div>
+        <div class="days-left ${urgencyClass(days, earliest.release_date)}">${urgencyLabel(days, earliest.release_date)}</div>
       </div>
 
       <div class="stock-detail">
