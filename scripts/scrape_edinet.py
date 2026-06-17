@@ -446,6 +446,10 @@ def main():
                 match = holder_match(h["name"], edinet_rows) if edinet_rows else None
                 if match and match["shares"] > 0:
                     h["shares"] = match["shares"]
+                    if match.get("ratio", 0) > 0:
+                        h["ratio"] = match["ratio"]
+                    elif total_shares > 0:
+                        h["ratio"] = round(match["shares"] / total_shares * 100, 2)
                     print(f"    [EDINET] {h['name']} → {match['shares']:,}株")
                     updated += 1
 
@@ -454,6 +458,7 @@ def main():
                     est = calc_shares_from_ratio(h["name"], total_shares)
                     if est > 0:
                         h["shares"] = est
+                        h["ratio"] = round(est / total_shares * 100, 2)
                         print(f"    [比率計算] {h['name']} → {est:,}株 (推定)")
                         updated += 1
 
@@ -461,6 +466,8 @@ def main():
             lk["shares"] = sum(h.get("shares", 0) for h in lk.get("holders", []))
 
         if updated:
+            if total_shares > 0:
+                stock["total_shares"] = total_shares
             stock["notes"] = stock.get("notes", "") + f" +edinet:{date.today()}"
             total_updated += 1
             print(f"  -> {updated} ホルダー更新")

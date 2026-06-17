@@ -14,27 +14,32 @@
           {
             "name": "マネーストレージ（株）",
             "shares": 1600000,
-            "type": "other"
+            "type": "other",
+            "ratio": 35.05
           },
           {
             "name": "大江 繭子 （社長）",
             "shares": 1335000,
-            "type": "founder"
+            "type": "founder",
+            "ratio": 29.25
           },
           {
             "name": "西田 厚生",
             "shares": 344000,
-            "type": "other"
+            "type": "other",
+            "ratio": 7.54
           },
           {
             "name": "赤松 哲典",
             "shares": 314000,
-            "type": "other"
+            "type": "other",
+            "ratio": 6.88
           },
           {
             "name": "西田 幸子",
             "shares": 172000,
-            "type": "other"
+            "type": "other",
+            "ratio": 3.77
           },
           {
             "name": "古市 直子",
@@ -44,17 +49,20 @@
           {
             "name": "西田 大翔",
             "shares": 140000,
-            "type": "other"
+            "type": "other",
+            "ratio": 3.07
           },
           {
             "name": "西田 美朝",
             "shares": 140000,
-            "type": "other"
+            "type": "other",
+            "ratio": 3.07
           },
           {
             "name": "森下 俊光",
             "shares": 120000,
-            "type": "other"
+            "type": "other",
+            "ratio": 2.63
           },
           {
             "name": "従業員",
@@ -67,7 +75,8 @@
     ],
     "stock_options": [],
     "notes": "auto-scraped from ipokiso.com 2026-06-17 +edinet:2026-06-17",
-    "prospectus_url": "https://www.ipokiso.com/company/2026/chatplus.html"
+    "prospectus_url": "https://www.ipokiso.com/company/2026/chatplus.html",
+    "total_shares": 4564800
   },
   {
     "ticker": "589A",
@@ -84,22 +93,26 @@
           {
             "name": "（株）みなみの島",
             "shares": 2400000,
-            "type": "other"
+            "type": "other",
+            "ratio": 54.85
           },
           {
             "name": "南 友介 （社長）",
             "shares": 1600000,
-            "type": "founder"
+            "type": "founder",
+            "ratio": 36.57
           },
           {
             "name": "山崎 拓也",
             "shares": 88000,
-            "type": "other"
+            "type": "other",
+            "ratio": 2.01
           },
           {
             "name": "田島 幸樹",
             "shares": 88000,
-            "type": "other"
+            "type": "other",
+            "ratio": 2.01
           },
           {
             "name": "従業員",
@@ -137,7 +150,8 @@
     ],
     "stock_options": [],
     "notes": "auto-scraped from ipokiso.com 2026-06-17 +edinet:2026-06-17",
-    "prospectus_url": "https://www.ipokiso.com/company/2026/ne-is.html"
+    "prospectus_url": "https://www.ipokiso.com/company/2026/ne-is.html",
+    "total_shares": 4375300
   },
   {
     "ticker": "584A",
@@ -159,12 +173,14 @@
           {
             "name": "小西 享",
             "shares": 556000,
-            "type": "other"
+            "type": "other",
+            "ratio": 8.43
           },
           {
             "name": "オサムニア・モハメッド （社長）",
             "shares": 418000,
-            "type": "founder"
+            "type": "founder",
+            "ratio": 6.33
           },
           {
             "name": "QR２号ファンド投資事業有限責任組合",
@@ -174,7 +190,8 @@
           {
             "name": "ベイレリャン・アンソニー",
             "shares": 100000,
-            "type": "corporate"
+            "type": "corporate",
+            "ratio": 1.52
           },
           {
             "name": "従業員",
@@ -194,7 +211,8 @@
           {
             "name": "（株）福岡銀行",
             "shares": 49956000,
-            "type": "corporate"
+            "type": "corporate",
+            "ratio": 757.1
           },
           {
             "name": "従業員",
@@ -207,7 +225,8 @@
     ],
     "stock_options": [],
     "notes": "auto-scraped from ipokiso.com 2026-06-17 +edinet:2026-06-17 +edinet:2026-06-17",
-    "prospectus_url": "https://www.ipokiso.com/company/2026/linkx.html"
+    "prospectus_url": "https://www.ipokiso.com/company/2026/linkx.html",
+    "total_shares": 6598300
   },
   {
     "ticker": "581A",
@@ -683,17 +702,20 @@
           {
             "name": "JICベンチャー・グロース・ファンド1号 VC",
             "shares": 2021325,
-            "type": "vc"
+            "type": "vc",
+            "ratio": 17.32
           },
           {
             "name": "Eight Roads Ventures Japan II VC",
             "shares": 80000,
-            "type": "vc"
+            "type": "vc",
+            "ratio": 0.69
           },
           {
             "name": "Newton Biocapital VC",
             "shares": 1150,
-            "type": "vc"
+            "type": "vc",
+            "ratio": 0.01
           },
           {
             "name": "栗山規夫（創業者）",
@@ -710,24 +732,28 @@
           {
             "name": "大原薬品工業",
             "shares": 875000,
-            "type": "corporate"
+            "type": "corporate",
+            "ratio": 7.5
           },
           {
             "name": "スペラファーマ",
             "shares": 625000,
-            "type": "corporate"
+            "type": "corporate",
+            "ratio": 5.35
           },
           {
             "name": "藤本裕（取締役）",
             "shares": 440000,
-            "type": "other"
+            "type": "other",
+            "ratio": 3.77
           }
         ]
       }
     ],
     "stock_options": [],
     "notes": "1.5倍解除条件あり（1,320円到達で解除）。株数は目論見書要確認。 +edinet:2026-06-17",
-    "prospectus_url": ""
+    "prospectus_url": "",
+    "total_shares": 11671688
   },
   {
     "ticker": "519A",
@@ -1310,49 +1336,58 @@
           {
             "name": "日本郵船",
             "shares": 550000,
-            "type": "corporate"
+            "type": "corporate",
+            "ratio": 1.71
           },
           {
             "name": "FRONTIVE X LIMITED",
             "shares": 455600,
-            "type": "other"
+            "type": "other",
+            "ratio": 1.42
           },
           {
             "name": "三菱UFJ銀行",
             "shares": 507000,
-            "type": "corporate"
+            "type": "corporate",
+            "ratio": 1.58
           },
           {
             "name": "アキュメン（12.91%）",
             "shares": 500000,
-            "type": "vc"
+            "type": "vc",
+            "ratio": 1.56
           },
           {
             "name": "株式会社FAROUT（12.95%）",
             "shares": 228000,
-            "type": "vc"
+            "type": "vc",
+            "ratio": 0.71
           },
           {
             "name": "伊藤忠商事（2.34%）",
             "shares": 253448,
-            "type": "corporate"
+            "type": "corporate",
+            "ratio": 0.79
           },
           {
             "name": "今治造船（5.69%）",
             "shares": 2184000,
-            "type": "corporate"
+            "type": "corporate",
+            "ratio": 6.8
           },
           {
             "name": "日本瓦斯（2.97%）",
             "shares": 1140000,
-            "type": "corporate"
+            "type": "corporate",
+            "ratio": 3.55
           }
         ]
       }
     ],
     "stock_options": [],
     "notes": "伊藤正裕社長は「継続所有」条件。大型蓄電池・EVチャージ・船舶蓄電システム。 +edinet:2026-06-17 +edinet:2026-06-17",
-    "prospectus_url": ""
+    "prospectus_url": "",
+    "total_shares": 32132000
   },
   {
     "ticker": "472A",

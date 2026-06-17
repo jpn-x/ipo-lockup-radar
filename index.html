@@ -1007,13 +1007,16 @@ function buildBadges(stock) {
 }
 
 function buildHolderRows(holders) {
-  return holders.map(h => `
+  return holders.map(h => {
+    const ratioStr = h.ratio > 0 ? `<span style="font-size:10px;color:var(--text3);margin-left:4px">(${h.ratio}%)</span>` : '';
+    return `
     <div class="holder-row">
       <div class="holder-type-dot dot-${h.type}"></div>
       <div class="holder-name">${h.name}</div>
-      <div class="holder-shares">${fmtShares(h.shares)}</div>
+      <div class="holder-shares">${fmtShares(h.shares)}${ratioStr}</div>
     </div>
-  `).join('');
+  `;
+  }).join('');
 }
 
 function buildLockupItems(stock) {
