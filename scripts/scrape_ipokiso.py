@@ -64,10 +64,11 @@ def extract_basic(soup, year):
     title = soup.find("title")
     if title:
         t = title.get_text()
-        t = re.sub(r"\(?\d{3,4}[A-Za-z]?\)?", "", t)
+        t = re.sub(r"[（(]\d{3,4}[A-Za-z]?[）)]", "", t)  # 「（598A）」形式を丸ごと除去
         t = re.sub(r"のIPO.*", "", t)
         t = re.sub(r"【.*?】", "", t)
-        name = t.strip(" 　[]")
+        t = re.sub(r"[（(]\s*[）)]", "", t)  # 残った空括弧を除去
+        name = t.strip(" 　[]（）()")
 
     # 市場
     market = "東証グロース"

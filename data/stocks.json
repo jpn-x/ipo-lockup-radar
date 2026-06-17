@@ -1,7 +1,7 @@
 [
   {
     "ticker": "598A",
-    "name": "チャットプラス（）",
+    "name": "チャットプラス",
     "ipo_date": "2026-07-15",
     "market": "東証グロース",
     "initial_price": 1050,
@@ -71,7 +71,7 @@
   },
   {
     "ticker": "589A",
-    "name": "ネイス（）",
+    "name": "ネイス",
     "ipo_date": "2026-06-30",
     "market": "東証グロース",
     "initial_price": 1320,
@@ -141,7 +141,7 @@
   },
   {
     "ticker": "584A",
-    "name": "LiNKX[リンクス]（）",
+    "name": "LiNKX",
     "ipo_date": "2026-06-23",
     "market": "東証グロース",
     "initial_price": 790,
@@ -634,7 +634,7 @@
   },
   {
     "ticker": "529A",
-    "name": "レクメド（）",
+    "name": "レクメド",
     "ipo_date": "2026-04-02",
     "market": "東証グロース",
     "initial_price": 1030,
@@ -848,7 +848,7 @@
   },
   {
     "ticker": "509A",
-    "name": "グリーンライト・再エネインフラ投資法人（）",
+    "name": "グリーンライト・再エネインフラ投資法人",
     "ipo_date": "2026-03-10",
     "market": "東証グロース",
     "initial_price": 80000,
