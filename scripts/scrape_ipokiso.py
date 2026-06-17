@@ -175,11 +175,21 @@ def parse_lockups(soup, ipo_date):
                     "holders": [],
                     "days": days
                 }
-            lockups_raw[key]["holders"].append({
-                "name": holder_name,
-                "shares": 0,
-                "type": htype
-            })
+            # 比率を取得
+            ratio = 0.0
+            if ratio_idx is not None and len(cells) > ratio_idx:
+                ratio_text = cells[ratio_idx].get_text(strip=True)
+                m = re.search(r"(\d+\.\d+)", ratio_text)
+                if m:
+                    try:
+                        ratio = float(m.group(1))
+                    except ValueError:
+                        pass
+
+            holder = {"name": holder_name, "shares": 0, "type": htype}
+            if ratio > 0:
+                holder["ratio"] = ratio
+            lockups_raw[key]["holders"].append(holder)
             # VCがいたらラベル更新
             if htype == "vc":
                 d = lockups_raw[key]["days"]

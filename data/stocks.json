@@ -664,9 +664,10 @@
         "shares": 1274200,
         "holders": [
           {
-            "name": "株式会社フューチャーラボ（7.78%）",
+            "name": "株式会社フューチャーラボ",
             "shares": 1274200,
-            "type": "corporate"
+            "type": "corporate",
+            "ratio": 7.78
           }
         ]
       },
@@ -1352,31 +1353,31 @@
             "ratio": 1.58
           },
           {
-            "name": "アキュメン（12.91%）",
+            "name": "アキュメン",
             "shares": 500000,
             "type": "vc",
             "ratio": 1.56
           },
           {
-            "name": "株式会社FAROUT（12.95%）",
+            "name": "株式会社FAROUT",
             "shares": 228000,
             "type": "vc",
             "ratio": 0.71
           },
           {
-            "name": "伊藤忠商事（2.34%）",
+            "name": "伊藤忠商事",
             "shares": 253448,
             "type": "corporate",
             "ratio": 0.79
           },
           {
-            "name": "今治造船（5.69%）",
+            "name": "今治造船",
             "shares": 2184000,
             "type": "corporate",
             "ratio": 6.8
           },
           {
-            "name": "日本瓦斯（2.97%）",
+            "name": "日本瓦斯",
             "shares": 1140000,
             "type": "corporate",
             "ratio": 3.55
