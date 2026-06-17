@@ -141,6 +141,41 @@
   .search-box:focus { border-color: var(--accent); }
   ::placeholder { color: var(--text3); }
 
+  /* ── IPO月タブ ── */
+  .ipo-month-bar {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    margin-bottom: 14px;
+    padding: 10px 14px;
+    background: var(--bg2);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    align-items: center;
+  }
+  .ipo-month-label {
+    font-size: 11px;
+    color: var(--text3);
+    white-space: nowrap;
+    margin-right: 4px;
+  }
+  .month-tab {
+    background: var(--bg3);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 4px 11px;
+    font-size: 12px;
+    cursor: pointer;
+    color: var(--text2);
+    transition: all .15s;
+    white-space: nowrap;
+    font-variant-numeric: tabular-nums;
+  }
+  .month-tab:hover { border-color: var(--accent); color: var(--accent2); }
+  .month-tab.active { background: rgba(0,200,212,.18); border-color: var(--accent); color: var(--accent2); font-weight: 700; }
+  .month-tab.all-tab { color: var(--text3); }
+  .month-tab.all-tab.active { color: var(--accent2); }
+
   /* ── View tabs ── */
   .view-tabs {
     display: flex;
@@ -439,6 +474,9 @@
     </div>
   </div>
 
+  <!-- IPO月タブ -->
+  <div class="ipo-month-bar" id="ipoMonthBar"></div>
+
   <!-- Filters -->
   <div class="filter-bar">
     <span class="filter-label">絞り込み：</span>
@@ -492,6 +530,7 @@
 let stocks = [];
 let currentFilter = 'all';
 let currentView = 'timeline';
+let currentIpoMonth = null; // null=すべて, "2026-01" 形式
 let expandedTicker = null;
 const today = new Date();
 today.setHours(0, 0, 0, 0);
@@ -541,10 +580,30 @@ function hasVC(stock) {
   return stock.lockups.some(l => l.holders.some(h => h.type === 'vc'));
 }
 
+// ── IPO月タブ描画 ──
+function renderIpoMonthBar() {
+  const months = [...new Set(stocks.map(s => s.ipo_date.slice(0,7)))].sort().reverse();
+  const bar = document.getElementById('ipoMonthBar');
+  bar.innerHTML = `<span class="ipo-month-label">上場月：</span>` +
+    `<div class="month-tab all-tab ${currentIpoMonth === null ? 'active' : ''}" onclick="setIpoMonth(null)">すべて</div>` +
+    months.map(m => {
+      const [y, mo] = m.split('-');
+      const label = `${y}/${parseInt(mo)}`;
+      return `<div class="month-tab ${currentIpoMonth === m ? 'active' : ''}" onclick="setIpoMonth('${m}')">${label}</div>`;
+    }).join('');
+}
+
+function setIpoMonth(m) {
+  currentIpoMonth = m;
+  renderIpoMonthBar();
+  renderAll();
+}
+
 // ── Filter logic ──
 function applyFilters() {
   const q = document.getElementById('searchBox').value.toLowerCase();
   return stocks.filter(s => {
+    if (currentIpoMonth && s.ipo_date.slice(0,7) !== currentIpoMonth) return false;
     const earliest = earliestLockup(s);
     const days = daysUntil(earliest.release_date);
     const matchSearch = !q || s.ticker.toLowerCase().includes(q) || s.name.toLowerCase().includes(q);
@@ -560,6 +619,7 @@ function applyFilters() {
 
 // ── Stats ──
 function renderStats() {
+  renderIpoMonthBar();
   const s30 = stocks.filter(s => { const d = daysUntil(earliestLockup(s).release_date); return d >= 0 && d <= 30; }).length;
   const s90 = stocks.filter(s => { const d = daysUntil(earliestLockup(s).release_date); return d >= 0 && d <= 90; }).length;
   const soCount = stocks.filter(has1YenSO).length;
