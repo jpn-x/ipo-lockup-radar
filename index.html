@@ -733,7 +733,7 @@ function renderTimeline(filtered) {
     groups[key].push(s);
   });
 
-  const sortedKeys = Object.keys(groups).sort();
+  const sortedKeys = Object.keys(groups).sort().reverse();
   const nowKey = `${today.getFullYear()}-${String(today.getMonth()+1).padStart(2,'0')}`;
 
   const html = sortedKeys.map(key => {
@@ -759,7 +759,7 @@ function renderList(filtered) {
   const sorted = [...filtered].sort((a, b) => {
     const da = new Date(earliestLockup(a).release_date);
     const db = new Date(earliestLockup(b).release_date);
-    return da - db;
+    return db - da;
   });
   return sorted.map(buildCard).join('') || '<div class="empty">該当銘柄がありません</div>';
 }
@@ -810,7 +810,7 @@ async function init() {
     const res = await fetch('./data/stocks.json');
     stocks = await res.json();
     // Sort by earliest lockup date
-    stocks.sort((a, b) => new Date(earliestLockup(a).release_date) - new Date(earliestLockup(b).release_date));
+    stocks.sort((a, b) => new Date(earliestLockup(b).release_date) - new Date(earliestLockup(a).release_date));
   } catch(e) {
     console.error('stocks.json の読み込みに失敗:', e);
   }
