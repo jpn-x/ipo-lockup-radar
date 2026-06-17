@@ -1,0 +1,56 @@
+name: Update IPO Lockup Data
+
+on:
+  schedule:
+    - cron: '0 21 * * 0'   # 毎週月曜 06:00 JST (日曜21:00 UTC)
+  workflow_dispatch:
+
+jobs:
+  scrape-and-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Scrape ipokabu.net
+        run: python scripts/scrape_ipokabu.py
+
+      - name: Check for changes
+        id: diff
+        run: |
+          git diff --quiet data/stocks.json && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Commit updated data
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/stocks.json
+          git commit -m "data: auto-update IPO lockup data $(date +'%Y-%m-%d')"
+          git push
+
+      - name: Deploy to GitHub Pages
+        if: steps.diff.outputs.changed == 'true'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+
+      - name: Deploy Pages
+        if: steps.diff.outputs.changed == 'true'
+        uses: actions/deploy-pages@v4
