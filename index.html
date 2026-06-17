@@ -828,13 +828,14 @@ function buildCountdownRows() {
   for (const s of stocks) {
     for (const lk of s.lockups) {
       events.push({
-        ticker:       s.ticker,
-        name:         s.name,
-        market:       s.market,
-        release_date: lk.release_date,
-        label:        lk.label,
-        shares:       lk.shares,
-        holders:      lk.holders,
+        ticker:         s.ticker,
+        name:           s.name,
+        market:         s.market,
+        release_date:   lk.release_date,
+        label:          lk.label,
+        shares:         lk.shares,
+        holders:        lk.holders,
+        stock_options:  s.stock_options,
       });
     }
   }
@@ -842,6 +843,22 @@ function buildCountdownRows() {
   events.sort((a, b) => new Date(a.release_date) - new Date(b.release_date));
   return events;
 }
+
+function buildCdTypeDots(e, days) {
+  const types = new Set(e.holders.map(h => h.type));
+  const has1yen = (e.stock_options || []).some(so => so.strike_price === 1);
+  const items = [];
+  if (types.has('founder'))   items.push(`<span style="display:inline-flex;align-items:center;gap:3px;font-size:10px;color:#bfdbfe"><span style="width:7px;height:7px;border-radius:50%;background:var(--founder);display:inline-block"></span>創業者</span>`);
+  if (types.has('vc'))        items.push(`<span style="display:inline-flex;align-items:center;gap:3px;font-size:10px;color:#bfdbfe"><span style="width:7px;height:7px;border-radius:50%;background:var(--vc);display:inline-block"></span>VC/投資家</span>`);
+  if (types.has('corporate')) items.push(`<span style="display:inline-flex;align-items:center;gap:3px;font-size:10px;color:#bfdbfe"><span style="width:7px;height:7px;border-radius:50%;background:var(--corporate);display:inline-block"></span>事業会社</span>`);
+  if (types.has('other'))     items.push(`<span style="display:inline-flex;align-items:center;gap:3px;font-size:10px;color:#bfdbfe"><span style="width:7px;height:7px;border-radius:50%;background:var(--other);display:inline-block"></span>その他</span>`);
+  if (has1yen)                items.push(`<span style="display:inline-flex;align-items:center;gap:3px;font-size:10px;color:#bfdbfe"><span style="width:7px;height:7px;border-radius:50%;background:var(--success);display:inline-block"></span>1円SO</span>`);
+  if (!isPastDays(days) && days <= 30) items.push(`<span style="display:inline-flex;align-items:center;gap:3px;font-size:10px;color:#f87171"><span style="width:7px;height:7px;border-radius:50%;background:var(--danger);display:inline-block"></span>30日以内</span>`);
+  else if (!isPastDays(days) && days <= 90) items.push(`<span style="display:inline-flex;align-items:center;gap:3px;font-size:10px;color:#fbbf24"><span style="width:7px;height:7px;border-radius:50%;background:var(--warn);display:inline-block"></span>90日以内</span>`);
+  if (items.length === 0) return '';
+  return `<div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:4px">${items.join('')}</div>`;
+}
+function isPastDays(days) { return days < 0; }
 
 function renderCountdown() {
   const events  = buildCountdownRows();
@@ -883,6 +900,7 @@ function renderCountdown() {
         <div>
           <div class="cd-name">${e.name}</div>
           <div class="cd-label">${e.label} / ${sharesStr}</div>
+          ${buildCdTypeDots(e, days)}
         </div>
         <div>
           <div class="cd-date">${dateStr}</div>
