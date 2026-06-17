@@ -292,6 +292,28 @@ def main():
             print(f"manual({ticker}) skip")
             continue
 
+        # EDINETで補完済みのshares/ratio/total_sharesを引き継ぐ
+        if not is_new:
+            ex = existing_stock
+            # total_shares を保持
+            if ex.get("total_shares"):
+                stock["total_shares"] = ex["total_shares"]
+            # ホルダーの shares/ratio をマージ（名前で照合）
+            ex_holders = {
+                h["name"]: h
+                for lk in ex.get("lockups", [])
+                for h in lk.get("holders", [])
+            }
+            for lk in stock.get("lockups", []):
+                for h in lk.get("holders", []):
+                    prev = ex_holders.get(h["name"])
+                    if prev:
+                        if prev.get("shares", 0) > 0:
+                            h["shares"] = prev["shares"]
+                        if prev.get("ratio", 0) > 0:
+                            h["ratio"] = prev["ratio"]
+                lk["shares"] = sum(h.get("shares", 0) for h in lk.get("holders", []))
+
         ex_map[ticker] = stock
         if is_new:
             added += 1
