@@ -21,7 +21,7 @@
             "name": "大江 繭子 （社長）",
             "shares": 1335000,
             "type": "founder",
-            "ratio": 29.25,
+            "ratio": 29.27,
             "tekiyo": "代表取締役社長"
           },
           {
@@ -35,7 +35,7 @@
             "name": "赤松 哲典",
             "shares": 314000,
             "type": "other",
-            "ratio": 6.88,
+            "ratio": 6.89,
             "tekiyo": "取締役COO"
           },
           {
@@ -118,14 +118,14 @@
             "name": "（株）みなみの島",
             "shares": 2400000,
             "type": "other",
-            "ratio": 54.85,
+            "ratio": 54.91,
             "tekiyo": "代表取締役社長の資産管理会社"
           },
           {
             "name": "南 友介 （社長）",
             "shares": 1600000,
             "type": "founder",
-            "ratio": 36.57,
+            "ratio": 36.61,
             "tekiyo": "代表取締役社長"
           },
           {
@@ -246,7 +246,7 @@
       {
         "label": "VC・主要株主（180日）",
         "release_date": "2026-12-20",
-        "shares": 57343025,
+        "shares": 7441325,
         "holders": [
           {
             "name": "小西 祐一",
@@ -259,7 +259,7 @@
             "name": "小西 享",
             "shares": 556000,
             "type": "other",
-            "ratio": 8.43,
+            "ratio": 7.78,
             "tekiyo": "代表取締役会長"
           },
           {
@@ -300,9 +300,9 @@
           },
           {
             "name": "（株）福岡銀行",
-            "shares": 49956000,
+            "shares": 54300,
             "type": "corporate",
-            "ratio": 757.1,
+            "ratio": 0.76,
             "tekiyo": "資本業務提携先の子会社"
           },
           {
@@ -1110,83 +1110,73 @@
   },
   {
     "ticker": "549A",
-    "name": "ヒトトヒトホールディングス",
+    "name": "ヒトトヒトHD",
     "ipo_date": "2026-04-07",
     "market": "東証スタンダード",
     "initial_price": 430,
     "lockups": [
       {
-        "label": "VC・主要株主（90日）",
-        "release_date": "2026-07-06",
-        "shares": 0,
+        "label": "VC・主要株主（180日）",
+        "release_date": "2026-07-05",
+        "shares": 1212098489,
         "holders": [
           {
-            "name": "J-GIA１号投資事業有限責任組合",
-            "shares": 0,
-            "type": "vc",
-            "ratio": 80.98
-          }
-        ],
-        "days": 90
-      },
-      {
-        "label": "主要株主（180日）",
-        "release_date": "2026-10-04",
-        "shares": 14298400,
-        "holders": [
-          {
-            "name": "（株）トリプルトレジャーズ",
-            "shares": 0,
-            "type": "other",
-            "ratio": 7.18
+            "name": "J-GIA１号投資事業有限責任組合VC",
+            "shares": 1184375080,
+            "type": "vc"
           },
           {
-            "name": "三井不動産（株）",
+            "name": "株式会社トリプルトレジャーズ代表取締役社長が議決権の過半数を所有する会社",
+            "shares": 10500007,
+            "type": "founder"
+          },
+          {
+            "name": "三井不動産株式会社",
             "shares": 438750,
             "type": "other",
             "ratio": 3.0,
             "tekiyo": "取引先"
           },
           {
-            "name": "松本 哲裕 （社長）",
+            "name": "松本 哲裕代表取締役",
             "shares": 350000,
             "type": "founder",
             "ratio": 2.39,
             "tekiyo": "代表取締役社長兼ｸﾞﾙｰﾌﾟCEO"
           },
           {
-            "name": "東洋テック（株）",
-            "shares": 0,
+            "name": "東洋テック株式会社",
+            "shares": 1462501,
             "type": "other"
           },
           {
-            "name": "カルチュア・コンビニエンス・クラブ（株）",
-            "shares": 0,
+            "name": "カルチュア・コンビニエンス・ クラブ株式会社",
+            "shares": 1462501,
             "type": "other"
           },
           {
-            "name": "田中 満",
+            "name": "田中 満取締役",
             "shares": 102900,
             "type": "other",
             "ratio": 0.7,
             "tekiyo": "取締役兼ｸﾞﾙｰﾌﾟCOO"
           },
           {
-            "name": "中田 哲志",
+            "name": "中田 哲志子会社の取締役",
             "shares": 73500,
             "type": "other",
             "ratio": 0.5,
             "tekiyo": "子会社の取締役"
           },
           {
-            "name": "根本 輝夫",
+            "name": "根本 輝夫子会社の取締役",
             "shares": 73500,
             "type": "other",
             "ratio": 0.5,
             "tekiyo": "子会社の取締役"
           },
           {
-            "name": "大山 哲也",
+            "name": "大山 哲也子会社の取締役",
             "shares": 73500,
             "type": "other",
             "ratio": 0.5,
@@ -1220,13 +1210,12 @@
             "ratio": 1.0,
             "tekiyo": "取引先"
           }
-        ],
-        "days": 180
+        ]
       }
     ],
     "stock_options": [],
-    "notes": "auto-scraped from ipokiso.com 2026-06-18",
-    "prospectus_url": "https://www.ipokiso.com/company/2026/hitotohito-hd.html"
+    "notes": "auto-scraped from ipokabu.net",
+    "prospectus_url": ""
   },
   {
     "ticker": "548A",
@@ -1829,7 +1818,7 @@
             "name": "大原薬品工業",
             "shares": 875000,
             "type": "corporate",
-            "ratio": 7.5,
+            "ratio": 5.55,
             "tekiyo": "ﾗｲｾﾝｽ･共同開発先"
           },
           {
@@ -1842,7 +1831,7 @@
             "name": "藤本裕（取締役）",
             "shares": 440000,
             "type": "other",
-            "ratio": 3.77,
+            "ratio": 2.79,
             "tekiyo": "取締役最高財務責任者"
           }
         ]
@@ -2403,7 +2392,7 @@
       {
         "label": "VC・主要株主（90日）",
         "release_date": "2026-03-23",
-        "shares": 241279027,
+        "shares": 189409579,
         "holders": [
           {
             "name": "株式会社エールユー代表取締役の資産管理会社",
@@ -2417,14 +2406,14 @@
           },
           {
             "name": "栗山 規夫代表取締役",
-            "shares": 48745010,
+            "shares": 487450,
             "type": "founder",
             "ratio": 10.37,
             "tekiyo": "代表取締役Founder"
           },
           {
             "name": "柴田 大介代表取締役",
-            "shares": 4013208,
+            "shares": 401320,
             "type": "founder",
             "ratio": 8.54,
             "tekiyo": "代表取締役CEO"
@@ -2768,7 +2757,7 @@
       {
         "label": "主要株主（180日）",
         "release_date": "2026-06-19",
-        "shares": 243590391,
+        "shares": 159764358,
         "holders": [
           {
             "name": "株式会社ストーン取締役の資産管理会社",
@@ -2782,28 +2771,28 @@
           },
           {
             "name": "西村賢治代表取締役",
-            "shares": 27900010,
+            "shares": 279000,
             "type": "founder",
             "ratio": 10.0,
             "tekiyo": "代表取締役社長"
           },
           {
             "name": "長谷川新里取締役",
-            "shares": 27900010,
+            "shares": 279000,
             "type": "other",
             "ratio": 10.0,
             "tekiyo": "取締役"
           },
           {
             "name": "白木孝一取締役",
-            "shares": 27900010,
+            "shares": 279000,
             "type": "other",
             "ratio": 10.0,
             "tekiyo": "取締役"
           },
           {
             "name": "井上剛取締役",
-            "shares": 770002,
+            "shares": 77000,
             "type": "other",
             "ratio": 2.8,
             "tekiyo": "取締役"
@@ -2825,7 +2814,7 @@
           },
           {
             "name": "石川敬啓取締役",
-            "shares": 300001,
+            "shares": 30000,
             "type": "other",
             "ratio": 1.1,
             "tekiyo": "取締役"
@@ -3352,7 +3341,7 @@
       {
         "label": "主要株主（180日）",
         "release_date": "2026-06-14",
-        "shares": 80604429898,
+        "shares": 80600040598,
         "holders": [
           {
             "name": "SBI地銀ホールディングス株式会社",
@@ -3366,14 +3355,14 @@
           },
           {
             "name": "川島 克哉代表取締役",
-            "shares": 2169000,
+            "shares": 216900,
             "type": "founder",
             "ratio": 0.02,
             "tekiyo": "代表取締役社長最高経営責任者"
           },
           {
             "name": "畑尾 勝巳取締役",
-            "shares": 868000,
+            "shares": 86800,
             "type": "other",
             "ratio": 0.01,
             "tekiyo": "取締役専務執行役員社長補佐"
@@ -3390,25 +3379,25 @@
           },
           {
             "name": "平沢 晃執行役員",
-            "shares": 460000,
+            "shares": 46000,
             "type": "other",
             "tekiyo": "執行役員など"
           },
           {
             "name": "鍵田 裕之執行役員",
-            "shares": 460000,
+            "shares": 46000,
             "type": "other",
             "tekiyo": "執行役員など"
           },
           {
             "name": "薦田 貴久執行役員",
-            "shares": 460000,
+            "shares": 46000,
             "type": "other",
             "tekiyo": "執行役員など"
           },
           {
             "name": "牧角 司執行役員",
-            "shares": 460000,
+            "shares": 46000,
             "type": "other",
             "tekiyo": "執行役員など"
           },
@@ -3806,7 +3795,7 @@
       {
         "label": "VC・主要株主（180日）",
         "release_date": "2026-06-02",
-        "shares": 555388215,
+        "shares": 511337781,
         "holders": [
           {
             "name": "株式会社ＪＣＣ代表取締役の資産管理会社",
@@ -3815,14 +3804,14 @@
           },
           {
             "name": "平石 智紀執行役員",
-            "shares": 16650006,
+            "shares": 1665000,
             "type": "other",
             "ratio": 6.06,
             "tekiyo": "執行役員"
           },
           {
             "name": "松井 宏記",
-            "shares": 11369204,
+            "shares": 1136920,
             "type": "other",
             "ratio": 4.14,
             "tekiyo": "特別利害関係者など"
@@ -3834,7 +3823,7 @@
           },
           {
             "name": "藤井 優紀従業員",
-            "shares": 6373152,
+            "shares": 637315,
             "type": "other",
             "ratio": 2.32,
             "tekiyo": "従業員"
@@ -3851,21 +3840,21 @@
           },
           {
             "name": "松岡 司従業員",
-            "shares": 4952561,
+            "shares": 495256,
             "type": "other",
             "ratio": 1.8,
             "tekiyo": "従業員"
           },
           {
             "name": "柴原 祐喜代表取締役",
-            "shares": 4800001,
+            "shares": 480000,
             "type": "founder",
             "ratio": 1.75,
             "tekiyo": "代表取締役CEO"
           },
           {
             "name": "大浦 学代表取締役",
-            "shares": 4800001,
+            "shares": 480000,
             "type": "founder",
             "ratio": 1.75,
             "tekiyo": "代表取締役COO"
@@ -4009,32 +3998,32 @@
       {
         "label": "主要株主（180日）",
         "release_date": "2026-05-25",
-        "shares": 2024796473,
+        "shares": 29316382,
         "holders": [
           {
             "name": "株式会社NIGOLD",
-            "shares": 980000043,
+            "shares": 9800000,
             "type": "other",
             "ratio": 43.42,
             "tekiyo": "創業者の100％出資会社"
           },
           {
             "name": "Pharrell Williams",
-            "shares": 580000025,
+            "shares": 5800000,
             "type": "other",
             "ratio": 25.7,
             "tekiyo": "アドバイザー"
           },
           {
             "name": "長尾 智明",
-            "shares": 440000019,
+            "shares": 4400000,
             "type": "other",
             "ratio": 19.49,
             "tekiyo": "外部協力者、元役員、創業者"
           },
           {
             "name": "松沼 礼代表取締役",
-            "shares": 6600002,
+            "shares": 660000,
             "type": "founder",
             "ratio": 2.92,
             "tekiyo": "代表取締役CEO兼COO"
@@ -4046,21 +4035,21 @@
           },
           {
             "name": "鳩山 玲人取締役",
-            "shares": 6600002,
+            "shares": 660000,
             "type": "other",
             "ratio": 2.92,
             "tekiyo": "取締役CSO"
           },
           {
             "name": "Brian Donnelly",
-            "shares": 2000000,
+            "shares": 200000,
             "type": "other",
             "ratio": 0.89,
             "tekiyo": "外部協力者"
           },
           {
             "name": "田中 慧",
-            "shares": 2000000,
+            "shares": 200000,
             "type": "other",
             "ratio": 0.89,
             "tekiyo": "外部協力者"
@@ -4113,7 +4102,7 @@
       {
         "label": "主要株主（180日）",
         "release_date": "2026-05-19",
-        "shares": 4018800093,
+        "shares": 3225000061,
         "holders": [
           {
             "name": "株式会社グーニーズ代表取締役の資産管理会社",
@@ -4122,35 +4111,35 @@
           },
           {
             "name": "前田 知紘代表取締役",
-            "shares": 660000010,
+            "shares": 6600000,
             "type": "founder",
             "ratio": 10.48,
             "tekiyo": "代表取締役社長"
           },
           {
             "name": "佐々木 耕平取締役",
-            "shares": 42000006,
+            "shares": 4200000,
             "type": "other",
             "ratio": 6.67,
             "tekiyo": "専務取締役"
           },
           {
             "name": "加藤 博己執行役員",
-            "shares": 42000006,
+            "shares": 4200000,
             "type": "other",
             "ratio": 6.67,
             "tekiyo": "執行役員"
           },
           {
             "name": "小松 亮太執行役員",
-            "shares": 42000006,
+            "shares": 4200000,
             "type": "other",
             "ratio": 6.67,
             "tekiyo": "執行役員"
           },
           {
             "name": "河野 智晃取締役",
-            "shares": 30000004,
+            "shares": 3000000,
             "type": "other",
             "ratio": 4.76,
             "tekiyo": "専務取締役"
@@ -4514,7 +4503,7 @@
       {
         "label": "VC・主要株主（180日）",
         "release_date": "2026-02-20",
-        "shares": 873047669,
+        "shares": 338926434,
         "holders": [
           {
             "name": "三井住友カード株式会社資本業務提携先",
@@ -4523,21 +4512,21 @@
           },
           {
             "name": "株式会社三井住友銀行資本業務提携先",
-            "shares": 270320012,
+            "shares": 2703200,
             "type": "corporate",
             "ratio": 12.52,
             "tekiyo": "資本業務提携先"
           },
           {
             "name": "丸山 弘毅代表取締役",
-            "shares": 243120011,
+            "shares": 2431200,
             "type": "founder",
             "ratio": 11.26,
             "tekiyo": "代表取締役社長CEOなど"
           },
           {
             "name": "来田 武則取締役",
-            "shares": 21316009,
+            "shares": 2131600,
             "type": "other",
             "ratio": 9.87,
             "tekiyo": "取締役執行役員副社長COOなど"
@@ -4559,7 +4548,7 @@
           },
           {
             "name": "株式会社りそな銀行",
-            "shares": 7368003,
+            "shares": 736800,
             "type": "corporate",
             "ratio": 3.41,
             "tekiyo": "特別利害関係者など"
@@ -4633,11 +4622,11 @@
       {
         "label": "VC・主要株主（180日）",
         "release_date": "2026-04-20",
-        "shares": 1213065847,
+        "shares": 417457784,
         "holders": [
           {
             "name": "林 界宏代表取締役",
-            "shares": 794999048,
+            "shares": 7949990,
             "type": "founder",
             "ratio": 48.43,
             "tekiyo": "代表取締役社長"
@@ -4659,7 +4648,7 @@
           },
           {
             "name": "東 明浩",
-            "shares": 7350004,
+            "shares": 735000,
             "type": "other",
             "ratio": 4.47,
             "tekiyo": "特別利害関係者など"
@@ -4681,14 +4670,14 @@
           },
           {
             "name": "土谷 祐三郎従業員",
-            "shares": 1720001,
+            "shares": 172000,
             "type": "other",
             "ratio": 1.04,
             "tekiyo": "執行役員"
           },
           {
             "name": "廖 長健取締役",
-            "shares": 440000,
+            "shares": 44000,
             "type": "other",
             "ratio": 0.26,
             "tekiyo": "取締役"
@@ -4752,11 +4741,11 @@
       {
         "label": "VC・主要株主（180日）",
         "release_date": "2026-01-14",
-        "shares": 778198098,
+        "shares": 182218022,
         "holders": [
           {
             "name": "福富 七海取締役会長",
-            "shares": 515200065,
+            "shares": 5152000,
             "type": "other",
             "ratio": 65.9,
             "tekiyo": "代表取締役会長"
@@ -4768,7 +4757,7 @@
           },
           {
             "name": "株式会社日本政策投資銀行",
-            "shares": 86800011,
+            "shares": 868000,
             "type": "corporate",
             "ratio": 11.1,
             "tekiyo": "特別利害関係者など"
@@ -4809,7 +4798,7 @@
       {
         "label": "VC・主要株主（180日）",
         "release_date": "2026-04-13",
-        "shares": 7025023979,
+        "shares": 6776582688,
         "holders": [
           {
             "name": "TOPPANホールディングス株式会社親会社",
@@ -4823,28 +4812,28 @@
           },
           {
             "name": "Infinity Gamma Ice L.P.PE",
-            "shares": 82808228,
+            "shares": 8280822,
             "type": "vc",
             "ratio": 8.5,
             "tekiyo": "投資業(ﾌｧﾝﾄﾞ)"
           },
           {
             "name": "Initiative Delta Ice L.P.PE",
-            "shares": 71747007,
+            "shares": 7174700,
             "type": "vc",
             "ratio": 7.36,
             "tekiyo": "投資業(ﾌｧﾝﾄﾞ)"
           },
           {
             "name": "Insight Beta Ice L.P.PE",
-            "shares": 65062126,
+            "shares": 6506212,
             "type": "vc",
             "ratio": 6.68,
             "tekiyo": "投資業(ﾌｧﾝﾄﾞ)"
           },
           {
             "name": "Innovation Alpha Ice L.P.PE",
-            "shares": 55078515,
+            "shares": 5507851,
             "type": "vc",
             "ratio": 5.65,
             "tekiyo": "投資業(ﾌｧﾝﾄﾞ)"
@@ -4861,14 +4850,14 @@
           },
           {
             "name": "Michael G. Hadsell取締役",
-            "shares": 850000,
+            "shares": 85000,
             "type": "other",
             "ratio": 0.09,
             "tekiyo": "取締役執行役員COO"
           },
           {
             "name": "糸雅 誠一取締役",
-            "shares": 500000,
+            "shares": 50000,
             "type": "other",
             "ratio": 0.05,
             "tekiyo": "取締役執行役員CFO"
@@ -4918,39 +4907,39 @@
       {
         "label": "主要株主（180日）",
         "release_date": "2026-04-12",
-        "shares": 1267254853,
+        "shares": 28291852,
         "holders": [
           {
             "name": "株式会社大塚商会",
-            "shares": 1200000036,
+            "shares": 12000000,
             "type": "other",
             "ratio": 36.85,
             "tekiyo": "その他の関係会社"
           },
           {
             "name": "福井 資",
-            "shares": 13725254,
+            "shares": 1372525,
             "type": "other",
             "ratio": 4.22,
             "tekiyo": "元役員"
           },
           {
             "name": "福井 靖",
-            "shares": 11928253,
+            "shares": 1192825,
             "type": "other",
             "ratio": 3.66,
             "tekiyo": "元役員"
           },
           {
             "name": "福井 務",
-            "shares": 10985503,
+            "shares": 1098550,
             "type": "other",
             "ratio": 3.37,
             "tekiyo": "元役員"
           },
           {
             "name": "株式会社みずほ銀行",
-            "shares": 8440002,
+            "shares": 844000,
             "type": "corporate",
             "ratio": 2.59,
             "tekiyo": "主要取引金融機関"
@@ -4962,21 +4951,21 @@
           },
           {
             "name": "勝又 祐一郎",
-            "shares": 4005001,
+            "shares": 400500,
             "type": "other",
             "ratio": 1.23,
             "tekiyo": "元従業員"
           },
           {
             "name": "株式会社三井住友銀行",
-            "shares": 3900001,
+            "shares": 390000,
             "type": "corporate",
             "ratio": 1.2,
             "tekiyo": "主要取引金融機関"
           },
           {
             "name": "寺西 八",
-            "shares": 3641501,
+            "shares": 364150,
             "type": "other",
             "ratio": 1.12,
             "tekiyo": "特別利害関係者など"
@@ -5017,7 +5006,7 @@
       {
         "label": "VC・主要株主（180日）",
         "release_date": "2026-04-05",
-        "shares": 1225247286,
+        "shares": 1216376259,
         "holders": [
           {
             "name": "丸の内キャピタル第二号投資事業有限責任組合PE",
@@ -5031,7 +5020,7 @@
           },
           {
             "name": "東 稔哉代表取締役社長",
-            "shares": 8208696,
+            "shares": 820869,
             "type": "founder",
             "ratio": 6.17,
             "tekiyo": "代表取締役社長など"
@@ -5043,14 +5032,14 @@
           },
           {
             "name": "Marunouchi Global Fund II L.P.PE",
-            "shares": 1017000,
+            "shares": 101700,
             "type": "vc",
             "ratio": 0.76,
             "tekiyo": "投資業(ﾌｧﾝﾄﾞ)"
           },
           {
             "name": "稲葉 好紀子会社の取締役",
-            "shares": 631000,
+            "shares": 63100,
             "type": "other",
             "ratio": 0.47,
             "tekiyo": "子会社の取締役"
@@ -5183,11 +5172,11 @@
       {
         "label": "VC・主要株主（90日）",
         "release_date": "2026-01-04",
-        "shares": 128417783,
+        "shares": 57217399,
         "holders": [
           {
             "name": "木暮 康雄代表取締役",
-            "shares": 70624029,
+            "shares": 706240,
             "type": "founder",
             "ratio": 29.29,
             "tekiyo": "代表取締役"
@@ -5204,7 +5193,7 @@
           },
           {
             "name": "田中 祥太郎取締役",
-            "shares": 1025104,
+            "shares": 102510,
             "type": "other",
             "ratio": 4.25,
             "tekiyo": "取締役COO"
@@ -5231,7 +5220,7 @@
           },
           {
             "name": "木暮 正彦血族",
-            "shares": 400001,
+            "shares": 40000,
             "type": "other",
             "ratio": 1.66,
             "tekiyo": "代表取締役の血族"
@@ -5314,11 +5303,11 @@
       {
         "label": "主要株主（180日）",
         "release_date": "2026-04-03",
-        "shares": 682465097,
+        "shares": 253435030,
         "holders": [
           {
             "name": "神川 貴実彦代表取締役社長",
-            "shares": 280000034,
+            "shares": 2800000,
             "type": "founder",
             "ratio": 34.33,
             "tekiyo": "代表取締役社長"
@@ -5330,28 +5319,28 @@
           },
           {
             "name": "神川 宏子代表取締役の配偶者",
-            "shares": 140000017,
+            "shares": 1400000,
             "type": "founder",
             "ratio": 17.17,
             "tekiyo": "代表取締役の配偶者"
           },
           {
             "name": "神川 志悠血族",
-            "shares": 7000008,
+            "shares": 700000,
             "type": "other",
             "ratio": 8.58,
             "tekiyo": "代表取締役の血族"
           },
           {
             "name": "神川 芽伊血族",
-            "shares": 7000008,
+            "shares": 700000,
             "type": "other",
             "ratio": 8.58,
             "tekiyo": "代表取締役の血族"
           },
           {
             "name": "西田 和雅取締役",
-            "shares": 700000,
+            "shares": 70000,
             "type": "other",
             "ratio": 0.86,
             "tekiyo": "取締役"
@@ -5442,39 +5431,39 @@
       {
         "label": "VC・主要株主（180日）",
         "release_date": "2026-03-31",
-        "shares": 1277220088,
+        "shares": 62290218,
         "holders": [
           {
             "name": "NIC Fund II Cayman, LP投資ファンド",
-            "shares": 347380015,
+            "shares": 3473800,
             "type": "vc",
             "ratio": 15.86,
             "tekiyo": "投資業(ﾌｧﾝﾄﾞ)"
           },
           {
             "name": "Cerasus Fund II Cayman, LP投資ファンド",
-            "shares": 292360013,
+            "shares": 2923600,
             "type": "vc",
             "ratio": 13.35,
             "tekiyo": "投資業(ﾌｧﾝﾄﾞ)"
           },
           {
             "name": "Wisteria Fund II Cayman, LP投資ファンド",
-            "shares": 282800012,
+            "shares": 2828000,
             "type": "vc",
             "ratio": 12.91,
             "tekiyo": "投資業(ﾌｧﾝﾄﾞ)"
           },
           {
             "name": "Camellia Fund II Cayman, LP投資ファンド",
-            "shares": 266480012,
+            "shares": 2664800,
             "type": "vc",
             "ratio": 12.17,
             "tekiyo": "投資業(ﾌｧﾝﾄﾞ)"
           },
           {
             "name": "株式会社小学館",
-            "shares": 20000009,
+            "shares": 2000000,
             "type": "other",
             "ratio": 9.13,
             "tekiyo": "取引先"
@@ -5491,14 +5480,14 @@
           },
           {
             "name": "永田 勝治代表取締役",
-            "shares": 12000005,
+            "shares": 1200000,
             "type": "founder",
             "ratio": 5.48,
             "tekiyo": "代表取締役社長"
           },
           {
             "name": "OSK合同会社",
-            "shares": 10000004,
+            "shares": 1000000,
             "type": "other",
             "ratio": 4.57,
             "tekiyo": "創業者の資産管理会社"
@@ -5546,7 +5535,7 @@
       {
         "label": "VC・主要株主（180日）",
         "release_date": "2026-03-24",
-        "shares": 953527798,
+        "shares": 949076394,
         "holders": [
           {
             "name": "エンデバー・ユナイテッド2号投資事業有限責任組合VC",
@@ -5555,49 +5544,49 @@
           },
           {
             "name": "小山 和夫血族",
-            "shares": 3077003,
+            "shares": 307700,
             "type": "other",
             "ratio": 3.11,
             "tekiyo": "代表取締役の血族"
           },
           {
             "name": "小山 剛代表取締役社長",
-            "shares": 1600001,
+            "shares": 160000,
             "type": "founder",
             "ratio": 1.62,
             "tekiyo": "代表取締役社長など"
           },
           {
             "name": "小野 貞人子会社の取締役",
-            "shares": 100000,
+            "shares": 10000,
             "type": "other",
             "ratio": 0.1,
             "tekiyo": "子会社の代表取締役"
           },
           {
             "name": "植村 賢二取締役",
-            "shares": 80000,
+            "shares": 8000,
             "type": "other",
             "ratio": 0.08,
             "tekiyo": "取締役など"
           },
           {
             "name": "井上 孝取締役",
-            "shares": 30000,
+            "shares": 3000,
             "type": "other",
             "ratio": 0.03,
             "tekiyo": "取締役など"
           },
           {
             "name": "黒沼 理子会社の取締役",
-            "shares": 24000,
+            "shares": 2400,
             "type": "other",
             "ratio": 0.02,
             "tekiyo": "子会社の取締役"
           },
           {
             "name": "植村 卓馬子会社の取締役",
-            "shares": 24000,
+            "shares": 2400,
             "type": "other",
             "ratio": 0.02,
             "tekiyo": "子会社の取締役、取締役の血族"
@@ -5611,7 +5600,7 @@
           },
           {
             "name": "大浦 和久取締役",
-            "shares": 11000,
+            "shares": 1100,
             "type": "other",
             "ratio": 0.01,
             "tekiyo": "取締役など"
@@ -5783,7 +5772,7 @@
       {
         "label": "VC・主要株主（180日）",
         "release_date": "2026-03-23",
-        "shares": 3312317889,
+        "shares": 3297715388,
         "holders": [
           {
             "name": "野村キャピタル・パートナーズ第一号投資事業有限責任組合VC",
@@ -5807,14 +5796,14 @@
           },
           {
             "name": "村野 一",
-            "shares": 4824001,
+            "shares": 482400,
             "type": "other",
             "ratio": 1.08,
             "tekiyo": "代表取締役社長兼執行役員CEO"
           },
           {
             "name": "Patric Dougan",
-            "shares": 4402000,
+            "shares": 440200,
             "type": "other",
             "ratio": 0.98,
             "tekiyo": "専務執行役員"
@@ -5826,21 +5815,21 @@
           },
           {
             "name": "嘉手苅 義男",
-            "shares": 2824000,
+            "shares": 282400,
             "type": "other",
             "ratio": 0.63,
             "tekiyo": "元取締役"
           },
           {
             "name": "吹田 龍平太",
-            "shares": 2330000,
+            "shares": 233000,
             "type": "other",
             "ratio": 0.52,
             "tekiyo": "元取締役"
           },
           {
             "name": "亀田 浩",
-            "shares": 1845000,
+            "shares": 184500,
             "type": "other",
             "ratio": 0.41,
             "tekiyo": "元取締役、執行役員"
@@ -6025,7 +6014,7 @@
       {
         "label": "主要株主（180日）",
         "release_date": "2025-10-26",
-        "shares": 95437287,
+        "shares": 95041286,
         "holders": [
           {
             "name": "山﨑 恭裕代表取締役",
@@ -6049,35 +6038,35 @@
           },
           {
             "name": "細江 盛方取締役",
-            "shares": 146001,
+            "shares": 14600,
             "type": "other",
             "ratio": 1.27,
             "tekiyo": "取締役"
           },
           {
             "name": "奥田 慶太取締役",
-            "shares": 87000,
+            "shares": 8700,
             "type": "other",
             "ratio": 0.76,
             "tekiyo": "取締役"
           },
           {
             "name": "山忠従業員持株会",
-            "shares": 84000,
+            "shares": 8400,
             "type": "other",
             "ratio": 0.73,
             "tekiyo": "特別利害関係者など"
           },
           {
             "name": "伊藤 良徳取締役",
-            "shares": 63000,
+            "shares": 6300,
             "type": "other",
             "ratio": 0.55,
             "tekiyo": "常務取締役"
           },
           {
             "name": "岐阜信用金庫",
-            "shares": 60000,
+            "shares": 6000,
             "type": "other",
             "ratio": 0.52,
             "tekiyo": "特別利害関係者など"
@@ -6167,7 +6156,7 @@
       {
         "label": "VC・主要株主（180日）",
         "release_date": "2025-10-21",
-        "shares": 95589223,
+        "shares": 75451701,
         "holders": [
           {
             "name": "株式会社ヤプリ",
@@ -6181,7 +6170,7 @@
           },
           {
             "name": "渋谷 修太取締役",
-            "shares": 19899111,
+            "shares": 198991,
             "type": "other",
             "ratio": 11.21,
             "tekiyo": "取締役会長"
@@ -6203,7 +6192,7 @@
           },
           {
             "name": "山本 公哉",
-            "shares": 486002,
+            "shares": 48600,
             "type": "other",
             "ratio": 2.74,
             "tekiyo": "特別利害関係者など"
@@ -6303,7 +6292,7 @@
       {
         "label": "VC・主要株主（180日）",
         "release_date": "2026-01-13",
-        "shares": 214730095,
+        "shares": 113930042,
         "holders": [
           {
             "name": "株式会社マサキコーポレーション代表取締役の資産管理会社",
@@ -6312,21 +6301,21 @@
           },
           {
             "name": "正木 宏和代表取締役社長",
-            "shares": 95600031,
+            "shares": 956000,
             "type": "founder",
             "ratio": 31.87,
             "tekiyo": "代表取締役社長"
           },
           {
             "name": "おかしのまちおか従業員持株会",
-            "shares": 2740009,
+            "shares": 274000,
             "type": "other",
             "ratio": 9.13,
             "tekiyo": "特別利害関係者など"
           },
           {
             "name": "内田 和枝血族",
-            "shares": 2700009,
+            "shares": 270000,
             "type": "other",
             "ratio": 9.0,
             "tekiyo": "代表取締役の血族"
@@ -6343,28 +6332,28 @@
           },
           {
             "name": "株式会社武蔵野銀行",
-            "shares": 500001,
+            "shares": 50000,
             "type": "corporate",
             "ratio": 1.67,
             "tekiyo": "特別利害関係者など"
           },
           {
             "name": "正木 惇也血族",
-            "shares": 300001,
+            "shares": 30000,
             "type": "other",
             "ratio": 1.0,
             "tekiyo": "取締役、代表取締役の血族"
           },
           {
             "name": "正木 友梨血族",
-            "shares": 300001,
+            "shares": 30000,
             "type": "other",
             "ratio": 1.0,
             "tekiyo": "代表取締役の血族"
           },
           {
             "name": "正木 理子血族",
-            "shares": 300001,
+            "shares": 30000,
             "type": "other",
             "ratio": 1.0,
             "tekiyo": "代表取締役の血族"
@@ -6407,11 +6396,11 @@
       {
         "label": "主要株主（180日）",
         "release_date": "2025-12-30",
-        "shares": 557047493,
+        "shares": 130490619,
         "holders": [
           {
             "name": "松丸 敦之代表取締役会長",
-            "shares": 345280055,
+            "shares": 3452800,
             "type": "founder",
             "ratio": 55.07,
             "tekiyo": "代表取締役会長"
@@ -6423,49 +6412,49 @@
           },
           {
             "name": "深井 英樹代表取締役社長",
-            "shares": 80340012,
+            "shares": 803400,
             "type": "founder",
             "ratio": 12.81,
             "tekiyo": "代表取締役社長"
           },
           {
             "name": "松丸 さつき",
-            "shares": 2000003,
+            "shares": 200000,
             "type": "other",
             "ratio": 3.19,
             "tekiyo": "代表取締役会長の配偶者"
           },
           {
             "name": "安田 仁裕取締役",
-            "shares": 1210001,
+            "shares": 121000,
             "type": "other",
             "ratio": 1.93,
             "tekiyo": "常務取締役"
           },
           {
             "name": "江口 雄一従業員",
-            "shares": 748001,
+            "shares": 74800,
             "type": "other",
             "ratio": 1.19,
             "tekiyo": "従業員"
           },
           {
             "name": "勝山 宏哉取締役",
-            "shares": 730001,
+            "shares": 73000,
             "type": "other",
             "ratio": 1.16,
             "tekiyo": "取締役"
           },
           {
             "name": "曽我 正史従業員",
-            "shares": 668001,
+            "shares": 66800,
             "type": "other",
             "ratio": 1.07,
             "tekiyo": "従業員"
           },
           {
             "name": "宮内 理司従業員",
-            "shares": 414000,
+            "shares": 41400,
             "type": "other",
             "ratio": 0.66,
             "tekiyo": "従業員"
@@ -6520,11 +6509,11 @@
       {
         "label": "VC・主要株主（180日）",
         "release_date": "2025-12-26",
-        "shares": 55176453,
+        "shares": 15423438,
         "holders": [
           {
             "name": "双日㈱",
-            "shares": 38700011,
+            "shares": 387000,
             "type": "other",
             "ratio": 11.92,
             "tekiyo": "特別利害関係者など"
@@ -6551,7 +6540,7 @@
           },
           {
             "name": "丸紅㈱",
-            "shares": 1600004,
+            "shares": 160000,
             "type": "other",
             "ratio": 4.93,
             "tekiyo": "子会社などの共同運営先"
@@ -6649,7 +6638,7 @@
       {
         "label": "VC・主要株主（180日）",
         "release_date": "2025-12-26",
-        "shares": 254421342,
+        "shares": 209061324,
         "holders": [
           {
             "name": "株式会社Ａｋｅｒｕ代表取締役の資産管理会社",
@@ -6663,21 +6652,21 @@
           },
           {
             "name": "的場 隆光代表取締役社長",
-            "shares": 45000016,
+            "shares": 450000,
             "type": "founder",
             "ratio": 16.01,
             "tekiyo": "代表取締役社長"
           },
           {
             "name": "長島 幹孟取締役",
-            "shares": 450001,
+            "shares": 45000,
             "type": "other",
             "ratio": 1.6,
             "tekiyo": "取締役"
           },
           {
             "name": "上原 大輔取締役",
-            "shares": 450001,
+            "shares": 45000,
             "type": "other",
             "ratio": 1.6,
             "tekiyo": "取締役"
@@ -6773,11 +6762,11 @@
       {
         "label": "主要株主（180日）",
         "release_date": "2025-12-22",
-        "shares": 365867846,
+        "shares": 124264979,
         "holders": [
           {
             "name": "樺山 伸一血族",
-            "shares": 240000058,
+            "shares": 2400000,
             "type": "other",
             "ratio": 58.37,
             "tekiyo": "代表取締役の血族"
@@ -6789,28 +6778,28 @@
           },
           {
             "name": "樺山 玄基代表取締役社長",
-            "shares": 4000009,
+            "shares": 400000,
             "type": "founder",
             "ratio": 9.73,
             "tekiyo": "代表取締役社長"
           },
           {
             "name": "森 英之監査役",
-            "shares": 180000,
+            "shares": 18000,
             "type": "other",
             "ratio": 0.44,
             "tekiyo": "監査役"
           },
           {
             "name": "山本 守",
-            "shares": 150000,
+            "shares": 15000,
             "type": "other",
             "ratio": 0.36,
             "tekiyo": "元取締役"
           },
           {
             "name": "田中 佑治取締役",
-            "shares": 117500,
+            "shares": 11700,
             "type": "other",
             "ratio": 0.29,
             "tekiyo": "取締役"
@@ -6887,11 +6876,11 @@
       {
         "label": "主要株主（180日）",
         "release_date": "2025-12-22",
-        "shares": 3822600099,
+        "shares": 1506000041,
         "holders": [
           {
             "name": "北里商事株式会社代表取締役の資産管理会社",
-            "shares": 2340000058,
+            "shares": 23400000,
             "type": "founder",
             "ratio": 58.5,
             "tekiyo": "社長の資産管理会社"
@@ -6971,7 +6960,7 @@
       {
         "label": "VC・主要株主（180日）",
         "release_date": "2025-12-20",
-        "shares": 855631668,
+        "shares": 853663583,
         "holders": [
           {
             "name": "プリモ・インテグラル２投資事業有限責任組合VC",
@@ -6995,7 +6984,7 @@
           },
           {
             "name": "藤江 秀一取締役",
-            "shares": 1049651,
+            "shares": 104965,
             "type": "other",
             "ratio": 1.09,
             "tekiyo": "取締役など"
@@ -7007,7 +6996,7 @@
           },
           {
             "name": "沖 康輔",
-            "shares": 437350,
+            "shares": 43735,
             "type": "other",
             "ratio": 0.45,
             "tekiyo": "子会社の役員など"
@@ -7019,14 +7008,14 @@
           },
           {
             "name": "谷本 有輝典",
-            "shares": 349880,
+            "shares": 34988,
             "type": "other",
             "ratio": 0.36,
             "tekiyo": "子会社の役員など"
           },
           {
             "name": "宮田 智崇",
-            "shares": 349880,
+            "shares": 34988,
             "type": "other",
             "ratio": 0.36,
             "tekiyo": "子会社の役員など"
@@ -7104,7 +7093,7 @@
       {
         "label": "VC・主要株主（180日）",
         "release_date": "2025-09-20",
-        "shares": 486292691,
+        "shares": 261836250,
         "holders": [
           {
             "name": "SOMPOホールディングス",
@@ -7113,7 +7102,7 @@
           },
           {
             "name": "LHP Holdings,L.P.",
-            "shares": 223370037,
+            "shares": 2233700,
             "type": "vc",
             "ratio": 37.94,
             "tekiyo": "その他の関係会社"
@@ -7130,14 +7119,14 @@
           },
           {
             "name": "伊藤忠商事㈱",
-            "shares": 1689002,
+            "shares": 168900,
             "type": "corporate",
             "ratio": 2.87,
             "tekiyo": "元親会社"
           },
           {
             "name": "松田 泰秀",
-            "shares": 1600002,
+            "shares": 160000,
             "type": "other",
             "ratio": 2.72,
             "tekiyo": "代表取締役社長"
@@ -7149,7 +7138,7 @@
           },
           {
             "name": "佐々木 雅之",
-            "shares": 400000,
+            "shares": 40000,
             "type": "other",
             "ratio": 0.68,
             "tekiyo": "取締役"
@@ -7223,7 +7212,7 @@
       {
         "label": "VC・主要株主（180日）",
         "release_date": "2025-12-16",
-        "shares": 1011698094,
+        "shares": 1011140094,
         "holders": [
           {
             "name": "ジャフコＳＶ６投資事業有限責任組合VC",
@@ -7247,7 +7236,7 @@
           },
           {
             "name": "甫天 和宏取締役",
-            "shares": 240000,
+            "shares": 24000,
             "type": "other",
             "ratio": 0.23,
             "tekiyo": "取締役"
@@ -7259,7 +7248,7 @@
           },
           {
             "name": "三好 拓人取締役",
-            "shares": 200000,
+            "shares": 20000,
             "type": "other",
             "ratio": 0.19,
             "tekiyo": "取締役CFO"
@@ -7271,7 +7260,7 @@
           },
           {
             "name": "藤田 有香取締役",
-            "shares": 180000,
+            "shares": 18000,
             "type": "other",
             "ratio": 0.17,
             "tekiyo": "取締役"
