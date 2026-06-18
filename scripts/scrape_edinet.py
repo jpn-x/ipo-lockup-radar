@@ -352,8 +352,8 @@ def save_stocks(data):
 
 def main():
     if not API_KEY:
-        print("[ERROR] 環境変数 EDINET_API_KEY が未設定です")
-        sys.exit(1)
+        print("[SKIP] 環境変数 EDINET_API_KEY が未設定 → EDINETスクレイプをスキップ")
+        sys.exit(0)
 
     stocks = load_stocks()
     total_updated = 0

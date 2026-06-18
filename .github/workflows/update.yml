@@ -38,6 +38,7 @@ jobs:
         run: python scripts/scrape_traders.py
 
       - name: Scrape EDINET (実株数補完)
+        continue-on-error: true
         env:
           EDINET_API_KEY: ${{ secrets.EDINET_API_KEY }}
         run: python scripts/scrape_edinet.py
