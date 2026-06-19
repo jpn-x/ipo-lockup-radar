@@ -98,7 +98,7 @@
       }
     ],
     "stock_options": [],
-    "notes": "auto-scraped from ipokiso.com 2026-06-18",
+    "notes": "auto-scraped from ipokiso.com 2026-06-19",
     "prospectus_url": "https://www.ipokiso.com/company/2026/chatplus.html",
     "total_shares": 4564800
   },
@@ -112,7 +112,7 @@
       {
         "label": "主要株主（180日）",
         "release_date": "2026-12-27",
-        "shares": 4277179,
+        "shares": 4275428,
         "holders": [
           {
             "name": "（株）みなみの島",
@@ -144,21 +144,21 @@
           },
           {
             "name": "従業員",
-            "shares": 8313,
+            "shares": 7438,
             "type": "other",
-            "ratio": 0.19
+            "ratio": 0.17
           },
           {
             "name": "従業員",
-            "shares": 7876,
+            "shares": 7438,
             "type": "other",
-            "ratio": 0.18
+            "ratio": 0.17
           },
           {
             "name": "従業員",
-            "shares": 7876,
+            "shares": 7438,
             "type": "other",
-            "ratio": 0.18
+            "ratio": 0.17
           },
           {
             "name": "従業員",
@@ -232,7 +232,7 @@
       }
     ],
     "stock_options": [],
-    "notes": "auto-scraped from ipokiso.com 2026-06-18",
+    "notes": "auto-scraped from ipokiso.com 2026-06-19",
     "prospectus_url": "https://www.ipokiso.com/company/2026/ne-is.html",
     "total_shares": 4375300
   },
@@ -246,7 +246,7 @@
       {
         "label": "VC・主要株主（180日）",
         "release_date": "2026-12-20",
-        "shares": 7441325,
+        "shares": 7344331,
         "holders": [
           {
             "name": "小西 祐一",
@@ -282,21 +282,21 @@
           },
           {
             "name": "従業員",
-            "shares": 64663,
+            "shares": 31672,
             "type": "other",
-            "ratio": 0.98
+            "ratio": 0.48
           },
           {
             "name": "従業員",
-            "shares": 64663,
+            "shares": 31672,
             "type": "other",
-            "ratio": 0.98
+            "ratio": 0.48
           },
           {
             "name": "従業員",
-            "shares": 62684,
+            "shares": 31672,
             "type": "other",
-            "ratio": 0.95
+            "ratio": 0.48
           },
           {
             "name": "（株）福岡銀行",
@@ -365,7 +365,7 @@
       }
     ],
     "stock_options": [],
-    "notes": "auto-scraped from ipokiso.com 2026-06-18",
+    "notes": "auto-scraped from ipokiso.com 2026-06-19",
     "prospectus_url": "https://www.ipokiso.com/company/2026/linkx.html",
     "total_shares": 6598300
   },
@@ -1555,7 +1555,7 @@
       }
     ],
     "stock_options": [],
-    "notes": "auto-scraped from ipokiso.com 2026-06-18",
+    "notes": "auto-scraped from ipokiso.com 2026-06-19",
     "prospectus_url": "https://www.ipokiso.com/company/2026/reqmed.html"
   },
   {
@@ -1969,7 +1969,7 @@
       }
     ],
     "stock_options": [],
-    "notes": "auto-scraped from ipokiso.com 2026-06-18",
+    "notes": "auto-scraped from ipokiso.com 2026-06-19",
     "prospectus_url": "https://www.ipokiso.com/company/2026/greenlight-infra.html"
   },
   {
