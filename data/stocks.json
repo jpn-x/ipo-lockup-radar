@@ -29,7 +29,7 @@
             "shares": 344000,
             "type": "other",
             "ratio": 7.54,
-            "tekiyo": "代表取締役社長の二親等内の姻族"
+            "tekiyo": "前代表取締役社長の血族"
           },
           {
             "name": "赤松 哲典",
@@ -43,28 +43,28 @@
             "shares": 172000,
             "type": "other",
             "ratio": 3.77,
-            "tekiyo": "代表取締役社長の二親等内の姻族"
+            "tekiyo": "前代表取締役社長の血族"
           },
           {
             "name": "古市 直子",
             "shares": 172093,
             "type": "other",
             "ratio": 3.77,
-            "tekiyo": "代表取締役社長の二親等内の姻族"
+            "tekiyo": "前代表取締役社長の血族"
           },
           {
             "name": "西田 大翔",
             "shares": 140000,
             "type": "other",
             "ratio": 3.07,
-            "tekiyo": "代表取締役社長の二親等内の姻族"
+            "tekiyo": "前代表取締役社長の血族"
           },
           {
             "name": "西田 美朝",
             "shares": 140000,
             "type": "other",
             "ratio": 3.07,
-            "tekiyo": "代表取締役社長の二親等内の姻族"
+            "tekiyo": "前代表取締役社長の血族"
           },
           {
             "name": "森下 俊光",
@@ -98,7 +98,7 @@
       }
     ],
     "stock_options": [],
-    "notes": "auto-scraped from ipokiso.com 2026-06-20",
+    "notes": "auto-scraped from ipokiso.com 2026-06-22",
     "prospectus_url": "https://www.ipokiso.com/company/2026/chatplus.html",
     "total_shares": 4564800
   },
@@ -232,7 +232,7 @@
       }
     ],
     "stock_options": [],
-    "notes": "auto-scraped from ipokiso.com 2026-06-20",
+    "notes": "auto-scraped from ipokiso.com 2026-06-22",
     "prospectus_url": "https://www.ipokiso.com/company/2026/ne-is.html",
     "total_shares": 4375300
   },
@@ -365,7 +365,7 @@
       }
     ],
     "stock_options": [],
-    "notes": "auto-scraped from ipokiso.com 2026-06-20",
+    "notes": "auto-scraped from ipokiso.com 2026-06-22",
     "prospectus_url": "https://www.ipokiso.com/company/2026/linkx.html",
     "total_shares": 6598300
   },
@@ -1555,7 +1555,7 @@
       }
     ],
     "stock_options": [],
-    "notes": "auto-scraped from ipokiso.com 2026-06-20",
+    "notes": "auto-scraped from ipokiso.com 2026-06-22",
     "prospectus_url": "https://www.ipokiso.com/company/2026/reqmed.html"
   },
   {
@@ -1969,7 +1969,7 @@
       }
     ],
     "stock_options": [],
-    "notes": "auto-scraped from ipokiso.com 2026-06-20",
+    "notes": "auto-scraped from ipokiso.com 2026-06-22",
     "prospectus_url": "https://www.ipokiso.com/company/2026/greenlight-infra.html"
   },
   {
