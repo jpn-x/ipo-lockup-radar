@@ -98,7 +98,7 @@
       }
     ],
     "stock_options": [],
-    "notes": "auto-scraped from ipokiso.com 2026-06-22",
+    "notes": "auto-scraped from ipokiso.com 2026-06-23",
     "prospectus_url": "https://www.ipokiso.com/company/2026/chatplus.html",
     "total_shares": 4564800
   },
@@ -232,84 +232,77 @@
       }
     ],
     "stock_options": [],
-    "notes": "auto-scraped from ipokiso.com 2026-06-22",
+    "notes": "auto-scraped from ipokiso.com 2026-06-23",
     "prospectus_url": "https://www.ipokiso.com/company/2026/ne-is.html",
     "total_shares": 4375300
   },
   {
     "ticker": "584A",
-    "name": "LiNKX[リンクス",
+    "name": "LiNKX",
     "ipo_date": "2026-06-23",
     "market": "東証グロース",
     "initial_price": 790,
     "lockups": [
       {
         "label": "VC・主要株主（180日）",
-        "release_date": "2026-12-20",
-        "shares": 7344331,
+        "release_date": "2026-12-19",
+        "shares": 16658309,
         "holders": [
           {
-            "name": "小西 祐一",
-            "shares": 4915734,
+            "name": "小西 祐一取締役",
+            "shares": 5323000,
             "type": "other",
             "ratio": 74.5,
             "tekiyo": "取締役、代表取締役の血族"
           },
           {
-            "name": "小西 享",
+            "name": "小西 享代表取締役",
             "shares": 556000,
-            "type": "other",
+            "type": "founder",
             "ratio": 7.78,
             "tekiyo": "代表取締役会長"
           },
           {
-            "name": "オサムニア・モハメッド （社長）",
-            "shares": 418000,
-            "type": "founder",
-            "ratio": 6.33
+            "name": "オサムニア・モハメッド代表取締役",
+            "shares": 4180005,
+            "type": "founder"
           },
           {
-            "name": "QR２号ファンド投資事業有限責任組合",
-            "shares": 198609,
-            "type": "vc",
-            "ratio": 3.01
+            "name": "QR２号ファンド投資事業有限責任組合CVC",
+            "shares": 2150003,
+            "type": "vc"
           },
           {
-            "name": "ベイレリャン・アンソニー",
-            "shares": 100000,
-            "type": "corporate",
-            "ratio": 1.52
+            "name": "ベイレリャン・アンソニー従業員",
+            "shares": 1000001,
+            "type": "other"
           },
           {
-            "name": "従業員",
-            "shares": 31672,
-            "type": "other",
-            "ratio": 0.48
+            "name": "－従業員",
+            "shares": 700000,
+            "type": "other"
           },
           {
-            "name": "従業員",
-            "shares": 31672,
-            "type": "other",
-            "ratio": 0.48
+            "name": "－従業員",
+            "shares": 700000,
+            "type": "other"
           },
           {
-            "name": "従業員",
-            "shares": 31672,
-            "type": "other",
-            "ratio": 0.48
+            "name": "－従業員",
+            "shares": 680000,
+            "type": "other"
           },
           {
-            "name": "（株）福岡銀行",
+            "name": "株式会社福岡銀行",
             "shares": 54300,
             "type": "corporate",
             "ratio": 0.76,
             "tekiyo": "資本業務提携先の子会社"
           },
           {
-            "name": "従業員",
-            "shares": 31672,
-            "type": "other",
-            "ratio": 0.48
+            "name": "－従業員",
+            "shares": 340000,
+            "type": "other"
           },
           {
             "name": "ｵｻﾑﾆｱ･ﾓﾊﾒｯﾄﾞ",
@@ -360,14 +353,12 @@
             "ratio": 0.48,
             "tekiyo": "従業員"
           }
-        ],
-        "days": 180
+        ]
       }
     ],
     "stock_options": [],
-    "notes": "auto-scraped from ipokiso.com 2026-06-22",
-    "prospectus_url": "https://www.ipokiso.com/company/2026/linkx.html",
-    "total_shares": 6598300
+    "notes": "auto-scraped from ipokabu.net",
+    "prospectus_url": ""
   },
   {
     "ticker": "581A",
@@ -1555,7 +1546,7 @@
       }
     ],
     "stock_options": [],
-    "notes": "auto-scraped from ipokiso.com 2026-06-22",
+    "notes": "auto-scraped from ipokiso.com 2026-06-23",
     "prospectus_url": "https://www.ipokiso.com/company/2026/reqmed.html"
   },
   {
@@ -1969,7 +1960,7 @@
       }
     ],
     "stock_options": [],
-    "notes": "auto-scraped from ipokiso.com 2026-06-22",
+    "notes": "auto-scraped from ipokiso.com 2026-06-23",
     "prospectus_url": "https://www.ipokiso.com/company/2026/greenlight-infra.html"
   },
   {
