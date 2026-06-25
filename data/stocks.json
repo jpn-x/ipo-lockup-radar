@@ -1,10 +1,170 @@
 [
   {
+    "ticker": "603A",
+    "name": "アイ・グリッド・ソリューションズ",
+    "ipo_date": "2026-07-29",
+    "market": "東証グロース",
+    "initial_price": 710,
+    "lockups": [
+      {
+        "label": "VC・主要株主（180日）",
+        "release_date": "2027-01-25",
+        "shares": 0,
+        "holders": [
+          {
+            "name": "伊藤忠商事（株）",
+            "shares": 0,
+            "type": "corporate",
+            "ratio": 21.75
+          },
+          {
+            "name": "THE FUND投資事業有限責任組合",
+            "shares": 0,
+            "type": "vc",
+            "ratio": 13.08
+          },
+          {
+            "name": "ES＆Gパートナーズ投資事業有限責任組合",
+            "shares": 0,
+            "type": "vc",
+            "ratio": 7.95
+          },
+          {
+            "name": "関西電力（株）",
+            "shares": 0,
+            "type": "other",
+            "ratio": 7.12
+          },
+          {
+            "name": "（株）シグマクシス・ホールディングス",
+            "shares": 0,
+            "type": "other",
+            "ratio": 4.79
+          },
+          {
+            "name": "芙蓉総合リース（株）",
+            "shares": 0,
+            "type": "other",
+            "ratio": 4.11
+          },
+          {
+            "name": "ＪＡ三井リース（株）",
+            "shares": 0,
+            "type": "other",
+            "ratio": 3.71
+          },
+          {
+            "name": "本多 聰介",
+            "shares": 0,
+            "type": "other",
+            "ratio": 3.59
+          },
+          {
+            "name": "コタエル信託（株）",
+            "shares": 0,
+            "type": "other",
+            "ratio": 3.14
+          },
+          {
+            "name": "東急不動産（株）",
+            "shares": 0,
+            "type": "other",
+            "ratio": 2.95
+          }
+        ],
+        "days": 180
+      }
+    ],
+    "stock_options": [],
+    "notes": "auto-scraped from ipokiso.com 2026-06-25",
+    "prospectus_url": "https://www.ipokiso.com/company/2026/igrid.html"
+  },
+  {
+    "ticker": "604A",
+    "name": "ビーエイブル",
+    "ipo_date": "2026-07-29",
+    "market": "東証スタンダード",
+    "initial_price": 660,
+    "lockups": [
+      {
+        "label": "主要株主（180日）",
+        "release_date": "2027-01-25",
+        "shares": 0,
+        "holders": [
+          {
+            "name": "エイブル興産（株）",
+            "shares": 0,
+            "type": "other",
+            "ratio": 63.14
+          },
+          {
+            "name": "佐藤 順英 （社長）",
+            "shares": 0,
+            "type": "founder",
+            "ratio": 22.66
+          },
+          {
+            "name": "ビーエイブル従業員持株会",
+            "shares": 0,
+            "type": "other",
+            "ratio": 3.14
+          },
+          {
+            "name": "（株）大東銀行",
+            "shares": 0,
+            "type": "corporate",
+            "ratio": 2.01
+          },
+          {
+            "name": "（株）ＩＨＩ",
+            "shares": 0,
+            "type": "other",
+            "ratio": 0.91
+          },
+          {
+            "name": "鈴内 浩二",
+            "shares": 0,
+            "type": "other",
+            "ratio": 0.31
+          },
+          {
+            "name": "渡辺 靖",
+            "shares": 0,
+            "type": "other",
+            "ratio": 0.31
+          },
+          {
+            "name": "根本 義和",
+            "shares": 0,
+            "type": "other",
+            "ratio": 0.3
+          },
+          {
+            "name": "従業員",
+            "shares": 0,
+            "type": "other",
+            "ratio": 0.3
+          },
+          {
+            "name": "緒方 浩之",
+            "shares": 0,
+            "type": "other",
+            "ratio": 0.28
+          }
+        ],
+        "days": 180
+      }
+    ],
+    "stock_options": [],
+    "notes": "auto-scraped from ipokiso.com 2026-06-25",
+    "prospectus_url": "https://www.ipokiso.com/company/2026/able-can.html"
+  },
+  {
     "ticker": "598A",
     "name": "チャットプラス",
     "ipo_date": "2026-07-15",
     "market": "東証グロース",
-    "initial_price": 1050,
+    "initial_price": 1080,
     "lockups": [
       {
         "label": "主要株主（180日）",
@@ -98,7 +258,7 @@
       }
     ],
     "stock_options": [],
-    "notes": "auto-scraped from ipokiso.com 2026-06-24",
+    "notes": "auto-scraped from ipokiso.com 2026-06-25",
     "prospectus_url": "https://www.ipokiso.com/company/2026/chatplus.html",
     "total_shares": 4564800
   },
@@ -232,7 +392,7 @@
       }
     ],
     "stock_options": [],
-    "notes": "auto-scraped from ipokiso.com 2026-06-24",
+    "notes": "auto-scraped from ipokiso.com 2026-06-25",
     "prospectus_url": "https://www.ipokiso.com/company/2026/ne-is.html",
     "total_shares": 4375300
   },
@@ -1546,7 +1706,7 @@
       }
     ],
     "stock_options": [],
-    "notes": "auto-scraped from ipokiso.com 2026-06-24",
+    "notes": "auto-scraped from ipokiso.com 2026-06-25",
     "prospectus_url": "https://www.ipokiso.com/company/2026/reqmed.html"
   },
   {
@@ -1960,7 +2120,7 @@
       }
     ],
     "stock_options": [],
-    "notes": "auto-scraped from ipokiso.com 2026-06-24",
+    "notes": "auto-scraped from ipokiso.com 2026-06-25",
     "prospectus_url": "https://www.ipokiso.com/company/2026/greenlight-infra.html"
   },
   {
