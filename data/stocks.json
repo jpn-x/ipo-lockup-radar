@@ -149,7 +149,7 @@
       }
     ],
     "stock_options": [],
-    "notes": "auto-scraped from ipokiso.com 2026-06-28",
+    "notes": "auto-scraped from ipokiso.com 2026-06-29",
     "prospectus_url": "https://www.ipokiso.com/company/2026/igrid.html"
   },
   {
@@ -257,8 +257,84 @@
       }
     ],
     "stock_options": [],
-    "notes": "auto-scraped from ipokiso.com 2026-06-28",
+    "notes": "auto-scraped from ipokiso.com 2026-06-29",
     "prospectus_url": "https://www.ipokiso.com/company/2026/able-can.html"
+  },
+  {
+    "ticker": "593A",
+    "name": "ティアフォー",
+    "ipo_date": "2026-07-22",
+    "market": "東証グロース",
+    "initial_price": 1015,
+    "lockups": [
+      {
+        "label": "VC・主要株主（180日）",
+        "release_date": "2027-01-18",
+        "shares": 0,
+        "holders": [
+          {
+            "name": "SOMPOホールディングス（株）",
+            "shares": 0,
+            "type": "other",
+            "ratio": 21.3
+          },
+          {
+            "name": "加藤 真平 （社長）",
+            "shares": 0,
+            "type": "founder"
+          },
+          {
+            "name": "ジャフコSV5共有投資事業有限責任組合",
+            "shares": 0,
+            "type": "vc",
+            "ratio": 6.9
+          },
+          {
+            "name": "ヤマハ発動機（株）",
+            "shares": 0,
+            "type": "other",
+            "ratio": 6.6
+          },
+          {
+            "name": "出川 章理",
+            "shares": 0,
+            "type": "other",
+            "ratio": 6.3
+          },
+          {
+            "name": "いすゞ自動車（株）",
+            "shares": 0,
+            "type": "corporate",
+            "ratio": 5.7
+          },
+          {
+            "name": "KDDI（株）",
+            "shares": 0,
+            "type": "corporate"
+          },
+          {
+            "name": "アイサンテクノロジー（株）",
+            "shares": 0,
+            "type": "other"
+          },
+          {
+            "name": "UTEC 4号投資事業有限責任組合",
+            "shares": 0,
+            "type": "vc"
+          },
+          {
+            "name": "二宮 芳樹",
+            "shares": 0,
+            "type": "other",
+            "ratio": 2.7
+          }
+        ],
+        "days": 180
+      }
+    ],
+    "stock_options": [],
+    "notes": "auto-scraped from ipokiso.com 2026-06-29",
+    "prospectus_url": "https://www.ipokiso.com/company/2026/tier4.html"
   },
   {
     "ticker": "598A",
@@ -359,7 +435,7 @@
       }
     ],
     "stock_options": [],
-    "notes": "auto-scraped from ipokiso.com 2026-06-28",
+    "notes": "auto-scraped from ipokiso.com 2026-06-29",
     "prospectus_url": "https://www.ipokiso.com/company/2026/chatplus.html",
     "total_shares": 4564800
   },
@@ -493,7 +569,7 @@
       }
     ],
     "stock_options": [],
-    "notes": "auto-scraped from ipokiso.com 2026-06-28",
+    "notes": "auto-scraped from ipokiso.com 2026-06-29",
     "prospectus_url": "https://www.ipokiso.com/company/2026/ne-is.html",
     "total_shares": 4375300
   },
@@ -1807,7 +1883,7 @@
       }
     ],
     "stock_options": [],
-    "notes": "auto-scraped from ipokiso.com 2026-06-28",
+    "notes": "auto-scraped from ipokiso.com 2026-06-29",
     "prospectus_url": "https://www.ipokiso.com/company/2026/reqmed.html"
   },
   {
@@ -2221,7 +2297,7 @@
       }
     ],
     "stock_options": [],
-    "notes": "auto-scraped from ipokiso.com 2026-06-28",
+    "notes": "auto-scraped from ipokiso.com 2026-06-29",
     "prospectus_url": "https://www.ipokiso.com/company/2026/greenlight-infra.html"
   },
   {
