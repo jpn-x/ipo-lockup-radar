@@ -1,5 +1,93 @@
 [
   {
+    "ticker": "607A",
+    "name": "エブリー",
+    "ipo_date": "2026-08-04",
+    "market": "東証グロース",
+    "initial_price": 230,
+    "lockups": [
+      {
+        "label": "VC・主要株主（90日/1.5倍条件）",
+        "release_date": "2026-11-02",
+        "shares": 0,
+        "holders": [
+          {
+            "name": "WiL Fund II, L.P.",
+            "shares": 0,
+            "type": "vc",
+            "ratio": 7.13
+          },
+          {
+            "name": "DCM Ventures China Fund (DCM VIII), L.P.",
+            "shares": 0,
+            "type": "vc",
+            "ratio": 6.78
+          },
+          {
+            "name": "グロービス5号ファンド投資事業有限責任組合",
+            "shares": 0,
+            "type": "vc",
+            "ratio": 4.15
+          },
+          {
+            "name": "DBJキャピタル投資事業有限責任組合",
+            "shares": 0,
+            "type": "vc",
+            "ratio": 2.69
+          },
+          {
+            "name": "Globis Fund Ⅴ, L.P.",
+            "shares": 0,
+            "type": "vc",
+            "ratio": 1.77
+          }
+        ],
+        "days": 90
+      },
+      {
+        "label": "主要株主（180日）",
+        "release_date": "2027-01-31",
+        "shares": 0,
+        "holders": [
+          {
+            "name": "吉田 大成 （社長）",
+            "shares": 0,
+            "type": "founder",
+            "ratio": 21.49
+          },
+          {
+            "name": "KDDI（株）",
+            "shares": 0,
+            "type": "corporate",
+            "ratio": 13.09
+          },
+          {
+            "name": "伊藤忠食品（株）",
+            "shares": 0,
+            "type": "corporate",
+            "ratio": 10.91
+          },
+          {
+            "name": "加藤産業（株）",
+            "shares": 0,
+            "type": "other",
+            "ratio": 10.91
+          },
+          {
+            "name": "菅原 千遥",
+            "shares": 0,
+            "type": "other",
+            "ratio": 1.77
+          }
+        ],
+        "days": 180
+      }
+    ],
+    "stock_options": [],
+    "notes": "auto-scraped from ipokiso.com 2026-06-30",
+    "prospectus_url": "https://www.ipokiso.com/company/2026/every.html"
+  },
+  {
     "ticker": "603A",
     "name": "アイ・グリッド・ソリューションズ",
     "ipo_date": "2026-07-29",
@@ -149,7 +237,7 @@
       }
     ],
     "stock_options": [],
-    "notes": "auto-scraped from ipokiso.com 2026-06-29",
+    "notes": "auto-scraped from ipokiso.com 2026-06-30",
     "prospectus_url": "https://www.ipokiso.com/company/2026/igrid.html"
   },
   {
@@ -257,7 +345,7 @@
       }
     ],
     "stock_options": [],
-    "notes": "auto-scraped from ipokiso.com 2026-06-29",
+    "notes": "auto-scraped from ipokiso.com 2026-06-30",
     "prospectus_url": "https://www.ipokiso.com/company/2026/able-can.html"
   },
   {
@@ -270,7 +358,7 @@
       {
         "label": "VC・主要株主（180日）",
         "release_date": "2027-01-18",
-        "shares": 0,
+        "shares": 38246990,
         "holders": [
           {
             "name": "SOMPOホールディングス（株）",
@@ -280,8 +368,10 @@
           },
           {
             "name": "加藤 真平 （社長）",
-            "shares": 0,
-            "type": "founder"
+            "shares": 5750000,
+            "type": "founder",
+            "ratio": 11.0,
+            "tekiyo": "代表取締役CEO"
           },
           {
             "name": "ジャフコSV5共有投資事業有限責任組合",
@@ -297,20 +387,24 @@
           },
           {
             "name": "出川 章理",
-            "shares": 0,
+            "shares": 3300000,
             "type": "other",
-            "ratio": 6.3
+            "ratio": 6.3,
+            "tekiyo": "元取締役"
           },
           {
             "name": "いすゞ自動車（株）",
-            "shares": 0,
+            "shares": 3000000,
             "type": "corporate",
-            "ratio": 5.7
+            "ratio": 5.7,
+            "tekiyo": "資本業務提携先"
           },
           {
             "name": "KDDI（株）",
-            "shares": 0,
-            "type": "corporate"
+            "shares": 2070000,
+            "type": "corporate",
+            "ratio": 4.0,
+            "tekiyo": "資本業務提携先"
           },
           {
             "name": "アイサンテクノロジー（株）",
@@ -324,16 +418,59 @@
           },
           {
             "name": "二宮 芳樹",
-            "shares": 0,
+            "shares": 1400000,
             "type": "other",
-            "ratio": 2.7
+            "ratio": 2.7,
+            "tekiyo": "元取締役"
+          },
+          {
+            "name": "SOMPOﾎｰﾙﾃﾞｨﾝｸﾞｽ(株)",
+            "shares": 11112500,
+            "type": "other",
+            "ratio": 21.3,
+            "tekiyo": "その他の関係会社"
+          },
+          {
+            "name": "ｼﾞｬﾌｺSV5共有投組",
+            "shares": 3610000,
+            "type": "other",
+            "ratio": 6.9,
+            "tekiyo": "投資業(ﾌｧﾝﾄﾞ)"
+          },
+          {
+            "name": "ﾔﾏﾊ発動機(株)",
+            "shares": 3459490,
+            "type": "other",
+            "ratio": 6.6,
+            "tekiyo": "資本業務提携先"
+          },
+          {
+            "name": "ｱｲｻﾝﾃｸﾉﾛｼﾞｰ(株)",
+            "shares": 1575000,
+            "type": "other",
+            "ratio": 3.0,
+            "tekiyo": "取引先"
+          },
+          {
+            "name": "UTEC4号投組",
+            "shares": 1570000,
+            "type": "other",
+            "ratio": 3.0,
+            "tekiyo": "投資業(ﾌｧﾝﾄﾞ)"
+          },
+          {
+            "name": "河口信夫",
+            "shares": 1400000,
+            "type": "other",
+            "ratio": 2.7,
+            "tekiyo": "元取締役"
           }
         ],
         "days": 180
       }
     ],
     "stock_options": [],
-    "notes": "auto-scraped from ipokiso.com 2026-06-29",
+    "notes": "auto-scraped from ipokiso.com 2026-06-30",
     "prospectus_url": "https://www.ipokiso.com/company/2026/tier4.html"
   },
   {
@@ -435,7 +572,7 @@
       }
     ],
     "stock_options": [],
-    "notes": "auto-scraped from ipokiso.com 2026-06-29",
+    "notes": "auto-scraped from ipokiso.com 2026-06-30",
     "prospectus_url": "https://www.ipokiso.com/company/2026/chatplus.html",
     "total_shares": 4564800
   },
@@ -448,72 +585,66 @@
     "lockups": [
       {
         "label": "主要株主（180日）",
-        "release_date": "2026-12-27",
-        "shares": 4275428,
+        "release_date": "2026-12-26",
+        "shares": 4702800,
         "holders": [
           {
-            "name": "（株）みなみの島",
+            "name": "株式会社みなみの島代表取締役の資産管理会社",
             "shares": 2400000,
-            "type": "other",
+            "type": "founder",
             "ratio": 54.91,
             "tekiyo": "代表取締役社長の資産管理会社"
           },
           {
-            "name": "南 友介 （社長）",
+            "name": "南 友介代表取締役社長",
             "shares": 1600000,
             "type": "founder",
             "ratio": 36.61,
             "tekiyo": "代表取締役社長"
           },
           {
-            "name": "山崎 拓也",
+            "name": "山崎 拓也取締役",
             "shares": 88000,
             "type": "other",
             "ratio": 2.01,
             "tekiyo": "取締役COO"
           },
           {
-            "name": "田島 幸樹",
+            "name": "田島 幸樹取締役",
             "shares": 88000,
             "type": "other",
             "ratio": 2.01,
             "tekiyo": "取締役CFO"
           },
           {
-            "name": "従業員",
-            "shares": 7438,
-            "type": "other",
-            "ratio": 0.17
+            "name": "―従業員",
+            "shares": 84000,
+            "type": "other"
           },
           {
-            "name": "従業員",
-            "shares": 7438,
-            "type": "other",
-            "ratio": 0.17
+            "name": "―従業員",
+            "shares": 80000,
+            "type": "other"
           },
           {
-            "name": "従業員",
-            "shares": 7438,
-            "type": "other",
-            "ratio": 0.17
+            "name": "―従業員",
+            "shares": 80000,
+            "type": "other"
           },
           {
-            "name": "従業員",
-            "shares": 7438,
-            "type": "other",
-            "ratio": 0.17
+            "name": "―従業員",
+            "shares": 76000,
+            "type": "other"
           },
           {
-            "name": "従業員",
-            "shares": 7438,
-            "type": "other",
-            "ratio": 0.17
+            "name": "―従業員",
+            "shares": 76000,
+            "type": "other"
           },
           {
-            "name": "従業員",
-            "shares": 7438,
-            "type": "other",
-            "ratio": 0.17
+            "name": "―従業員",
+            "shares": 76000,
+            "type": "other"
           },
           {
             "name": "匿名1",
@@ -564,14 +695,12 @@
             "ratio": 0.17,
             "tekiyo": "従業員"
           }
-        ],
-        "days": 180
+        ]
       }
     ],
     "stock_options": [],
-    "notes": "auto-scraped from ipokiso.com 2026-06-29",
-    "prospectus_url": "https://www.ipokiso.com/company/2026/ne-is.html",
-    "total_shares": 4375300
+    "notes": "auto-scraped from ipokabu.net",
+    "prospectus_url": ""
   },
   {
     "ticker": "584A",
@@ -1883,7 +2012,7 @@
       }
     ],
     "stock_options": [],
-    "notes": "auto-scraped from ipokiso.com 2026-06-29",
+    "notes": "auto-scraped from ipokiso.com 2026-06-30",
     "prospectus_url": "https://www.ipokiso.com/company/2026/reqmed.html"
   },
   {
@@ -2297,7 +2426,7 @@
       }
     ],
     "stock_options": [],
-    "notes": "auto-scraped from ipokiso.com 2026-06-29",
+    "notes": "auto-scraped from ipokiso.com 2026-06-30",
     "prospectus_url": "https://www.ipokiso.com/company/2026/greenlight-infra.html"
   },
   {
