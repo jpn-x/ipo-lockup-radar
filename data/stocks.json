@@ -9,13 +9,14 @@
       {
         "label": "VC・主要株主（90日/1.5倍条件）",
         "release_date": "2026-11-02",
-        "shares": 0,
+        "shares": 5194240,
         "holders": [
           {
             "name": "WiL Fund II, L.P.",
-            "shares": 0,
+            "shares": 1536150,
             "type": "vc",
-            "ratio": 7.13
+            "ratio": 7.13,
+            "tekiyo": "投資業(ﾌｧﾝﾄﾞ)"
           },
           {
             "name": "DCM Ventures China Fund (DCM VIII), L.P.",
@@ -40,6 +41,41 @@
             "shares": 0,
             "type": "vc",
             "ratio": 1.77
+          },
+          {
+            "name": "DCM Ventures China Fund (VIII)",
+            "shares": 1462060,
+            "type": "vc",
+            "ratio": 6.78,
+            "tekiyo": "投資業(ﾌｧﾝﾄﾞ)"
+          },
+          {
+            "name": "ｸﾞﾛｰﾋﾞｽ5号ﾌｧﾝﾄﾞ投組",
+            "shares": 894438,
+            "type": "other",
+            "ratio": 4.15,
+            "tekiyo": "投資業(ﾌｧﾝﾄﾞ)"
+          },
+          {
+            "name": "DBJｷｬﾋﾟﾀﾙ投組",
+            "shares": 579061,
+            "type": "other",
+            "ratio": 2.69,
+            "tekiyo": "投資業(ﾌｧﾝﾄﾞ)"
+          },
+          {
+            "name": "Globis Fund Ｖ, L.P.",
+            "shares": 381234,
+            "type": "vc",
+            "ratio": 1.77,
+            "tekiyo": "投資業(ﾌｧﾝﾄﾞ)"
+          },
+          {
+            "name": "味の素(株)",
+            "shares": 341297,
+            "type": "other",
+            "ratio": 1.58,
+            "tekiyo": "特別利害関係者など"
           }
         ],
         "days": 90
@@ -47,44 +83,49 @@
       {
         "label": "主要株主（180日）",
         "release_date": "2027-01-31",
-        "shares": 0,
+        "shares": 12539872,
         "holders": [
           {
             "name": "吉田 大成 （社長）",
-            "shares": 0,
+            "shares": 4631900,
             "type": "founder",
-            "ratio": 21.49
+            "ratio": 21.49,
+            "tekiyo": "代表取締役社長"
           },
           {
             "name": "KDDI（株）",
-            "shares": 0,
+            "shares": 2822202,
             "type": "corporate",
-            "ratio": 13.09
+            "ratio": 13.09,
+            "tekiyo": "資本業務提携先"
           },
           {
             "name": "伊藤忠食品（株）",
-            "shares": 0,
+            "shares": 2351835,
             "type": "corporate",
-            "ratio": 10.91
+            "ratio": 10.91,
+            "tekiyo": "資本業務提携先"
           },
           {
             "name": "加藤産業（株）",
-            "shares": 0,
+            "shares": 2351835,
             "type": "other",
-            "ratio": 10.91
+            "ratio": 10.91,
+            "tekiyo": "資本業務提携先"
           },
           {
             "name": "菅原 千遥",
-            "shares": 0,
+            "shares": 382100,
             "type": "other",
-            "ratio": 1.77
+            "ratio": 1.77,
+            "tekiyo": "取締役執行役員"
           }
         ],
         "days": 180
       }
     ],
     "stock_options": [],
-    "notes": "auto-scraped from ipokiso.com 2026-06-30",
+    "notes": "auto-scraped from ipokiso.com 2026-07-01",
     "prospectus_url": "https://www.ipokiso.com/company/2026/every.html"
   },
   {
@@ -237,7 +278,7 @@
       }
     ],
     "stock_options": [],
-    "notes": "auto-scraped from ipokiso.com 2026-06-30",
+    "notes": "auto-scraped from ipokiso.com 2026-07-01",
     "prospectus_url": "https://www.ipokiso.com/company/2026/igrid.html"
   },
   {
@@ -345,7 +386,7 @@
       }
     ],
     "stock_options": [],
-    "notes": "auto-scraped from ipokiso.com 2026-06-30",
+    "notes": "auto-scraped from ipokiso.com 2026-07-01",
     "prospectus_url": "https://www.ipokiso.com/company/2026/able-can.html"
   },
   {
@@ -470,7 +511,7 @@
       }
     ],
     "stock_options": [],
-    "notes": "auto-scraped from ipokiso.com 2026-06-30",
+    "notes": "auto-scraped from ipokiso.com 2026-07-01",
     "prospectus_url": "https://www.ipokiso.com/company/2026/tier4.html"
   },
   {
@@ -572,7 +613,7 @@
       }
     ],
     "stock_options": [],
-    "notes": "auto-scraped from ipokiso.com 2026-06-30",
+    "notes": "auto-scraped from ipokiso.com 2026-07-01",
     "prospectus_url": "https://www.ipokiso.com/company/2026/chatplus.html",
     "total_shares": 4564800
   },
@@ -2012,7 +2053,7 @@
       }
     ],
     "stock_options": [],
-    "notes": "auto-scraped from ipokiso.com 2026-06-30",
+    "notes": "auto-scraped from ipokiso.com 2026-07-01",
     "prospectus_url": "https://www.ipokiso.com/company/2026/reqmed.html"
   },
   {
@@ -2426,7 +2467,7 @@
       }
     ],
     "stock_options": [],
-    "notes": "auto-scraped from ipokiso.com 2026-06-30",
+    "notes": "auto-scraped from ipokiso.com 2026-07-01",
     "prospectus_url": "https://www.ipokiso.com/company/2026/greenlight-infra.html"
   },
   {
