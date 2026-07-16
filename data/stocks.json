@@ -523,17 +523,16 @@
     "lockups": [
       {
         "label": "主要株主（180日）",
-        "release_date": "2027-01-11",
-        "shares": 6037306,
+        "release_date": "2027-01-10",
+        "shares": 164887036,
         "holders": [
           {
-            "name": "マネーストレージ（株）",
-            "shares": 1600000,
-            "type": "other",
-            "ratio": 35.05
+            "name": "マネーストレージ株式会社役員等により総株主の議決権の過半数が所有されている会社",
+            "shares": 160000035,
+            "type": "other"
           },
           {
-            "name": "大江 繭子 （社長）",
+            "name": "大江 繭子代表取締役社長",
             "shares": 1335000,
             "type": "founder",
             "ratio": 29.27,
@@ -547,7 +546,7 @@
             "tekiyo": "前代表取締役社長の血族"
           },
           {
-            "name": "赤松 哲典",
+            "name": "赤松 哲典取締役",
             "shares": 314000,
             "type": "other",
             "ratio": 6.89,
@@ -562,7 +561,7 @@
           },
           {
             "name": "古市 直子",
-            "shares": 172093,
+            "shares": 172000,
             "type": "other",
             "ratio": 3.77,
             "tekiyo": "前代表取締役社長の血族"
@@ -582,17 +581,16 @@
             "tekiyo": "前代表取締役社長の血族"
           },
           {
-            "name": "森下 俊光",
+            "name": "森下 俊光取締役",
             "shares": 120000,
             "type": "other",
             "ratio": 2.63,
             "tekiyo": "取締役CFO"
           },
           {
-            "name": "従業員",
-            "shares": 50213,
-            "type": "other",
-            "ratio": 1.1
+            "name": "－従業員",
+            "shares": 500001,
+            "type": "other"
           },
           {
             "name": "ﾏﾈｰｽﾄﾚｰｼﾞ(株)",
@@ -608,14 +606,12 @@
             "ratio": 1.1,
             "tekiyo": "従業員"
           }
-        ],
-        "days": 180
+        ]
       }
     ],
     "stock_options": [],
-    "notes": "auto-scraped from ipokiso.com 2026-07-01",
-    "prospectus_url": "https://www.ipokiso.com/company/2026/chatplus.html",
-    "total_shares": 4564800
+    "notes": "auto-scraped from ipokabu.net",
+    "prospectus_url": ""
   },
   {
     "ticker": "589A",
