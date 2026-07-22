@@ -394,37 +394,34 @@
     "name": "ティアフォー",
     "ipo_date": "2026-07-22",
     "market": "東証グロース",
-    "initial_price": 1015,
+    "initial_price": 1085,
     "lockups": [
       {
         "label": "VC・主要株主（180日）",
-        "release_date": "2027-01-18",
-        "shares": 38246990,
+        "release_date": "2027-01-17",
+        "shares": 1251641929,
         "holders": [
           {
-            "name": "SOMPOホールディングス（株）",
-            "shares": 0,
-            "type": "other",
-            "ratio": 21.3
+            "name": "ＳＯＭＰＯホールディングス株式会社",
+            "shares": 1111250021,
+            "type": "founder"
           },
           {
-            "name": "加藤 真平 （社長）",
+            "name": "加藤 真平代表取締役",
             "shares": 5750000,
             "type": "founder",
             "ratio": 11.0,
             "tekiyo": "代表取締役CEO"
           },
           {
-            "name": "ジャフコSV5共有投資事業有限責任組合",
-            "shares": 0,
-            "type": "vc",
-            "ratio": 6.9
+            "name": "ジャフコSV5共有投資事業有限責任組合VC",
+            "shares": 36100006,
+            "type": "vc"
           },
           {
-            "name": "ヤマハ発動機（株）",
-            "shares": 0,
-            "type": "other",
-            "ratio": 6.6
+            "name": "ヤマハ発動機株式会社",
+            "shares": 34594906,
+            "type": "other"
           },
           {
             "name": "出川 章理",
@@ -434,27 +431,27 @@
             "tekiyo": "元取締役"
           },
           {
-            "name": "いすゞ自動車（株）",
+            "name": "いすゞ自動車株式会社",
             "shares": 3000000,
             "type": "corporate",
             "ratio": 5.7,
             "tekiyo": "資本業務提携先"
           },
           {
-            "name": "KDDI（株）",
+            "name": "KDDI株式会社",
             "shares": 2070000,
             "type": "corporate",
             "ratio": 4.0,
             "tekiyo": "資本業務提携先"
           },
           {
-            "name": "アイサンテクノロジー（株）",
-            "shares": 0,
+            "name": "アイサンテクノロジー株式会社",
+            "shares": 15750003,
             "type": "other"
           },
           {
-            "name": "UTEC 4号投資事業有限責任組合",
-            "shares": 0,
+            "name": "UTEC 4号投資事業有限責任組合VC",
+            "shares": 15700003,
             "type": "vc"
           },
           {
@@ -506,13 +503,12 @@
             "ratio": 2.7,
             "tekiyo": "元取締役"
           }
-        ],
-        "days": 180
+        ]
       }
     ],
     "stock_options": [],
-    "notes": "auto-scraped from ipokiso.com 2026-07-01",
-    "prospectus_url": "https://www.ipokiso.com/company/2026/tier4.html"
+    "notes": "auto-scraped from ipokabu.net",
+    "prospectus_url": ""
   },
   {
     "ticker": "598A",
