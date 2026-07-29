@@ -133,71 +133,64 @@
     "name": "アイ・グリッド・ソリューションズ",
     "ipo_date": "2026-07-29",
     "market": "東証グロース",
-    "initial_price": 710,
+    "initial_price": 770,
     "lockups": [
       {
         "label": "VC・主要株主（180日）",
-        "release_date": "2027-01-25",
-        "shares": 28700000,
+        "release_date": "2027-01-24",
+        "shares": 605800037,
         "holders": [
           {
-            "name": "伊藤忠商事（株）",
+            "name": "伊藤忠商事株式会社",
             "shares": 7940000,
             "type": "corporate",
             "ratio": 21.75,
             "tekiyo": "その他の関係会社"
           },
           {
-            "name": "THE FUND投資事業有限責任組合",
-            "shares": 0,
-            "type": "vc",
-            "ratio": 13.08
+            "name": "THE FUND投資事業有限責任組合VC",
+            "shares": 477500013,
+            "type": "vc"
           },
           {
-            "name": "ES＆Gパートナーズ投資事業有限責任組合",
-            "shares": 0,
-            "type": "vc",
-            "ratio": 7.95
+            "name": "ＥＳ＆Ｇパートナーズ投資事業有限責任組合VC",
+            "shares": 29000007,
+            "type": "vc"
           },
           {
-            "name": "関西電力（株）",
+            "name": "関西電力株式会社",
             "shares": 2600000,
             "type": "other",
             "ratio": 7.12,
             "tekiyo": "特別利害関係者など"
           },
           {
-            "name": "（株）シグマクシス・ホールディングス",
-            "shares": 0,
-            "type": "other",
-            "ratio": 4.79
+            "name": "株式会社シグマクシス・ホールディングス",
+            "shares": 17500004,
+            "type": "founder"
           },
           {
-            "name": "芙蓉総合リース（株）",
-            "shares": 0,
-            "type": "other",
-            "ratio": 4.11
+            "name": "芙蓉総合リース株式会社",
+            "shares": 15000004,
+            "type": "other"
           },
           {
-            "name": "ＪＡ三井リース（株）",
-            "shares": 0,
-            "type": "other",
-            "ratio": 3.71
+            "name": "ＪＡ三井リース株式会社",
+            "shares": 13550003,
+            "type": "other"
           },
           {
-            "name": "本多 聰介",
-            "shares": 0,
-            "type": "other",
-            "ratio": 3.59
+            "name": "本多 聰介取締役会長",
+            "shares": 13100003,
+            "type": "other"
           },
           {
-            "name": "コタエル信託（株）",
-            "shares": 0,
-            "type": "other",
-            "ratio": 3.14
+            "name": "コタエル信託株式会社",
+            "shares": 11450003,
+            "type": "other"
           },
           {
-            "name": "東急不動産（株）",
+            "name": "東急不動産株式会社",
             "shares": 1075000,
             "type": "other",
             "ratio": 2.95,
@@ -273,34 +266,32 @@
             "ratio": 2.05,
             "tekiyo": "特別利害関係者など"
           }
-        ],
-        "days": 180
+        ]
       }
     ],
     "stock_options": [],
-    "notes": "auto-scraped from ipokiso.com 2026-07-01",
-    "prospectus_url": "https://www.ipokiso.com/company/2026/igrid.html"
+    "notes": "auto-scraped from ipokabu.net",
+    "prospectus_url": ""
   },
   {
     "ticker": "604A",
     "name": "ビーエイブル",
     "ipo_date": "2026-07-29",
     "market": "東証スタンダード",
-    "initial_price": 660,
+    "initial_price": 700,
     "lockups": [
       {
         "label": "主要株主（180日）",
-        "release_date": "2027-01-25",
-        "shares": 7418400,
+        "release_date": "2027-01-24",
+        "shares": 512383466,
         "holders": [
           {
-            "name": "エイブル興産（株）",
-            "shares": 0,
-            "type": "other",
-            "ratio": 63.14
+            "name": "エイブル興産株式会社代表取締役の資産管理会社",
+            "shares": 501500063,
+            "type": "founder"
           },
           {
-            "name": "佐藤 順英 （社長）",
+            "name": "佐藤 順英代表取締役社長",
             "shares": 1800000,
             "type": "founder",
             "ratio": 22.66,
@@ -308,53 +299,49 @@
           },
           {
             "name": "ビーエイブル従業員持株会",
-            "shares": 0,
-            "type": "other",
-            "ratio": 3.14
+            "shares": 2500003,
+            "type": "other"
           },
           {
-            "name": "（株）大東銀行",
+            "name": "株式会社大東銀行",
             "shares": 160000,
             "type": "corporate",
             "ratio": 2.01,
             "tekiyo": "取引先"
           },
           {
-            "name": "（株）ＩＨＩ",
-            "shares": 0,
-            "type": "other",
-            "ratio": 0.91
+            "name": "株式会社ＩＨＩ",
+            "shares": 725000,
+            "type": "other"
           },
           {
-            "name": "鈴内 浩二",
+            "name": "鈴内 浩二取締役",
             "shares": 25000,
             "type": "other",
             "ratio": 0.31,
             "tekiyo": "取締役副社長"
           },
           {
-            "name": "渡辺 靖",
+            "name": "渡辺 靖取締役",
             "shares": 25000,
             "type": "other",
             "ratio": 0.31,
             "tekiyo": "常務取締役"
           },
           {
-            "name": "根本 義和",
+            "name": "根本 義和取締役",
             "shares": 24400,
             "type": "other",
             "ratio": 0.3,
             "tekiyo": "常務取締役"
           },
           {
-            "name": "従業員",
-            "shares": 250000,
-            "type": "other",
-            "ratio": 3.14,
-            "tekiyo": "特別利害関係者など"
+            "name": "―従業員",
+            "shares": 240000,
+            "type": "other"
           },
           {
-            "name": "緒方 浩之",
+            "name": "緒方 浩之取締役",
             "shares": 22500,
             "type": "other",
             "ratio": 0.28,
@@ -366,6 +353,13 @@
             "type": "other",
             "ratio": 63.14,
             "tekiyo": "代表取締役社長の資産管理会社"
+          },
+          {
+            "name": "ﾋﾞｰｴｲﾌﾞﾙ従業員持株会",
+            "shares": 250000,
+            "type": "other",
+            "ratio": 3.14,
+            "tekiyo": "特別利害関係者など"
           },
           {
             "name": "(株)IHI",
@@ -381,13 +375,12 @@
             "ratio": 0.3,
             "tekiyo": "従業員"
           }
-        ],
-        "days": 180
+        ]
       }
     ],
     "stock_options": [],
-    "notes": "auto-scraped from ipokiso.com 2026-07-01",
-    "prospectus_url": "https://www.ipokiso.com/company/2026/able-can.html"
+    "notes": "auto-scraped from ipokabu.net",
+    "prospectus_url": ""
   },
   {
     "ticker": "593A",
