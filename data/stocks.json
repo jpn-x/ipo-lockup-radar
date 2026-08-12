@@ -1,5 +1,101 @@
 [
   {
+    "ticker": "618A",
+    "name": "KOMPEITO[コンペイトウ",
+    "ipo_date": "2026-09-11",
+    "market": "東証グロース",
+    "initial_price": 1560,
+    "lockups": [
+      {
+        "label": "VC・主要株主（90日/1.5倍条件）",
+        "release_date": "2026-12-10",
+        "shares": 0,
+        "holders": [
+          {
+            "name": "JICベンチャー・グロース・ファンド1号投資事業有限責任組合",
+            "shares": 0,
+            "type": "vc",
+            "ratio": 9.97
+          },
+          {
+            "name": "ニッセイ・キャピタル7号投資事業有限責任組合",
+            "shares": 0,
+            "type": "vc",
+            "ratio": 8.33
+          },
+          {
+            "name": "ニッセイ・キャピタル11号投資事業有限責任組合",
+            "shares": 0,
+            "type": "vc",
+            "ratio": 7.07
+          },
+          {
+            "name": "ニッセイ・キャピタル9号投資事業有限責任組合",
+            "shares": 0,
+            "type": "vc",
+            "ratio": 6.14
+          },
+          {
+            "name": "あおぞらHYBRID3号投資事業有限責任組合",
+            "shares": 0,
+            "type": "vc",
+            "ratio": 2.9
+          }
+        ],
+        "days": 90
+      },
+      {
+        "label": "VC・主要株主（180日）",
+        "release_date": "2027-03-10",
+        "shares": 0,
+        "holders": [
+          {
+            "name": "渡邉 瞬 （社長）",
+            "shares": 0,
+            "type": "founder",
+            "ratio": 21.85
+          },
+          {
+            "name": "IF Growth Opportunity Fund I, L.P.",
+            "shares": 0,
+            "type": "vc",
+            "ratio": 8.52
+          },
+          {
+            "name": "インキュベイトファンド2号投資事業有限責任組合",
+            "shares": 0,
+            "type": "vc",
+            "ratio": 5.24
+          }
+        ],
+        "days": 180
+      },
+      {
+        "label": "主要株主（360日）",
+        "release_date": "2027-09-06",
+        "shares": 0,
+        "holders": [
+          {
+            "name": "キユーピー（株）",
+            "shares": 0,
+            "type": "other",
+            "ratio": 3.88
+          },
+          {
+            "name": "鈴与（株）",
+            "shares": 0,
+            "type": "other",
+            "ratio": 2.51
+          }
+        ],
+        "days": 360
+      }
+    ],
+    "stock_options": [],
+    "notes": "auto-scraped from ipokiso.com 2026-08-12",
+    "prospectus_url": "https://www.ipokiso.com/company/2026/kompeito.html"
+  },
+  {
     "ticker": "607A",
     "name": "エブリー",
     "ipo_date": "2026-08-04",
