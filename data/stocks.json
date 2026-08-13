@@ -9,7 +9,7 @@
       {
         "label": "VC・主要株主（90日/1.5倍条件）",
         "release_date": "2026-12-10",
-        "shares": 0,
+        "shares": 7782040,
         "holders": [
           {
             "name": "JICベンチャー・グロース・ファンド1号投資事業有限責任組合",
@@ -40,6 +40,69 @@
             "shares": 0,
             "type": "vc",
             "ratio": 2.9
+          },
+          {
+            "name": "渡辺瞬",
+            "shares": 2301600,
+            "type": "other",
+            "ratio": 21.85,
+            "tekiyo": "代表取締役CEO"
+          },
+          {
+            "name": "JICﾍﾞﾝﾁｬｰ･ｸﾞﾛｰｽ･ﾌｧﾝﾄﾞ1号投組",
+            "shares": 1049580,
+            "type": "other",
+            "ratio": 9.97,
+            "tekiyo": "投資業(ﾌｧﾝﾄﾞ)"
+          },
+          {
+            "name": "IF Growth Opportunity F I,L.P.",
+            "shares": 896910,
+            "type": "vc",
+            "ratio": 8.52,
+            "tekiyo": "投資業(ﾌｧﾝﾄﾞ)"
+          },
+          {
+            "name": "ﾆｯｾｲ･ｷｬﾋﾟﾀﾙ7号投組",
+            "shares": 877310,
+            "type": "other",
+            "ratio": 8.33,
+            "tekiyo": "投資業(ﾌｧﾝﾄﾞ)"
+          },
+          {
+            "name": "ﾆｯｾｲ･ｷｬﾋﾟﾀﾙ11号投組",
+            "shares": 744240,
+            "type": "other",
+            "ratio": 7.07,
+            "tekiyo": "投資業(ﾌｧﾝﾄﾞ)"
+          },
+          {
+            "name": "ﾆｯｾｲ･ｷｬﾋﾟﾀﾙ9号投組",
+            "shares": 646450,
+            "type": "other",
+            "ratio": 6.14,
+            "tekiyo": "投資業(ﾌｧﾝﾄﾞ)"
+          },
+          {
+            "name": "ｲﾝｷｭﾍﾞｲﾄﾌｧﾝﾄﾞ2号投組",
+            "shares": 552370,
+            "type": "other",
+            "ratio": 5.24,
+            "tekiyo": "投資業(ﾌｧﾝﾄﾞ)"
+          },
+          {
+            "name": "ｷﾕｰﾋﾟｰ(株)",
+            "shares": 408240,
+            "type": "other",
+            "ratio": 3.88,
+            "tekiyo": "資本提携先"
+          },
+          {
+            "name": "あおぞらHYBRID3号投組",
+            "shares": 305340,
+            "type": "other",
+            "ratio": 2.9,
+            "tekiyo": "投資業(ﾌｧﾝﾄﾞ)"
           }
         ],
         "days": 90
@@ -73,7 +136,7 @@
       {
         "label": "主要株主（360日）",
         "release_date": "2027-09-06",
-        "shares": 0,
+        "shares": 264670,
         "holders": [
           {
             "name": "キユーピー（株）",
@@ -83,9 +146,10 @@
           },
           {
             "name": "鈴与（株）",
-            "shares": 0,
+            "shares": 264670,
             "type": "other",
-            "ratio": 2.51
+            "ratio": 2.51,
+            "tekiyo": "特別利害関係者など"
           }
         ],
         "days": 360
@@ -5738,14 +5802,12 @@
       {
         "label": "VC・主要株主（90日）",
         "release_date": "2026-01-04",
-        "shares": 57217399,
+        "shares": 127353073,
         "holders": [
           {
             "name": "木暮 康雄代表取締役",
-            "shares": 706240,
-            "type": "founder",
-            "ratio": 29.29,
-            "tekiyo": "代表取締役"
+            "shares": 70624029,
+            "type": "founder"
           },
           {
             "name": "パズー株式会社代表取締役の資産管理会社",
@@ -5759,10 +5821,8 @@
           },
           {
             "name": "田中 祥太郎取締役",
-            "shares": 102510,
-            "type": "other",
-            "ratio": 4.25,
-            "tekiyo": "取締役COO"
+            "shares": 1025104,
+            "type": "other"
           },
           {
             "name": "ディップ株式会社",
@@ -5786,71 +5846,13 @@
           },
           {
             "name": "木暮 正彦血族",
-            "shares": 40000,
-            "type": "other",
-            "ratio": 1.66,
-            "tekiyo": "代表取締役の血族"
+            "shares": 400001,
+            "type": "other"
           },
           {
             "name": "株式会社エルテスキャピタルCVC",
             "shares": 357101,
             "type": "vc"
-          },
-          {
-            "name": "ﾊﾟｽﾞｰ(株)",
-            "shares": 500000,
-            "type": "other",
-            "ratio": 20.74,
-            "tekiyo": "役員らが議決権の過半数所有"
-          },
-          {
-            "name": "(株)ﾆｷﾃｨｽ",
-            "shares": 192500,
-            "type": "other",
-            "ratio": 7.98,
-            "tekiyo": "役員らが議決権の過半数所有"
-          },
-          {
-            "name": "ﾃﾞｨｯﾌﾟ(株)",
-            "shares": 98220,
-            "type": "other",
-            "ratio": 4.07,
-            "tekiyo": "特別利害関係者など"
-          },
-          {
-            "name": "TSVF1投組",
-            "shares": 89290,
-            "type": "other",
-            "ratio": 3.7,
-            "tekiyo": "投資業(ﾌｧﾝﾄﾞ)"
-          },
-          {
-            "name": "(株)ﾗｻ",
-            "shares": 60610,
-            "type": "other",
-            "ratio": 2.51,
-            "tekiyo": "特別利害関係者など"
-          },
-          {
-            "name": "ｱｺｰﾄﾞ･ﾍﾞﾝﾁｬｰｽﾞ1号CF投組",
-            "shares": 54060,
-            "type": "other",
-            "ratio": 2.24,
-            "tekiyo": "投資業(ﾌｧﾝﾄﾞ)"
-          },
-          {
-            "name": "(株)ｴﾙﾃｽｷｬﾋﾟﾀﾙ",
-            "shares": 35710,
-            "type": "other",
-            "ratio": 1.48,
-            "tekiyo": "投資業(ﾌｧﾝﾄﾞ)"
-          },
-          {
-            "name": "(株)丸喜堂",
-            "shares": 34320,
-            "type": "other",
-            "ratio": 1.42,
-            "tekiyo": "特別利害関係者など"
           }
         ]
       }
