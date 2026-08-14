@@ -3387,7 +3387,7 @@
       {
         "label": "主要株主（180日）",
         "release_date": "2026-06-19",
-        "shares": 159764358,
+        "shares": 241900091,
         "holders": [
           {
             "name": "株式会社ストーン取締役の資産管理会社",
@@ -3401,31 +3401,23 @@
           },
           {
             "name": "西村賢治代表取締役",
-            "shares": 279000,
-            "type": "founder",
-            "ratio": 10.0,
-            "tekiyo": "代表取締役社長"
+            "shares": 27900010,
+            "type": "founder"
           },
           {
             "name": "長谷川新里取締役",
-            "shares": 279000,
-            "type": "other",
-            "ratio": 10.0,
-            "tekiyo": "取締役"
+            "shares": 27900010,
+            "type": "other"
           },
           {
             "name": "白木孝一取締役",
-            "shares": 279000,
-            "type": "other",
-            "ratio": 10.0,
-            "tekiyo": "取締役"
+            "shares": 27900010,
+            "type": "other"
           },
           {
             "name": "井上剛取締役",
-            "shares": 77000,
-            "type": "other",
-            "ratio": 2.8,
-            "tekiyo": "取締役"
+            "shares": 770002,
+            "type": "other"
           },
           {
             "name": "ディーエムソリューションズ株式会社",
@@ -3444,52 +3436,8 @@
           },
           {
             "name": "石川敬啓取締役",
-            "shares": 30000,
-            "type": "other",
-            "ratio": 1.1,
-            "tekiyo": "取締役"
-          },
-          {
-            "name": "(株)ｽﾄｰﾝ",
-            "shares": 1132300,
-            "type": "other",
-            "ratio": 40.6,
-            "tekiyo": "役員らが議決権の過半数所有"
-          },
-          {
-            "name": "(株)ｳｴｽﾄ",
-            "shares": 428000,
-            "type": "other",
-            "ratio": 15.3,
-            "tekiyo": "役員らが議決権の過半数所有"
-          },
-          {
-            "name": "ﾃﾞｨｰｴﾑｿﾘｭｰｼｮﾝｽﾞ(株)",
-            "shares": 50000,
-            "type": "other",
-            "ratio": 1.8,
-            "tekiyo": "特別利害関係者など"
-          },
-          {
-            "name": "みずほﾘｰｽ(株)",
-            "shares": 30000,
-            "type": "other",
-            "ratio": 1.1,
-            "tekiyo": "取引先"
-          },
-          {
-            "name": "(株)WOWOWｺﾐｭﾆｹｰｼｮﾝｽﾞ",
-            "shares": 30000,
-            "type": "other",
-            "ratio": 1.1,
-            "tekiyo": "共同開発先"
-          },
-          {
-            "name": "(株)ﾌﾟﾗﾈｯﾄ",
-            "shares": 20000,
-            "type": "other",
-            "ratio": 0.7,
-            "tekiyo": "業務委託先"
+            "shares": 300001,
+            "type": "other"
           }
         ]
       }
@@ -5802,12 +5750,14 @@
       {
         "label": "VC・主要株主（90日）",
         "release_date": "2026-01-04",
-        "shares": 127353073,
+        "shares": 57217399,
         "holders": [
           {
             "name": "木暮 康雄代表取締役",
-            "shares": 70624029,
-            "type": "founder"
+            "shares": 706240,
+            "type": "founder",
+            "ratio": 29.29,
+            "tekiyo": "代表取締役"
           },
           {
             "name": "パズー株式会社代表取締役の資産管理会社",
@@ -5821,8 +5771,10 @@
           },
           {
             "name": "田中 祥太郎取締役",
-            "shares": 1025104,
-            "type": "other"
+            "shares": 102510,
+            "type": "other",
+            "ratio": 4.25,
+            "tekiyo": "取締役COO"
           },
           {
             "name": "ディップ株式会社",
@@ -5846,13 +5798,71 @@
           },
           {
             "name": "木暮 正彦血族",
-            "shares": 400001,
-            "type": "other"
+            "shares": 40000,
+            "type": "other",
+            "ratio": 1.66,
+            "tekiyo": "代表取締役の血族"
           },
           {
             "name": "株式会社エルテスキャピタルCVC",
             "shares": 357101,
             "type": "vc"
+          },
+          {
+            "name": "ﾊﾟｽﾞｰ(株)",
+            "shares": 500000,
+            "type": "other",
+            "ratio": 20.74,
+            "tekiyo": "役員らが議決権の過半数所有"
+          },
+          {
+            "name": "(株)ﾆｷﾃｨｽ",
+            "shares": 192500,
+            "type": "other",
+            "ratio": 7.98,
+            "tekiyo": "役員らが議決権の過半数所有"
+          },
+          {
+            "name": "ﾃﾞｨｯﾌﾟ(株)",
+            "shares": 98220,
+            "type": "other",
+            "ratio": 4.07,
+            "tekiyo": "特別利害関係者など"
+          },
+          {
+            "name": "TSVF1投組",
+            "shares": 89290,
+            "type": "other",
+            "ratio": 3.7,
+            "tekiyo": "投資業(ﾌｧﾝﾄﾞ)"
+          },
+          {
+            "name": "(株)ﾗｻ",
+            "shares": 60610,
+            "type": "other",
+            "ratio": 2.51,
+            "tekiyo": "特別利害関係者など"
+          },
+          {
+            "name": "ｱｺｰﾄﾞ･ﾍﾞﾝﾁｬｰｽﾞ1号CF投組",
+            "shares": 54060,
+            "type": "other",
+            "ratio": 2.24,
+            "tekiyo": "投資業(ﾌｧﾝﾄﾞ)"
+          },
+          {
+            "name": "(株)ｴﾙﾃｽｷｬﾋﾟﾀﾙ",
+            "shares": 35710,
+            "type": "other",
+            "ratio": 1.48,
+            "tekiyo": "投資業(ﾌｧﾝﾄﾞ)"
+          },
+          {
+            "name": "(株)丸喜堂",
+            "shares": 34320,
+            "type": "other",
+            "ratio": 1.42,
+            "tekiyo": "特別利害関係者など"
           }
         ]
       }
