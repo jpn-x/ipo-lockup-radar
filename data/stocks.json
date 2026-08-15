@@ -430,7 +430,7 @@
       {
         "label": "主要株主（180日）",
         "release_date": "2027-01-24",
-        "shares": 512383466,
+        "shares": 687534090,
         "holders": [
           {
             "name": "エイブル興産株式会社代表取締役の資産管理会社",
@@ -439,10 +439,8 @@
           },
           {
             "name": "佐藤 順英代表取締役社長",
-            "shares": 1800000,
-            "type": "founder",
-            "ratio": 22.66,
-            "tekiyo": "代表取締役社長"
+            "shares": 180000022,
+            "type": "founder"
           },
           {
             "name": "ビーエイブル従業員持株会",
@@ -451,10 +449,8 @@
           },
           {
             "name": "株式会社大東銀行",
-            "shares": 160000,
-            "type": "corporate",
-            "ratio": 2.01,
-            "tekiyo": "取引先"
+            "shares": 1600002,
+            "type": "corporate"
           },
           {
             "name": "株式会社ＩＨＩ",
@@ -463,24 +459,18 @@
           },
           {
             "name": "鈴内 浩二取締役",
-            "shares": 25000,
-            "type": "other",
-            "ratio": 0.31,
-            "tekiyo": "取締役副社長"
+            "shares": 250000,
+            "type": "other"
           },
           {
             "name": "渡辺 靖取締役",
-            "shares": 25000,
-            "type": "other",
-            "ratio": 0.31,
-            "tekiyo": "常務取締役"
+            "shares": 250000,
+            "type": "other"
           },
           {
             "name": "根本 義和取締役",
-            "shares": 24400,
-            "type": "other",
-            "ratio": 0.3,
-            "tekiyo": "常務取締役"
+            "shares": 244000,
+            "type": "other"
           },
           {
             "name": "―従業員",
@@ -489,38 +479,8 @@
           },
           {
             "name": "緒方 浩之取締役",
-            "shares": 22500,
-            "type": "other",
-            "ratio": 0.28,
-            "tekiyo": "取締役"
-          },
-          {
-            "name": "ｴｲﾌﾞﾙ興産(株)",
-            "shares": 5015000,
-            "type": "other",
-            "ratio": 63.14,
-            "tekiyo": "代表取締役社長の資産管理会社"
-          },
-          {
-            "name": "ﾋﾞｰｴｲﾌﾞﾙ従業員持株会",
-            "shares": 250000,
-            "type": "other",
-            "ratio": 3.14,
-            "tekiyo": "特別利害関係者など"
-          },
-          {
-            "name": "(株)IHI",
-            "shares": 72500,
-            "type": "other",
-            "ratio": 0.91,
-            "tekiyo": "資本業務提携先"
-          },
-          {
-            "name": "匿名",
-            "shares": 24000,
-            "type": "other",
-            "ratio": 0.3,
-            "tekiyo": "従業員"
+            "shares": 225000,
+            "type": "other"
           }
         ]
       }
