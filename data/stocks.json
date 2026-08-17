@@ -430,7 +430,7 @@
       {
         "label": "主要株主（180日）",
         "release_date": "2027-01-24",
-        "shares": 687534090,
+        "shares": 512383466,
         "holders": [
           {
             "name": "エイブル興産株式会社代表取締役の資産管理会社",
@@ -439,8 +439,10 @@
           },
           {
             "name": "佐藤 順英代表取締役社長",
-            "shares": 180000022,
-            "type": "founder"
+            "shares": 1800000,
+            "type": "founder",
+            "ratio": 22.66,
+            "tekiyo": "代表取締役社長"
           },
           {
             "name": "ビーエイブル従業員持株会",
@@ -449,8 +451,10 @@
           },
           {
             "name": "株式会社大東銀行",
-            "shares": 1600002,
-            "type": "corporate"
+            "shares": 160000,
+            "type": "corporate",
+            "ratio": 2.01,
+            "tekiyo": "取引先"
           },
           {
             "name": "株式会社ＩＨＩ",
@@ -459,18 +463,24 @@
           },
           {
             "name": "鈴内 浩二取締役",
-            "shares": 250000,
-            "type": "other"
+            "shares": 25000,
+            "type": "other",
+            "ratio": 0.31,
+            "tekiyo": "取締役副社長"
           },
           {
             "name": "渡辺 靖取締役",
-            "shares": 250000,
-            "type": "other"
+            "shares": 25000,
+            "type": "other",
+            "ratio": 0.31,
+            "tekiyo": "常務取締役"
           },
           {
             "name": "根本 義和取締役",
-            "shares": 244000,
-            "type": "other"
+            "shares": 24400,
+            "type": "other",
+            "ratio": 0.3,
+            "tekiyo": "常務取締役"
           },
           {
             "name": "―従業員",
@@ -479,8 +489,38 @@
           },
           {
             "name": "緒方 浩之取締役",
-            "shares": 225000,
-            "type": "other"
+            "shares": 22500,
+            "type": "other",
+            "ratio": 0.28,
+            "tekiyo": "取締役"
+          },
+          {
+            "name": "ｴｲﾌﾞﾙ興産(株)",
+            "shares": 5015000,
+            "type": "other",
+            "ratio": 63.14,
+            "tekiyo": "代表取締役社長の資産管理会社"
+          },
+          {
+            "name": "ﾋﾞｰｴｲﾌﾞﾙ従業員持株会",
+            "shares": 250000,
+            "type": "other",
+            "ratio": 3.14,
+            "tekiyo": "特別利害関係者など"
+          },
+          {
+            "name": "(株)IHI",
+            "shares": 72500,
+            "type": "other",
+            "ratio": 0.91,
+            "tekiyo": "資本業務提携先"
+          },
+          {
+            "name": "匿名",
+            "shares": 24000,
+            "type": "other",
+            "ratio": 0.3,
+            "tekiyo": "従業員"
           }
         ]
       }
@@ -3347,7 +3387,7 @@
       {
         "label": "主要株主（180日）",
         "release_date": "2026-06-19",
-        "shares": 241900091,
+        "shares": 159764358,
         "holders": [
           {
             "name": "株式会社ストーン取締役の資産管理会社",
@@ -3361,23 +3401,31 @@
           },
           {
             "name": "西村賢治代表取締役",
-            "shares": 27900010,
-            "type": "founder"
+            "shares": 279000,
+            "type": "founder",
+            "ratio": 10.0,
+            "tekiyo": "代表取締役社長"
           },
           {
             "name": "長谷川新里取締役",
-            "shares": 27900010,
-            "type": "other"
+            "shares": 279000,
+            "type": "other",
+            "ratio": 10.0,
+            "tekiyo": "取締役"
           },
           {
             "name": "白木孝一取締役",
-            "shares": 27900010,
-            "type": "other"
+            "shares": 279000,
+            "type": "other",
+            "ratio": 10.0,
+            "tekiyo": "取締役"
           },
           {
             "name": "井上剛取締役",
-            "shares": 770002,
-            "type": "other"
+            "shares": 77000,
+            "type": "other",
+            "ratio": 2.8,
+            "tekiyo": "取締役"
           },
           {
             "name": "ディーエムソリューションズ株式会社",
@@ -3396,8 +3444,52 @@
           },
           {
             "name": "石川敬啓取締役",
-            "shares": 300001,
-            "type": "other"
+            "shares": 30000,
+            "type": "other",
+            "ratio": 1.1,
+            "tekiyo": "取締役"
+          },
+          {
+            "name": "(株)ｽﾄｰﾝ",
+            "shares": 1132300,
+            "type": "other",
+            "ratio": 40.6,
+            "tekiyo": "役員らが議決権の過半数所有"
+          },
+          {
+            "name": "(株)ｳｴｽﾄ",
+            "shares": 428000,
+            "type": "other",
+            "ratio": 15.3,
+            "tekiyo": "役員らが議決権の過半数所有"
+          },
+          {
+            "name": "ﾃﾞｨｰｴﾑｿﾘｭｰｼｮﾝｽﾞ(株)",
+            "shares": 50000,
+            "type": "other",
+            "ratio": 1.8,
+            "tekiyo": "特別利害関係者など"
+          },
+          {
+            "name": "みずほﾘｰｽ(株)",
+            "shares": 30000,
+            "type": "other",
+            "ratio": 1.1,
+            "tekiyo": "取引先"
+          },
+          {
+            "name": "(株)WOWOWｺﾐｭﾆｹｰｼｮﾝｽﾞ",
+            "shares": 30000,
+            "type": "other",
+            "ratio": 1.1,
+            "tekiyo": "共同開発先"
+          },
+          {
+            "name": "(株)ﾌﾟﾗﾈｯﾄ",
+            "shares": 20000,
+            "type": "other",
+            "ratio": 0.7,
+            "tekiyo": "業務委託先"
           }
         ]
       }
