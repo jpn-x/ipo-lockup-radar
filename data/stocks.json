@@ -285,12 +285,14 @@
       {
         "label": "VC・主要株主（180日）",
         "release_date": "2027-01-24",
-        "shares": 1407850067,
+        "shares": 605800037,
         "holders": [
           {
             "name": "伊藤忠商事株式会社",
-            "shares": 794000021,
-            "type": "corporate"
+            "shares": 7940000,
+            "type": "corporate",
+            "ratio": 21.75,
+            "tekiyo": "その他の関係会社"
           },
           {
             "name": "THE FUND投資事業有限責任組合VC",
@@ -304,8 +306,10 @@
           },
           {
             "name": "関西電力株式会社",
-            "shares": 26000007,
-            "type": "other"
+            "shares": 2600000,
+            "type": "other",
+            "ratio": 7.12,
+            "tekiyo": "特別利害関係者など"
           },
           {
             "name": "株式会社シグマクシス・ホールディングス",
@@ -334,8 +338,80 @@
           },
           {
             "name": "東急不動産株式会社",
-            "shares": 10750002,
-            "type": "other"
+            "shares": 1075000,
+            "type": "other",
+            "ratio": 2.95,
+            "tekiyo": "特別利害関係者など"
+          },
+          {
+            "name": "THE FUND投組",
+            "shares": 4775000,
+            "type": "other",
+            "ratio": 13.08,
+            "tekiyo": "投資業(ﾌｧﾝﾄﾞ)"
+          },
+          {
+            "name": "ES&Gﾊﾟｰﾄﾅｰｽﾞ投組",
+            "shares": 2900000,
+            "type": "other",
+            "ratio": 7.95,
+            "tekiyo": "投資業(ﾌｧﾝﾄﾞ)"
+          },
+          {
+            "name": "(株)ｼｸﾞﾏｸｼｽ･ﾎｰﾙﾃﾞｨﾝｸﾞｽ",
+            "shares": 1750000,
+            "type": "other",
+            "ratio": 4.79,
+            "tekiyo": "特別利害関係者など"
+          },
+          {
+            "name": "芙蓉総合ﾘｰｽ(株)",
+            "shares": 1500000,
+            "type": "other",
+            "ratio": 4.11,
+            "tekiyo": "特別利害関係者など"
+          },
+          {
+            "name": "JA三井ﾘｰｽ(株)",
+            "shares": 1355000,
+            "type": "other",
+            "ratio": 3.71,
+            "tekiyo": "特別利害関係者など"
+          },
+          {
+            "name": "本多聡介",
+            "shares": 1310000,
+            "type": "other",
+            "ratio": 3.59,
+            "tekiyo": "取締役会長"
+          },
+          {
+            "name": "ｺﾀｴﾙ信託(株)",
+            "shares": 1145000,
+            "type": "other",
+            "ratio": 3.14,
+            "tekiyo": "新株予約権信託の受託者"
+          },
+          {
+            "name": "秋田智一",
+            "shares": 850000,
+            "type": "other",
+            "ratio": 2.33,
+            "tekiyo": "代表取締役社長"
+          },
+          {
+            "name": "片山晃",
+            "shares": 750000,
+            "type": "other",
+            "ratio": 2.05,
+            "tekiyo": "特別利害関係者など"
+          },
+          {
+            "name": "山口貴弘",
+            "shares": 750000,
+            "type": "other",
+            "ratio": 2.05,
+            "tekiyo": "特別利害関係者など"
           }
         ]
       }
