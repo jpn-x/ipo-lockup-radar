@@ -1,45 +1,67 @@
 [
   {
     "ticker": "618A",
-    "name": "KOMPEITO[コンペイトウ",
+    "name": "KOMPEITO",
     "ipo_date": "2026-09-11",
     "market": "東証グロース",
-    "initial_price": 1560,
+    "initial_price": 1600,
     "lockups": [
       {
-        "label": "VC・主要株主（90日/1.5倍条件）",
-        "release_date": "2026-12-10",
-        "shares": 7782040,
+        "label": "VC・主要株主（360日）",
+        "release_date": "2026-12-09",
+        "shares": 293011179,
         "holders": [
           {
-            "name": "JICベンチャー・グロース・ファンド1号投資事業有限責任組合",
-            "shares": 0,
-            "type": "vc",
-            "ratio": 9.97
+            "name": "渡邉 瞬代表取締役",
+            "shares": 230160021,
+            "type": "founder"
           },
           {
-            "name": "ニッセイ・キャピタル7号投資事業有限責任組合",
-            "shares": 0,
-            "type": "vc",
-            "ratio": 8.33
+            "name": "JICベンチャー・グロース・ファンド1号投資事業有限責任組合VC",
+            "shares": 10495809,
+            "type": "vc"
           },
           {
-            "name": "ニッセイ・キャピタル11号投資事業有限責任組合",
-            "shares": 0,
-            "type": "vc",
-            "ratio": 7.07
+            "name": "IF Growth Opportunity Fund I, L.P.VC",
+            "shares": 8969108,
+            "type": "vc"
           },
           {
-            "name": "ニッセイ・キャピタル9号投資事業有限責任組合",
-            "shares": 0,
-            "type": "vc",
-            "ratio": 6.14
+            "name": "ニッセイ・キャピタル7号投資事業有限責任組合VC",
+            "shares": 8773108,
+            "type": "vc"
           },
           {
-            "name": "あおぞらHYBRID3号投資事業有限責任組合",
-            "shares": 0,
-            "type": "vc",
-            "ratio": 2.9
+            "name": "ニッセイ・キャピタル11号投資事業有限責任組合VC",
+            "shares": 7442407,
+            "type": "vc"
+          },
+          {
+            "name": "ニッセイ・キャピタル9号投資事業有限責任組合VC",
+            "shares": 6464506,
+            "type": "vc"
+          },
+          {
+            "name": "インキュベイトファンド2号投資事業有限責任組合VC",
+            "shares": 5523705,
+            "type": "vc"
+          },
+          {
+            "name": "キユーピー株式会社",
+            "shares": 4082403,
+            "type": "other"
+          },
+          {
+            "name": "あおぞらHYBRID3号投資事業有限責任組合投資ファンド",
+            "shares": 3053402,
+            "type": "vc"
+          },
+          {
+            "name": "鈴与株式会社",
+            "shares": 264670,
+            "type": "other",
+            "ratio": 2.51,
+            "tekiyo": "特別利害関係者など"
           },
           {
             "name": "渡辺瞬",
@@ -104,60 +126,12 @@
             "ratio": 2.9,
             "tekiyo": "投資業(ﾌｧﾝﾄﾞ)"
           }
-        ],
-        "days": 90
-      },
-      {
-        "label": "VC・主要株主（180日）",
-        "release_date": "2027-03-10",
-        "shares": 0,
-        "holders": [
-          {
-            "name": "渡邉 瞬 （社長）",
-            "shares": 0,
-            "type": "founder",
-            "ratio": 21.85
-          },
-          {
-            "name": "IF Growth Opportunity Fund I, L.P.",
-            "shares": 0,
-            "type": "vc",
-            "ratio": 8.52
-          },
-          {
-            "name": "インキュベイトファンド2号投資事業有限責任組合",
-            "shares": 0,
-            "type": "vc",
-            "ratio": 5.24
-          }
-        ],
-        "days": 180
-      },
-      {
-        "label": "主要株主（360日）",
-        "release_date": "2027-09-06",
-        "shares": 264670,
-        "holders": [
-          {
-            "name": "キユーピー（株）",
-            "shares": 0,
-            "type": "other",
-            "ratio": 3.88
-          },
-          {
-            "name": "鈴与（株）",
-            "shares": 264670,
-            "type": "other",
-            "ratio": 2.51,
-            "tekiyo": "特別利害関係者など"
-          }
-        ],
-        "days": 360
+        ]
       }
     ],
     "stock_options": [],
-    "notes": "auto-scraped from ipokiso.com 2026-08-12",
-    "prospectus_url": "https://www.ipokiso.com/company/2026/kompeito.html"
+    "notes": "auto-scraped from ipokabu.net",
+    "prospectus_url": ""
   },
   {
     "ticker": "607A",
