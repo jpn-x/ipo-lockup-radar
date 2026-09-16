@@ -1,5 +1,226 @@
 [
   {
+    "ticker": "619A",
+    "name": "オリバー",
+    "ipo_date": "2026-09-16",
+    "market": "東証スタンダード",
+    "initial_price": 305,
+    "lockups": [
+      {
+        "label": "VC・主要株主（180日）",
+        "release_date": "2027-03-15",
+        "shares": 4856744720,
+        "holders": [
+          {
+            "name": "インテグラル４号投資事業有限責任組合PE",
+            "shares": 4687561043,
+            "type": "vc"
+          },
+          {
+            "name": "Initiative Delta IV L.P.PE",
+            "shares": 20443550,
+            "type": "vc",
+            "ratio": 19.16,
+            "tekiyo": "投資業(ﾌｧﾝﾄﾞ)"
+          },
+          {
+            "name": "Innovation Alpha IV L.P.PE",
+            "shares": 17896710,
+            "type": "vc",
+            "ratio": 16.77,
+            "tekiyo": "投資業(ﾌｧﾝﾄﾞ)"
+          },
+          {
+            "name": "インテグラル株式会社PE",
+            "shares": 76541307,
+            "type": "vc"
+          },
+          {
+            "name": "大川 和昌代表取締役社長",
+            "shares": 5381500,
+            "type": "founder",
+            "ratio": 5.04,
+            "tekiyo": "代表取締役社長"
+          },
+          {
+            "name": "山本 隆夫元取締役",
+            "shares": 595500,
+            "type": "other",
+            "ratio": 0.56,
+            "tekiyo": "元取締役"
+          },
+          {
+            "name": "浦隅 明弘取締役",
+            "shares": 574000,
+            "type": "other",
+            "ratio": 0.54,
+            "tekiyo": "常務取締役"
+          },
+          {
+            "name": "草道 勇取締役",
+            "shares": 445500,
+            "type": "other",
+            "ratio": 0.42,
+            "tekiyo": "取締役"
+          },
+          {
+            "name": "遠藤 一彦従業員",
+            "shares": 215000,
+            "type": "other",
+            "ratio": 0.2,
+            "tekiyo": "執行役員"
+          },
+          {
+            "name": "野替 信也従業員",
+            "shares": 215000,
+            "type": "other",
+            "ratio": 0.2,
+            "tekiyo": "執行役員"
+          },
+          {
+            "name": "ｲﾝﾃｸﾞﾗﾙ4号投組",
+            "shares": 46875610,
+            "type": "other",
+            "ratio": 43.93,
+            "tekiyo": "投資業(ﾌｧﾝﾄﾞ)"
+          }
+        ]
+      }
+    ],
+    "stock_options": [],
+    "notes": "auto-scraped from ipokabu.net",
+    "prospectus_url": ""
+  },
+  {
+    "ticker": "621A",
+    "name": "オーディオストック",
+    "ipo_date": "2026-09-16",
+    "market": "東証グロース",
+    "initial_price": 1060,
+    "lockups": [
+      {
+        "label": "VC・主要株主（90日）",
+        "release_date": "2026-12-14",
+        "shares": 137489853,
+        "holders": [
+          {
+            "name": "株式会社ウエストテイルズ代表取締役の資産管理会社",
+            "shares": 121280027,
+            "type": "founder"
+          },
+          {
+            "name": "西尾周一郎代表取締役社長",
+            "shares": 300000,
+            "type": "founder",
+            "ratio": 6.73,
+            "tekiyo": "代表取締役社長"
+          },
+          {
+            "name": "ピクスタ株式会社",
+            "shares": 2800006,
+            "type": "other"
+          },
+          {
+            "name": "Kepple Liquidity ２号投資事業有限責任組合投資ファンド",
+            "shares": 2580005,
+            "type": "vc"
+          },
+          {
+            "name": "山口真央取締役",
+            "shares": 254000,
+            "type": "other",
+            "ratio": 5.7,
+            "tekiyo": "取締役COO"
+          },
+          {
+            "name": "NVCC８号投資事業有限責任組合VC",
+            "shares": 2350005,
+            "type": "vc"
+          },
+          {
+            "name": "スペースシャワーSKIYAKIホールディングス株式会社",
+            "shares": 1500003,
+            "type": "founder"
+          },
+          {
+            "name": "ApolloCapital１号投資事業有限責任組合CVC",
+            "shares": 1400003,
+            "type": "vc"
+          },
+          {
+            "name": "High-ValueC１st投資事業有限責任組合VC",
+            "shares": 1250002,
+            "type": "vc"
+          },
+          {
+            "name": "FFGベンチャー投資事業有限責任組合VC",
+            "shares": 1250002,
+            "type": "vc"
+          },
+          {
+            "name": "(株)ｳｴｽﾄﾃｲﾙｽﾞ",
+            "shares": 1212800,
+            "type": "other",
+            "ratio": 27.21,
+            "tekiyo": "役員らが議決権の過半数所有"
+          },
+          {
+            "name": "ﾋﾟｸｽﾀ(株)",
+            "shares": 280000,
+            "type": "other",
+            "ratio": 6.28,
+            "tekiyo": "取引先"
+          },
+          {
+            "name": "Kepple Liquidity 2号投組",
+            "shares": 258000,
+            "type": "other",
+            "ratio": 5.79,
+            "tekiyo": "投資業(ﾌｧﾝﾄﾞ)"
+          },
+          {
+            "name": "NVCC8号投組",
+            "shares": 235000,
+            "type": "vc",
+            "ratio": 5.27,
+            "tekiyo": "投資業(ﾌｧﾝﾄﾞ)"
+          },
+          {
+            "name": "ｽﾍﾟｰｽｼｬﾜｰSKIYAKIﾎｰﾙﾃﾞｨﾝｸﾞｽ(株)",
+            "shares": 150000,
+            "type": "other",
+            "ratio": 3.36,
+            "tekiyo": "取引先の親会社"
+          },
+          {
+            "name": "ApolloCapital1号投組",
+            "shares": 140000,
+            "type": "other",
+            "ratio": 3.14,
+            "tekiyo": "投資業(ﾌｧﾝﾄﾞ)"
+          },
+          {
+            "name": "High-ValueC1st投組",
+            "shares": 125000,
+            "type": "other",
+            "ratio": 2.8,
+            "tekiyo": "投資業(ﾌｧﾝﾄﾞ)"
+          },
+          {
+            "name": "FFGﾍﾞﾝﾁｬｰ投組1号",
+            "shares": 125000,
+            "type": "other",
+            "ratio": 2.8,
+            "tekiyo": "投資業(ﾌｧﾝﾄﾞ)"
+          }
+        ]
+      }
+    ],
+    "stock_options": [],
+    "notes": "auto-scraped from ipokabu.net",
+    "prospectus_url": ""
+  },
+  {
     "ticker": "618A",
     "name": "KOMPEITO",
     "ipo_date": "2026-09-11",
