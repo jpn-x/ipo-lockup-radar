@@ -1,5 +1,126 @@
 [
   {
+    "ticker": "625A",
+    "name": "Skyfall",
+    "ipo_date": "2026-09-17",
+    "market": "東証グロース",
+    "initial_price": 1500,
+    "lockups": [
+      {
+        "label": "主要株主（180日）",
+        "release_date": "2027-03-15",
+        "shares": 9412450,
+        "holders": [
+          {
+            "name": "長谷川 智一代表取締役社長",
+            "shares": 3750000,
+            "type": "founder",
+            "ratio": 54.35,
+            "tekiyo": "代表取締役社長"
+          },
+          {
+            "name": "田谷野 貴正取締役",
+            "shares": 1250000,
+            "type": "other",
+            "ratio": 18.12,
+            "tekiyo": "取締役副社長"
+          },
+          {
+            "name": "㈱L.V.R役員等により総株主の議決権の過半数が所有されている会社",
+            "shares": 750000,
+            "type": "other",
+            "ratio": 10.87,
+            "tekiyo": "役員らが議決権の過半数所有"
+          },
+          {
+            "name": "and factory㈱",
+            "shares": 363700,
+            "type": "other",
+            "ratio": 5.27,
+            "tekiyo": "資本業務提携先"
+          },
+          {
+            "name": "㈱Amazia",
+            "shares": 93750,
+            "type": "other",
+            "ratio": 1.36,
+            "tekiyo": "資本業務提携先"
+          },
+          {
+            "name": "－従業員",
+            "shares": 575000,
+            "type": "other"
+          },
+          {
+            "name": "－従業員",
+            "shares": 575000,
+            "type": "other"
+          },
+          {
+            "name": "－従業員",
+            "shares": 575000,
+            "type": "other"
+          },
+          {
+            "name": "－従業員",
+            "shares": 575000,
+            "type": "other"
+          },
+          {
+            "name": "－従業員",
+            "shares": 562500,
+            "type": "other"
+          },
+          {
+            "name": "匿名1",
+            "shares": 57500,
+            "type": "other",
+            "ratio": 0.83,
+            "tekiyo": "従業員"
+          },
+          {
+            "name": "匿名2",
+            "shares": 57500,
+            "type": "other",
+            "ratio": 0.83,
+            "tekiyo": "従業員"
+          },
+          {
+            "name": "匿名3",
+            "shares": 57500,
+            "type": "other",
+            "ratio": 0.83,
+            "tekiyo": "従業員"
+          },
+          {
+            "name": "匿名4",
+            "shares": 57500,
+            "type": "other",
+            "ratio": 0.83,
+            "tekiyo": "従業員"
+          },
+          {
+            "name": "匿名5",
+            "shares": 56250,
+            "type": "other",
+            "ratio": 0.81,
+            "tekiyo": "従業員"
+          },
+          {
+            "name": "匿名6",
+            "shares": 56250,
+            "type": "other",
+            "ratio": 0.81,
+            "tekiyo": "従業員"
+          }
+        ]
+      }
+    ],
+    "stock_options": [],
+    "notes": "auto-scraped from ipokabu.net",
+    "prospectus_url": ""
+  },
+  {
     "ticker": "619A",
     "name": "オリバー",
     "ipo_date": "2026-09-16",
