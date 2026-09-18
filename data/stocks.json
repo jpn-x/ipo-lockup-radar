@@ -21,7 +21,7 @@
             "name": "大江 繭子 （社長）",
             "shares": 1335000,
             "type": "founder",
-            "ratio": 29.25,
+            "ratio": 29.27,
             "tekiyo": "代表取締役社長"
           },
           {
@@ -35,7 +35,7 @@
             "name": "赤松 哲典",
             "shares": 314000,
             "type": "other",
-            "ratio": 6.88,
+            "ratio": 6.89,
             "tekiyo": "取締役COO"
           },
           {
@@ -118,14 +118,14 @@
             "name": "（株）みなみの島",
             "shares": 2400000,
             "type": "other",
-            "ratio": 54.85,
+            "ratio": 54.91,
             "tekiyo": "代表取締役社長の資産管理会社"
           },
           {
             "name": "南 友介 （社長）",
             "shares": 1600000,
             "type": "founder",
-            "ratio": 36.57,
+            "ratio": 36.61,
             "tekiyo": "代表取締役社長"
           },
           {
@@ -246,7 +246,7 @@
       {
         "label": "VC・主要株主（180日）",
         "release_date": "2026-12-20",
-        "shares": 57343025,
+        "shares": 7441325,
         "holders": [
           {
             "name": "小西 祐一",
@@ -259,7 +259,7 @@
             "name": "小西 享",
             "shares": 556000,
             "type": "other",
-            "ratio": 8.43,
+            "ratio": 7.78,
             "tekiyo": "代表取締役会長"
           },
           {
@@ -300,9 +300,9 @@
           },
           {
             "name": "（株）福岡銀行",
-            "shares": 49956000,
+            "shares": 54300,
             "type": "corporate",
-            "ratio": 757.1,
+            "ratio": 0.76,
             "tekiyo": "資本業務提携先の子会社"
           },
           {
@@ -1829,7 +1829,7 @@
             "name": "大原薬品工業",
             "shares": 875000,
             "type": "corporate",
-            "ratio": 7.5,
+            "ratio": 5.55,
             "tekiyo": "ﾗｲｾﾝｽ･共同開発先"
           },
           {
@@ -1842,7 +1842,7 @@
             "name": "藤本裕（取締役）",
             "shares": 440000,
             "type": "other",
-            "ratio": 3.77,
+            "ratio": 2.79,
             "tekiyo": "取締役最高財務責任者"
           }
         ]
@@ -2403,7 +2403,7 @@
       {
         "label": "VC・主要株主（90日）",
         "release_date": "2026-03-23",
-        "shares": 241279027,
+        "shares": 189409579,
         "holders": [
           {
             "name": "株式会社エールユー代表取締役の資産管理会社",
@@ -2417,14 +2417,14 @@
           },
           {
             "name": "栗山 規夫代表取締役",
-            "shares": 48745010,
+            "shares": 487450,
             "type": "founder",
             "ratio": 10.37,
             "tekiyo": "代表取締役Founder"
           },
           {
             "name": "柴田 大介代表取締役",
-            "shares": 4013208,
+            "shares": 401320,
             "type": "founder",
             "ratio": 8.54,
             "tekiyo": "代表取締役CEO"
@@ -2768,7 +2768,7 @@
       {
         "label": "主要株主（180日）",
         "release_date": "2026-06-19",
-        "shares": 243590391,
+        "shares": 159764358,
         "holders": [
           {
             "name": "株式会社ストーン取締役の資産管理会社",
@@ -2782,28 +2782,28 @@
           },
           {
             "name": "西村賢治代表取締役",
-            "shares": 27900010,
+            "shares": 279000,
             "type": "founder",
             "ratio": 10.0,
             "tekiyo": "代表取締役社長"
           },
           {
             "name": "長谷川新里取締役",
-            "shares": 27900010,
+            "shares": 279000,
             "type": "other",
             "ratio": 10.0,
             "tekiyo": "取締役"
           },
           {
             "name": "白木孝一取締役",
-            "shares": 27900010,
+            "shares": 279000,
             "type": "other",
             "ratio": 10.0,
             "tekiyo": "取締役"
           },
           {
             "name": "井上剛取締役",
-            "shares": 770002,
+            "shares": 77000,
             "type": "other",
             "ratio": 2.8,
             "tekiyo": "取締役"
@@ -2825,7 +2825,7 @@
           },
           {
             "name": "石川敬啓取締役",
-            "shares": 300001,
+            "shares": 30000,
             "type": "other",
             "ratio": 1.1,
             "tekiyo": "取締役"
