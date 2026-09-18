@@ -1,5 +1,501 @@
 [
   {
+    "ticker": "624A",
+    "name": "かがやきHD",
+    "ipo_date": "2026-09-18",
+    "market": "東証グロース",
+    "initial_price": 720,
+    "lockups": [
+      {
+        "label": "主要株主（180日）",
+        "release_date": "2027-03-16",
+        "shares": 56896247,
+        "holders": [
+          {
+            "name": "稲垣 靖代表取締役社長",
+            "shares": 550000,
+            "type": "founder",
+            "ratio": 43.22,
+            "tekiyo": "代表取締役社長など"
+          },
+          {
+            "name": "株式会社稲垣代表取締役社長が議決権の過半数を所有する会社",
+            "shares": 55000043,
+            "type": "founder"
+          },
+          {
+            "name": "髙山 隆幸専務取締役",
+            "shares": 300002,
+            "type": "other"
+          },
+          {
+            "name": "株式会社日本Ｍ＆Ａセンター",
+            "shares": 200001,
+            "type": "other"
+          },
+          {
+            "name": "中川 与治取締役",
+            "shares": 20000,
+            "type": "other",
+            "ratio": 1.57,
+            "tekiyo": "取締役など"
+          },
+          {
+            "name": "かがやきホールディングス従業員持株会",
+            "shares": 177001,
+            "type": "founder"
+          },
+          {
+            "name": "岡本 和也取締役",
+            "shares": 15000,
+            "type": "other",
+            "ratio": 1.18,
+            "tekiyo": "取締役など"
+          },
+          {
+            "name": "佐藤 祐樹",
+            "shares": 8000,
+            "type": "other",
+            "ratio": 0.63,
+            "tekiyo": "従業員、子会社の取締役"
+          },
+          {
+            "name": "米野井 剛",
+            "shares": 5000,
+            "type": "other",
+            "ratio": 0.39,
+            "tekiyo": "子会社の取締役"
+          },
+          {
+            "name": "三嶋 悦子",
+            "shares": 3500,
+            "type": "other",
+            "ratio": 0.28,
+            "tekiyo": "子会社の取締役"
+          },
+          {
+            "name": "(株)稲垣",
+            "shares": 550000,
+            "type": "other",
+            "ratio": 43.22,
+            "tekiyo": "役員らが議決権の過半数所有"
+          },
+          {
+            "name": "高山隆幸",
+            "shares": 30000,
+            "type": "other",
+            "ratio": 2.36,
+            "tekiyo": "専務取締役など"
+          },
+          {
+            "name": "(株)日本M&Aｾﾝﾀｰ",
+            "shares": 20000,
+            "type": "other",
+            "ratio": 1.57,
+            "tekiyo": "特別利害関係者など"
+          },
+          {
+            "name": "かがやきHD従業員持株会",
+            "shares": 17700,
+            "type": "other",
+            "ratio": 1.39,
+            "tekiyo": "特別利害関係者など"
+          }
+        ]
+      }
+    ],
+    "stock_options": [],
+    "notes": "auto-scraped from ipokabu.net",
+    "prospectus_url": ""
+  },
+  {
+    "ticker": "623A",
+    "name": "ベルテックス",
+    "ipo_date": "2026-09-18",
+    "market": "東証スタンダード",
+    "initial_price": 550,
+    "lockups": [
+      {
+        "label": "主要株主（180日）",
+        "release_date": "2027-03-16",
+        "shares": 10630500,
+        "holders": [
+          {
+            "name": "梶尾 祐司代表取締役社長",
+            "shares": 8130000,
+            "type": "founder",
+            "ratio": 91.46,
+            "tekiyo": "代表取締役社長"
+          },
+          {
+            "name": "澤田 統吉取締役",
+            "shares": 690000,
+            "type": "other"
+          },
+          {
+            "name": "馬場 裕史取締役",
+            "shares": 69000,
+            "type": "other",
+            "ratio": 0.78,
+            "tekiyo": "取締役"
+          },
+          {
+            "name": "－従業員",
+            "shares": 585000,
+            "type": "other"
+          },
+          {
+            "name": "－従業員",
+            "shares": 405000,
+            "type": "other"
+          },
+          {
+            "name": "－従業員",
+            "shares": 285000,
+            "type": "other"
+          },
+          {
+            "name": "佐々木 義孝取締役",
+            "shares": 27000,
+            "type": "other",
+            "ratio": 0.3,
+            "tekiyo": "取締役"
+          },
+          {
+            "name": "加藤 賢二監査役",
+            "shares": 27000,
+            "type": "other",
+            "ratio": 0.3,
+            "tekiyo": "監査役"
+          },
+          {
+            "name": "－従業員",
+            "shares": 180000,
+            "type": "other"
+          },
+          {
+            "name": "鈴木 康弘取締役",
+            "shares": 18000,
+            "type": "other",
+            "ratio": 0.2,
+            "tekiyo": "取締役"
+          },
+          {
+            "name": "沢田統吉",
+            "shares": 69000,
+            "type": "other",
+            "ratio": 0.78,
+            "tekiyo": "取締役"
+          },
+          {
+            "name": "匿名1",
+            "shares": 58500,
+            "type": "other",
+            "ratio": 0.66,
+            "tekiyo": "従業員"
+          },
+          {
+            "name": "匿名2",
+            "shares": 40500,
+            "type": "other",
+            "ratio": 0.46,
+            "tekiyo": "従業員"
+          },
+          {
+            "name": "匿名3",
+            "shares": 28500,
+            "type": "other",
+            "ratio": 0.32,
+            "tekiyo": "従業員"
+          },
+          {
+            "name": "匿名4",
+            "shares": 18000,
+            "type": "other",
+            "ratio": 0.2,
+            "tekiyo": "従業員"
+          }
+        ]
+      }
+    ],
+    "stock_options": [],
+    "notes": "auto-scraped from ipokabu.net",
+    "prospectus_url": ""
+  },
+  {
+    "ticker": "622A",
+    "name": "テクノクラフト",
+    "ipo_date": "2026-09-18",
+    "market": "東証スタンダード",
+    "initial_price": 650,
+    "lockups": [
+      {
+        "label": "VC・主要株主（180日）",
+        "release_date": "2027-03-16",
+        "shares": 329857377,
+        "holders": [
+          {
+            "name": "P＆C株式会社役員等により総株主の議決権の過半数が所有されている会社",
+            "shares": 204000043,
+            "type": "other"
+          },
+          {
+            "name": "新生TC成長支援投資事業有限責任組合PE",
+            "shares": 115220024,
+            "type": "vc"
+          },
+          {
+            "name": "ヤマモトアセット株式会社役員等により総株主の議決権の過半数が所有されている会社",
+            "shares": 2130004,
+            "type": "other"
+          },
+          {
+            "name": "ナミックス株式会社",
+            "shares": 1705003,
+            "type": "other"
+          },
+          {
+            "name": "CRN PTE.LTD.",
+            "shares": 127800,
+            "type": "other",
+            "ratio": 2.73,
+            "tekiyo": "投資業(ﾌｧﾝﾄﾞ)"
+          },
+          {
+            "name": "栂坂 昌業代表取締役",
+            "shares": 116500,
+            "type": "founder",
+            "ratio": 2.49,
+            "tekiyo": "代表取締役"
+          },
+          {
+            "name": "株式会社遠藤製作所",
+            "shares": 85500,
+            "type": "other",
+            "ratio": 1.82,
+            "tekiyo": "資本業務提携先"
+          },
+          {
+            "name": "ウェルネット株式会社",
+            "shares": 852001,
+            "type": "other"
+          },
+          {
+            "name": "地方創生新潟2号投資事業有限責任組合VC",
+            "shares": 852001,
+            "type": "vc"
+          },
+          {
+            "name": "株式会社BSNメディアホールディングス",
+            "shares": 852001,
+            "type": "founder"
+          },
+          {
+            "name": "P&C(株)",
+            "shares": 2040000,
+            "type": "other",
+            "ratio": 43.52,
+            "tekiyo": "役員らが議決権の過半数所有"
+          },
+          {
+            "name": "新生TC成長支援投組",
+            "shares": 1152200,
+            "type": "other",
+            "ratio": 24.58,
+            "tekiyo": "投資業(ﾌｧﾝﾄﾞ)"
+          },
+          {
+            "name": "ﾔﾏﾓﾄｱｾｯﾄ(株)",
+            "shares": 213000,
+            "type": "other",
+            "ratio": 4.54,
+            "tekiyo": "役員らが議決権の過半数所有"
+          },
+          {
+            "name": "ﾅﾐｯｸｽ(株)",
+            "shares": 170500,
+            "type": "other",
+            "ratio": 3.64,
+            "tekiyo": "特別利害関係者など"
+          },
+          {
+            "name": "ｳｪﾙﾈｯﾄ(株)",
+            "shares": 85200,
+            "type": "other",
+            "ratio": 1.82,
+            "tekiyo": "資本業務提携先"
+          },
+          {
+            "name": "地方創生新潟2号投組",
+            "shares": 85200,
+            "type": "other",
+            "ratio": 1.82,
+            "tekiyo": "投資業(ﾌｧﾝﾄﾞ)"
+          },
+          {
+            "name": "(株)BSNﾒﾃﾞｨｱﾎｰﾙﾃﾞｨﾝｸﾞｽ",
+            "shares": 85200,
+            "type": "other",
+            "ratio": 1.82,
+            "tekiyo": "資本業務提携先"
+          },
+          {
+            "name": "土沼剛",
+            "shares": 85200,
+            "type": "other",
+            "ratio": 1.82,
+            "tekiyo": "従業員"
+          }
+        ]
+      }
+    ],
+    "stock_options": [],
+    "notes": "auto-scraped from ipokabu.net",
+    "prospectus_url": ""
+  },
+  {
+    "ticker": "627A",
+    "name": "akippa",
+    "ipo_date": "2026-09-18",
+    "market": "東証スタンダード",
+    "initial_price": 570,
+    "lockups": [
+      {
+        "label": "VC・主要株主（180日）",
+        "release_date": "2027-03-16",
+        "shares": 306962189,
+        "holders": [
+          {
+            "name": "SOMPOホールディングス株式会社",
+            "shares": 196914029,
+            "type": "founder"
+          },
+          {
+            "name": "金谷 元気代表取締役社長",
+            "shares": 1143703,
+            "type": "founder",
+            "ratio": 16.91,
+            "tekiyo": "代表取締役社長CEO"
+          },
+          {
+            "name": "株式会社ディー・エヌ・エー",
+            "shares": 97860014,
+            "type": "other"
+          },
+          {
+            "name": "住友商事株式会社",
+            "shares": 329400,
+            "type": "corporate",
+            "ratio": 4.87,
+            "tekiyo": "特別利害関係者など"
+          },
+          {
+            "name": "グロービス５号ファンド投資事業有限責任組合VC",
+            "shares": 2886724,
+            "type": "vc"
+          },
+          {
+            "name": "－従業員",
+            "shares": 1787282,
+            "type": "other"
+          },
+          {
+            "name": "株式会社トリドール ホールディングス",
+            "shares": 1656002,
+            "type": "founder"
+          },
+          {
+            "name": "日本駐車場開発株式会社",
+            "shares": 157800,
+            "type": "other",
+            "ratio": 2.33,
+            "tekiyo": "資本業務提携先"
+          },
+          {
+            "name": "小林 寛之取締役",
+            "shares": 147860,
+            "type": "other",
+            "ratio": 2.19,
+            "tekiyo": "取締役副社長COO"
+          },
+          {
+            "name": "Globis Fund V,L.P.VC",
+            "shares": 122928,
+            "type": "vc",
+            "ratio": 1.82,
+            "tekiyo": "投資業(ﾌｧﾝﾄﾞ)"
+          },
+          {
+            "name": "SOMPOﾎｰﾙﾃﾞｨﾝｸﾞｽ(株)",
+            "shares": 1969140,
+            "type": "other",
+            "ratio": 29.12,
+            "tekiyo": "その他の関係会社"
+          },
+          {
+            "name": "(株)ﾃﾞｨｰ･ｴﾇ･ｴｰ",
+            "shares": 978600,
+            "type": "other",
+            "ratio": 14.47,
+            "tekiyo": "特別利害関係者など"
+          },
+          {
+            "name": "ｸﾞﾛｰﾋﾞｽ5号ﾌｧﾝﾄﾞ投組",
+            "shares": 288672,
+            "type": "other",
+            "ratio": 4.27,
+            "tekiyo": "投資業(ﾌｧﾝﾄﾞ)"
+          },
+          {
+            "name": "匿名",
+            "shares": 178728,
+            "type": "other",
+            "ratio": 2.64,
+            "tekiyo": "従業員"
+          },
+          {
+            "name": "(株)ﾄﾘﾄﾞｰﾙﾎｰﾙﾃﾞｨﾝｸﾞｽ",
+            "shares": 165600,
+            "type": "other",
+            "ratio": 2.45,
+            "tekiyo": "特別利害関係者など"
+          },
+          {
+            "name": "西野将規",
+            "shares": 118307,
+            "type": "other",
+            "ratio": 1.75,
+            "tekiyo": "取締役CFO"
+          },
+          {
+            "name": "日本郵政ｷｬﾋﾟﾀﾙ(株)",
+            "shares": 85800,
+            "type": "other",
+            "ratio": 1.27,
+            "tekiyo": "投資業(ﾌｧﾝﾄﾞ)"
+          },
+          {
+            "name": "JR東日本ｽﾀｰﾄｱｯﾌﾟ(株)",
+            "shares": 85800,
+            "type": "other",
+            "ratio": 1.27,
+            "tekiyo": "投資業(ﾌｧﾝﾄﾞ)"
+          },
+          {
+            "name": "ﾆｯﾎﾟﾝﾚﾝﾀｶｰｻｰﾋﾞｽ(株)",
+            "shares": 85800,
+            "type": "other",
+            "ratio": 1.27,
+            "tekiyo": "特別利害関係者など"
+          }
+        ]
+      }
+    ],
+    "stock_options": [],
+    "notes": "auto-scraped from ipokabu.net",
+    "prospectus_url": ""
+  },
+  {
     "ticker": "625A",
     "name": "Skyfall",
     "ipo_date": "2026-09-17",
