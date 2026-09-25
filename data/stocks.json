@@ -1,5 +1,121 @@
 [
   {
+    "ticker": "634A",
+    "name": "レイヤード",
+    "ipo_date": "2026-09-25",
+    "market": "東証スタンダード",
+    "initial_price": 1400,
+    "lockups": [
+      {
+        "label": "VC・主要株主（180日）",
+        "release_date": "2027-03-23",
+        "shares": 65209550,
+        "holders": [
+          {
+            "name": "株式会社nanos代表取締役の資産管理会社",
+            "shares": 680000,
+            "type": "founder",
+            "ratio": 26.94,
+            "tekiyo": "役員らが議決権の過半数所有"
+          },
+          {
+            "name": "田澤 悟郎取締役",
+            "shares": 60250023,
+            "type": "other"
+          },
+          {
+            "name": "毛塚 牧人代表取締役",
+            "shares": 600000,
+            "type": "founder",
+            "ratio": 23.77,
+            "tekiyo": "代表取締役社長"
+          },
+          {
+            "name": "吉居 大希",
+            "shares": 200000,
+            "type": "other",
+            "ratio": 7.92,
+            "tekiyo": "新株予約権信託の受託者"
+          },
+          {
+            "name": "MEDIPAL Innovation投資事業有限責任組合CVC",
+            "shares": 1000003,
+            "type": "vc"
+          },
+          {
+            "name": "FFGストラテジー投資事業有限責任組合第１号VC",
+            "shares": 1000003,
+            "type": "vc"
+          },
+          {
+            "name": "メディカル・データ・ビジョン株式会社",
+            "shares": 500001,
+            "type": "other"
+          },
+          {
+            "name": "三角 健二郎取締役",
+            "shares": 46500,
+            "type": "other",
+            "ratio": 1.84,
+            "tekiyo": "取締役"
+          },
+          {
+            "name": "二階 義元取締役",
+            "shares": 36500,
+            "type": "other",
+            "ratio": 1.45,
+            "tekiyo": "取締役CTO"
+          },
+          {
+            "name": "伊藤 愛取締役",
+            "shares": 36500,
+            "type": "other",
+            "ratio": 1.45,
+            "tekiyo": "取締役CMO"
+          },
+          {
+            "name": "田沢悟郎",
+            "shares": 602500,
+            "type": "other",
+            "ratio": 23.87,
+            "tekiyo": "専務取締役"
+          },
+          {
+            "name": "MEDIPAL Innovation投組",
+            "shares": 100000,
+            "type": "other",
+            "ratio": 3.96,
+            "tekiyo": "投資業(ﾌｧﾝﾄﾞ)"
+          },
+          {
+            "name": "FFGｽﾄﾗﾃｼﾞｰ投組第1号",
+            "shares": 100000,
+            "type": "other",
+            "ratio": 3.96,
+            "tekiyo": "投資業(ﾌｧﾝﾄﾞ)"
+          },
+          {
+            "name": "ﾒﾃﾞｨｶﾙ･ﾃﾞｰﾀ･ﾋﾞｼﾞｮﾝ(株)",
+            "shares": 50000,
+            "type": "other",
+            "ratio": 1.98,
+            "tekiyo": "資本業務提携先"
+          },
+          {
+            "name": "小倉佳浩",
+            "shares": 7520,
+            "type": "other",
+            "ratio": 0.3,
+            "tekiyo": "従業員"
+          }
+        ]
+      }
+    ],
+    "stock_options": [],
+    "notes": "auto-scraped from ipokabu.net",
+    "prospectus_url": ""
+  },
+  {
     "ticker": "624A",
     "name": "かがやきHD",
     "ipo_date": "2026-09-18",
