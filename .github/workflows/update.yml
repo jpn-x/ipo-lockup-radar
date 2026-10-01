@@ -10,8 +10,6 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-      pages: write
-      id-token: write
 
     env:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
@@ -57,12 +55,4 @@ jobs:
           git commit -m "data: auto-update IPO lockup data $(date +'%Y-%m-%d')"
           git push
 
-      - name: Deploy to GitHub Pages
-        if: steps.diff.outputs.changed == 'true'
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: '.'
-
-      - name: Deploy Pages
-        if: steps.diff.outputs.changed == 'true'
-        uses: actions/deploy-pages@v4
+      # 公開は Cloudflare Pages（deploy-cloudflare.yml がこの workflow の成功後に動く）。GitHub Pages への deploy は廃止（2026-10-01）
