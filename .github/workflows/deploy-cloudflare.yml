@@ -23,8 +23,8 @@ jobs:
           CLOUDFLARE_ACCOUNT_ID: 035926d851c17dfd9cf096e0884cd474
         run: |
           if [ -z "$CLOUDFLARE_API_TOKEN" ]; then
-            echo "CLOUDFLARE_API_TOKEN not set; skipping Cloudflare deploy."
-            exit 0
+            echo "::error::CLOUDFLARE_API_TOKEN not set - deploy was NOT performed. Set the repo secret."
+            exit 1
           fi
           mkdir -p /tmp/site
           rsync -a ./ /tmp/site/ --exclude .git --exclude .github --exclude scripts --exclude '*.py' --exclude requirements.txt --exclude README.md
