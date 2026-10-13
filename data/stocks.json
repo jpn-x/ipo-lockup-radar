@@ -1,5 +1,83 @@
 [
   {
+    "ticker": "9334",
+    "name": "アイビスHD",
+    "ipo_date": "2026-10-13",
+    "market": "東証グロース",
+    "initial_price": 520,
+    "lockups": [
+      {
+        "label": "主要株主（180日）",
+        "release_date": "2026-04-30",
+        "shares": 2677000,
+        "holders": [
+          {
+            "name": "株式会社旺司ライフワーク代表取締役の資産管理会社",
+            "shares": 839000,
+            "type": "founder"
+          },
+          {
+            "name": "株式会社PROUD WORKS",
+            "shares": 40000,
+            "type": "other",
+            "ratio": 4.21,
+            "tekiyo": "特別利害関係者など"
+          },
+          {
+            "name": "桂新堂株式会社",
+            "shares": 10000,
+            "type": "other",
+            "ratio": 1.05,
+            "tekiyo": "特別利害関係者など"
+          },
+          {
+            "name": "ZenPro NEXT VISION株式会社",
+            "shares": 8000,
+            "type": "other",
+            "ratio": 0.84,
+            "tekiyo": "特別利害関係者など"
+          },
+          {
+            "name": "アクアプレコン株式会社",
+            "shares": 1000,
+            "type": "other"
+          },
+          {
+            "name": "甲斐ふく",
+            "shares": 1000,
+            "type": "other",
+            "ratio": 0.11,
+            "tekiyo": "特別利害関係者など"
+          },
+          {
+            "name": "(株)旺司ﾗｲﾌﾜｰｸ",
+            "shares": 1678000,
+            "type": "other",
+            "ratio": 88.41,
+            "tekiyo": "代表取締役社長の資産管理会社"
+          },
+          {
+            "name": "加藤咲江",
+            "shares": 100000,
+            "type": "other",
+            "ratio": 5.27,
+            "tekiyo": "取締役"
+          },
+          {
+            "name": "ｱｸｱﾌﾟﾚｺﾝ(株)",
+            "shares": 0,
+            "type": "other",
+            "ratio": 0.11,
+            "tekiyo": "特別利害関係者など"
+          }
+        ]
+      }
+    ],
+    "stock_options": [],
+    "notes": "auto-scraped from ipokabu.net",
+    "prospectus_url": ""
+  },
+  {
     "ticker": "634A",
     "name": "レイヤード",
     "ipo_date": "2026-09-25",
