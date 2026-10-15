@@ -1,5 +1,104 @@
 [
   {
+    "ticker": "648A",
+    "name": "ルクレ",
+    "ipo_date": "2026-10-15",
+    "market": "東証グロース",
+    "initial_price": 1480,
+    "lockups": [
+      {
+        "label": "主要株主（180日）",
+        "release_date": "2027-04-12",
+        "shares": 9224000,
+        "holders": [
+          {
+            "name": "TAK株式会社",
+            "shares": 3800000,
+            "type": "other",
+            "ratio": 44.94,
+            "tekiyo": "創業者の資産管理会社"
+          },
+          {
+            "name": "池田 武史",
+            "shares": 2840000,
+            "type": "other",
+            "ratio": 33.58,
+            "tekiyo": "創業者、元代表取締役"
+          },
+          {
+            "name": "有馬 弘進代表取締役",
+            "shares": 1000000,
+            "type": "founder",
+            "ratio": 11.82,
+            "tekiyo": "代表取締役"
+          },
+          {
+            "name": "渋谷 充宏取締役",
+            "shares": 200000,
+            "type": "other",
+            "ratio": 2.36,
+            "tekiyo": "取締役"
+          },
+          {
+            "name": "池田 恭子",
+            "shares": 150000,
+            "type": "other",
+            "ratio": 1.77,
+            "tekiyo": "元取締役"
+          },
+          {
+            "name": "野村 絵里奈従業員",
+            "shares": 114000,
+            "type": "other",
+            "ratio": 1.34,
+            "tekiyo": "従業員"
+          },
+          {
+            "name": "東 哲従業員",
+            "shares": 640000,
+            "type": "other"
+          },
+          {
+            "name": "阿部 雅美従業員",
+            "shares": 32000,
+            "type": "other",
+            "ratio": 0.37,
+            "tekiyo": "従業員"
+          },
+          {
+            "name": "嶌﨑 香織従業員",
+            "shares": 320000,
+            "type": "other"
+          },
+          {
+            "name": "石倉 麻里奈従業員",
+            "shares": 32000,
+            "type": "other",
+            "ratio": 0.37,
+            "tekiyo": "従業員"
+          },
+          {
+            "name": "東哲",
+            "shares": 64000,
+            "type": "other",
+            "ratio": 0.75,
+            "tekiyo": "従業員"
+          },
+          {
+            "name": "嶌崎香織",
+            "shares": 32000,
+            "type": "other",
+            "ratio": 0.37,
+            "tekiyo": "従業員"
+          }
+        ]
+      }
+    ],
+    "stock_options": [],
+    "notes": "auto-scraped from ipokabu.net",
+    "prospectus_url": ""
+  },
+  {
     "ticker": "9334",
     "name": "アイビスHD",
     "ipo_date": "2026-10-13",
