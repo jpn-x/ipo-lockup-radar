@@ -1,5 +1,143 @@
 [
   {
+    "ticker": "652A",
+    "name": "トグルHD",
+    "ipo_date": "2026-10-30",
+    "market": "東証グロース",
+    "initial_price": 4040,
+    "lockups": [
+      {
+        "label": "VC・主要株主（180日）",
+        "release_date": "2027-04-27",
+        "shares": 30645901,
+        "holders": [
+          {
+            "name": "伊藤 嘉盛",
+            "shares": 5494215,
+            "type": "other",
+            "ratio": 37.96,
+            "tekiyo": "代表取締役"
+          },
+          {
+            "name": "Funi㈱親会社",
+            "shares": 5000000,
+            "type": "other",
+            "ratio": 34.55,
+            "tekiyo": "親会社、代表の資産管理会社"
+          },
+          {
+            "name": "ブーストキャピタル１号投資事業有限責任組合VC",
+            "shares": 4422853,
+            "type": "vc"
+          },
+          {
+            "name": "特定運用金外信託 未来創生３号ファンド投資ファンド",
+            "shares": 4412003,
+            "type": "vc"
+          },
+          {
+            "name": "三鬼 紘太郎",
+            "shares": 222655,
+            "type": "other",
+            "ratio": 1.54,
+            "tekiyo": "特別利害関係者など"
+          },
+          {
+            "name": "日本郵政キャピタル１号投資事業有限責任組合CVC",
+            "shares": 2211401,
+            "type": "vc"
+          },
+          {
+            "name": "㈱レアゾン・ホールディングス",
+            "shares": 1998451,
+            "type": "founder"
+          },
+          {
+            "name": "山﨑 聡史",
+            "shares": 1710051,
+            "type": "other"
+          },
+          {
+            "name": "ALL STAR SAAS FUND THREE Pte. Ltd.VC",
+            "shares": 1658601,
+            "type": "vc"
+          },
+          {
+            "name": "髙﨑 将充",
+            "shares": 1473351,
+            "type": "other"
+          },
+          {
+            "name": "ﾌﾞｰｽﾄｷｬﾋﾟﾀﾙ1号投組",
+            "shares": 442285,
+            "type": "other",
+            "ratio": 3.06,
+            "tekiyo": "投資業(ﾌｧﾝﾄﾞ)"
+          },
+          {
+            "name": "(株)SMBC信託(金外信 未来創生3号F",
+            "shares": 441200,
+            "type": "other",
+            "ratio": 3.05,
+            "tekiyo": "投資業(ﾌｧﾝﾄﾞ)"
+          },
+          {
+            "name": "日本郵政ｷｬﾋﾟﾀﾙ1号投組",
+            "shares": 221140,
+            "type": "other",
+            "ratio": 1.53,
+            "tekiyo": "投資業(ﾌｧﾝﾄﾞ)"
+          },
+          {
+            "name": "(株)ﾚｱｿﾞﾝ･ﾎｰﾙﾃﾞｨﾝｸﾞｽ",
+            "shares": 199845,
+            "type": "other",
+            "ratio": 1.38,
+            "tekiyo": "投資業(ﾌｧﾝﾄﾞ)"
+          },
+          {
+            "name": "山崎聡史",
+            "shares": 171005,
+            "type": "other",
+            "ratio": 1.18,
+            "tekiyo": "取締役など"
+          },
+          {
+            "name": "ALL STAR SAAS F THREE Pte.Ltd.",
+            "shares": 165860,
+            "type": "other",
+            "ratio": 1.15,
+            "tekiyo": "投資業(ﾌｧﾝﾄﾞ)"
+          },
+          {
+            "name": "高崎将充",
+            "shares": 147335,
+            "type": "other",
+            "ratio": 1.02,
+            "tekiyo": "子会社の代表取締役"
+          },
+          {
+            "name": "ACF-2 Ltd",
+            "shares": 131200,
+            "type": "other",
+            "ratio": 0.91,
+            "tekiyo": "特別利害関係者など"
+          },
+          {
+            "name": "AA7JNI Ltd",
+            "shares": 122450,
+            "type": "other",
+            "ratio": 0.85,
+            "tekiyo": "特別利害関係者など"
+          }
+        ]
+      }
+    ],
+    "stock_options": [],
+    "notes": "auto-scraped from ipokabu.net",
+    "prospectus_url": ""
+  },
+  {
     "ticker": "648A",
     "name": "ルクレ",
     "ipo_date": "2026-10-15",
