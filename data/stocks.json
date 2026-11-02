@@ -1,5 +1,124 @@
 [
   {
+    "ticker": "653A",
+    "name": "MabGenesis",
+    "ipo_date": "2026-11-02",
+    "market": "東証グロース",
+    "initial_price": 830,
+    "lockups": [
+      {
+        "label": "VC・主要株主（90日）",
+        "release_date": "2027-01-30",
+        "shares": 336062057,
+        "holders": [
+          {
+            "name": "名古屋大学・東海地区大学広域ベンチャー２号投資事業組合VC",
+            "shares": 122500015,
+            "type": "vc"
+          },
+          {
+            "name": "九州広域復興支援投資事業有限責任組合投資ファンド",
+            "shares": 100000013,
+            "type": "vc"
+          },
+          {
+            "name": "新庄 勝浩代表取締役",
+            "shares": 954000,
+            "type": "founder",
+            "ratio": 12.43,
+            "tekiyo": "代表取締役"
+          },
+          {
+            "name": "黒澤 仁従業員",
+            "shares": 93000012,
+            "type": "other"
+          },
+          {
+            "name": "アクシル・ライフサイエンス＆ヘル スケアファンド２号投資事業有限責任組合VC",
+            "shares": 6250008,
+            "type": "vc"
+          },
+          {
+            "name": "小泉 信一取締役",
+            "shares": 510000,
+            "type": "other",
+            "ratio": 6.64,
+            "tekiyo": "取締役"
+          },
+          {
+            "name": "株式会社アニヴェルセル HOLDING",
+            "shares": 5000006,
+            "type": "other"
+          },
+          {
+            "name": "森下 和広従業員",
+            "shares": 480000,
+            "type": "other",
+            "ratio": 6.25,
+            "tekiyo": "従業員"
+          },
+          {
+            "name": "柴崎 友一朗従業員",
+            "shares": 338000,
+            "type": "other",
+            "ratio": 4.4,
+            "tekiyo": "執行役員"
+          },
+          {
+            "name": "みやぎん宮崎大学夢応援投資事業有限責任組合VC",
+            "shares": 2500003,
+            "type": "vc"
+          },
+          {
+            "name": "名大･東海地区大学ﾍﾞﾝﾁｬｰ2号投組",
+            "shares": 1225000,
+            "type": "other",
+            "ratio": 15.96,
+            "tekiyo": "投資業(ﾌｧﾝﾄﾞ)"
+          },
+          {
+            "name": "九州広域復興支援投組",
+            "shares": 1000000,
+            "type": "other",
+            "ratio": 13.03,
+            "tekiyo": "投資業(ﾌｧﾝﾄﾞ)"
+          },
+          {
+            "name": "黒沢仁",
+            "shares": 930000,
+            "type": "other",
+            "ratio": 12.12,
+            "tekiyo": "従業員"
+          },
+          {
+            "name": "ｱｸｼﾙ･ﾗｲﾌｻｲｴﾝｽ&ﾍﾙｽｹｱﾌｧﾝﾄﾞ2号投",
+            "shares": 625000,
+            "type": "other",
+            "ratio": 8.14,
+            "tekiyo": "投資業(ﾌｧﾝﾄﾞ)"
+          },
+          {
+            "name": "(株)ｱﾆｳﾞｪﾙｾﾙHOLDINGS",
+            "shares": 500000,
+            "type": "other",
+            "ratio": 6.51,
+            "tekiyo": "特別利害関係者など"
+          },
+          {
+            "name": "みやぎん宮崎大学夢応援投組",
+            "shares": 250000,
+            "type": "other",
+            "ratio": 3.26,
+            "tekiyo": "投資業(ﾌｧﾝﾄﾞ)"
+          }
+        ]
+      }
+    ],
+    "stock_options": [],
+    "notes": "auto-scraped from ipokabu.net",
+    "prospectus_url": ""
+  },
+  {
     "ticker": "652A",
     "name": "トグルHD",
     "ipo_date": "2026-10-30",
