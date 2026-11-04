@@ -1,5 +1,114 @@
 [
   {
+    "ticker": "656A",
+    "name": "AllganizeHD",
+    "ipo_date": "2026-11-04",
+    "market": "東証グロース",
+    "initial_price": 1260,
+    "lockups": [
+      {
+        "label": "VC・主要株主（180日）",
+        "release_date": "2027-05-02",
+        "shares": 775518923,
+        "holders": [
+          {
+            "name": "イ・チャンス代表取締役",
+            "shares": 740399836,
+            "type": "founder"
+          },
+          {
+            "name": "Atinum Growth Fund 2020VC",
+            "shares": 2243151,
+            "type": "vc",
+            "ratio": 11.09,
+            "tekiyo": "投資業(ﾌｧﾝﾄﾞ)"
+          },
+          {
+            "name": "KDDI Open Innovation Fund3号CVC",
+            "shares": 1045774,
+            "type": "vc",
+            "ratio": 5.17,
+            "tekiyo": "投資業(ﾌｧﾝﾄﾞ)"
+          },
+          {
+            "name": "Intervest Deep-Tech FundVC",
+            "shares": 988778,
+            "type": "vc",
+            "ratio": 4.89,
+            "tekiyo": "投資業(ﾌｧﾝﾄﾞ)"
+          },
+          {
+            "name": "佐藤 康雄取締役",
+            "shares": 968000,
+            "type": "other",
+            "ratio": 4.79,
+            "tekiyo": "取締役"
+          },
+          {
+            "name": "Sparklabs Ventures Ignition Fund, LPVC",
+            "shares": 7598573,
+            "type": "vc"
+          },
+          {
+            "name": "Murex Wave No.3 FundVC",
+            "shares": 633197,
+            "type": "vc",
+            "ratio": 3.13,
+            "tekiyo": "投資業(ﾌｧﾝﾄﾞ)"
+          },
+          {
+            "name": "SK TELECOM INNOVATION FUND, L.PCVC",
+            "shares": 6221903,
+            "type": "vc"
+          },
+          {
+            "name": "Smart Korea Naver- Stonebridge Rising FundVC",
+            "shares": 5607882,
+            "type": "vc"
+          },
+          {
+            "name": "KDDI Open Innovation Fund2号CVC",
+            "shares": 464996,
+            "type": "vc",
+            "ratio": 2.3,
+            "tekiyo": "投資業(ﾌｧﾝﾄﾞ)"
+          },
+          {
+            "name": "ｲ･ﾁｬﾝｽ",
+            "shares": 7403998,
+            "type": "other",
+            "ratio": 36.61,
+            "tekiyo": "代表取締役"
+          },
+          {
+            "name": "Sparklabs Ignition Fund, LP",
+            "shares": 759857,
+            "type": "other",
+            "ratio": 3.76,
+            "tekiyo": "投資業(ﾌｧﾝﾄﾞ)"
+          },
+          {
+            "name": "SK TELECOM INNOVATION F, L.P.",
+            "shares": 622190,
+            "type": "vc",
+            "ratio": 3.08,
+            "tekiyo": "投資業(ﾌｧﾝﾄﾞ)"
+          },
+          {
+            "name": "SK Naver-Stonebridge Rising",
+            "shares": 560788,
+            "type": "other",
+            "ratio": 2.77,
+            "tekiyo": "投資業(ﾌｧﾝﾄﾞ)"
+          }
+        ]
+      }
+    ],
+    "stock_options": [],
+    "notes": "auto-scraped from ipokabu.net",
+    "prospectus_url": ""
+  },
+  {
     "ticker": "653A",
     "name": "MabGenesis",
     "ipo_date": "2026-11-02",
