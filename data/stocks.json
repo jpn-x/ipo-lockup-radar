@@ -1,5 +1,109 @@
 [
   {
+    "ticker": "655A",
+    "name": "LTV-X",
+    "ipo_date": "2026-11-05",
+    "market": "東証プライム",
+    "initial_price": 570,
+    "lockups": [
+      {
+        "label": "VC・主要株主（180日）",
+        "release_date": "2027-05-03",
+        "shares": 38142025,
+        "holders": [
+          {
+            "name": "小村 富士夫元取締役",
+            "shares": 994000,
+            "type": "other",
+            "ratio": 42.2,
+            "tekiyo": "元取締役"
+          },
+          {
+            "name": "ドコモ・イノベーションファンド２号投資事業有限責任組合CVC",
+            "shares": 33300014,
+            "type": "vc"
+          },
+          {
+            "name": "株式会社ＳＲＩ",
+            "shares": 1700007,
+            "type": "other"
+          },
+          {
+            "name": "古後 淳",
+            "shares": 160000,
+            "type": "other",
+            "ratio": 6.79,
+            "tekiyo": "特別利害関係者など"
+          },
+          {
+            "name": "野口 学夫代表取締役社長",
+            "shares": 155000,
+            "type": "founder",
+            "ratio": 6.58,
+            "tekiyo": "代表取締役社長"
+          },
+          {
+            "name": "舟橋 裕道",
+            "shares": 100000,
+            "type": "other",
+            "ratio": 4.25,
+            "tekiyo": "特別利害関係者など"
+          },
+          {
+            "name": "髙田 知孝取締役",
+            "shares": 950004,
+            "type": "other"
+          },
+          {
+            "name": "江田 健二",
+            "shares": 80000,
+            "type": "other",
+            "ratio": 3.4,
+            "tekiyo": "特別利害関係者など"
+          },
+          {
+            "name": "柿尾 正之取締役",
+            "shares": 65000,
+            "type": "other",
+            "ratio": 2.76,
+            "tekiyo": "取締役"
+          },
+          {
+            "name": "井本 浩樹",
+            "shares": 40000,
+            "type": "other",
+            "ratio": 1.7,
+            "tekiyo": "特別利害関係者など"
+          },
+          {
+            "name": "ﾄﾞｺﾓ･ｲﾉﾍﾞｰｼｮﾝﾌｧﾝﾄﾞ2号投組",
+            "shares": 333000,
+            "type": "other",
+            "ratio": 14.14,
+            "tekiyo": "投資業(ﾌｧﾝﾄﾞ)"
+          },
+          {
+            "name": "(株)SRI",
+            "shares": 170000,
+            "type": "other",
+            "ratio": 7.22,
+            "tekiyo": "筆頭株主が代表取締役"
+          },
+          {
+            "name": "高田知孝",
+            "shares": 95000,
+            "type": "other",
+            "ratio": 4.03,
+            "tekiyo": "取締役"
+          }
+        ]
+      }
+    ],
+    "stock_options": [],
+    "notes": "auto-scraped from ipokabu.net",
+    "prospectus_url": ""
+  },
+  {
     "ticker": "656A",
     "name": "AllganizeHD",
     "ipo_date": "2026-11-04",
