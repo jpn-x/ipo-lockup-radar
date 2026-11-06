@@ -1,5 +1,128 @@
 [
   {
+    "ticker": "658A",
+    "name": "estie",
+    "ipo_date": "2026-11-06",
+    "market": "東証グロース",
+    "initial_price": 1100,
+    "lockups": [
+      {
+        "label": "VC・主要株主（180日）",
+        "release_date": "2028-03-31",
+        "shares": 372191927,
+        "holders": [
+          {
+            "name": "UTEC4 号投資事業有限責任組合VC",
+            "shares": 337730018,
+            "type": "vc"
+          },
+          {
+            "name": "平井 瑛代表取締役",
+            "shares": 3055200,
+            "type": "founder",
+            "ratio": 17.17,
+            "tekiyo": "代表取締役など"
+          },
+          {
+            "name": "HRI株式会社代表取締役の資産管理会社",
+            "shares": 2000000,
+            "type": "founder",
+            "ratio": 11.24,
+            "tekiyo": "代表取締役の資産管理会社"
+          },
+          {
+            "name": "株式会社日本政策投資銀行",
+            "shares": 858700,
+            "type": "corporate",
+            "ratio": 4.82,
+            "tekiyo": "特別利害関係者など"
+          },
+          {
+            "name": "Vertex Growth Fund II Pte. LtdVC",
+            "shares": 8582004,
+            "type": "vc"
+          },
+          {
+            "name": "Globis Fund VI, L.P.VC",
+            "shares": 679200,
+            "type": "vc",
+            "ratio": 3.82,
+            "tekiyo": "投資業(ﾌｧﾝﾄﾞ)"
+          },
+          {
+            "name": "グロービス6号ファンド投資事業有限責任組合VC",
+            "shares": 6708003,
+            "type": "vc"
+          },
+          {
+            "name": "束原 悠吾取締役",
+            "shares": 525500,
+            "type": "other",
+            "ratio": 2.95,
+            "tekiyo": "取締役など"
+          },
+          {
+            "name": "岩成 達哉取締役",
+            "shares": 525500,
+            "type": "other",
+            "ratio": 2.95,
+            "tekiyo": "取締役CTO"
+          },
+          {
+            "name": "上田 來取締役",
+            "shares": 5255002,
+            "type": "other"
+          },
+          {
+            "name": "UTEC4号投組",
+            "shares": 3377300,
+            "type": "other",
+            "ratio": 18.98,
+            "tekiyo": "投資業(ﾌｧﾝﾄﾞ)"
+          },
+          {
+            "name": "Vertex Growth F II Pte. Ltd.",
+            "shares": 858200,
+            "type": "other",
+            "ratio": 4.82,
+            "tekiyo": "投資業(ﾌｧﾝﾄﾞ)"
+          },
+          {
+            "name": "ｸﾞﾛｰﾋﾞｽ6号ﾌｧﾝﾄﾞ投組",
+            "shares": 670800,
+            "type": "other",
+            "ratio": 3.77,
+            "tekiyo": "投資業(ﾌｧﾝﾄﾞ)"
+          },
+          {
+            "name": "上田来",
+            "shares": 525500,
+            "type": "other",
+            "ratio": 2.95,
+            "tekiyo": "取締役CFOなど"
+          },
+          {
+            "name": "青木信",
+            "shares": 435500,
+            "type": "other",
+            "ratio": 2.45,
+            "tekiyo": "従業員、子会社代表取締役"
+          },
+          {
+            "name": "田中陸",
+            "shares": 405500,
+            "type": "other",
+            "ratio": 2.28,
+            "tekiyo": "従業員、子会社代表取締役"
+          }
+        ]
+      }
+    ],
+    "stock_options": [],
+    "notes": "auto-scraped from ipokabu.net",
+    "prospectus_url": ""
+  },
+  {
     "ticker": "655A",
     "name": "LTV-X",
     "ipo_date": "2026-11-05",
