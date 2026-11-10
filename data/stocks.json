@@ -1,5 +1,148 @@
 [
   {
+    "ticker": "660A",
+    "name": "RECEPTIONIST",
+    "ipo_date": "2026-11-10",
+    "market": "東証グロース",
+    "initial_price": 850,
+    "lockups": [
+      {
+        "label": "VC・主要株主（180日）",
+        "release_date": "2027-02-07",
+        "shares": 181074429,
+        "holders": [
+          {
+            "name": "橋本 真里子代表取締役",
+            "shares": 64972014,
+            "type": "founder"
+          },
+          {
+            "name": "RJバリューPlus1号投資事業有限責任組合投資ファンド",
+            "shares": 52924011,
+            "type": "vc"
+          },
+          {
+            "name": "BIG2号投資事業有限責任組合VC",
+            "shares": 52805011,
+            "type": "vc"
+          },
+          {
+            "name": "Salesforce Ventures LLCCVC",
+            "shares": 453580,
+            "type": "vc",
+            "ratio": 10.01,
+            "tekiyo": "投資業(ﾌｧﾝﾄﾞ)"
+          },
+          {
+            "name": "グローバル・ブレイン7号投資事業有限責任組合VC",
+            "shares": 2236604,
+            "type": "vc"
+          },
+          {
+            "name": "―従業員",
+            "shares": 1500003,
+            "type": "other"
+          },
+          {
+            "name": "TVC2号投資事業有限責任組合CVC",
+            "shares": 1317702,
+            "type": "vc"
+          },
+          {
+            "name": "株式会社トレタ",
+            "shares": 1180002,
+            "type": "other"
+          },
+          {
+            "name": "大宮 彩央",
+            "shares": 100000,
+            "type": "other",
+            "ratio": 2.21,
+            "tekiyo": "特別利害関係者など"
+          },
+          {
+            "name": "―従業員",
+            "shares": 985002,
+            "type": "other"
+          },
+          {
+            "name": "橋本(大宮)真里子",
+            "shares": 649720,
+            "type": "other",
+            "ratio": 14.35,
+            "tekiyo": "代表取締役CEO"
+          },
+          {
+            "name": "RJﾊﾞﾘｭｰPlus1号投組",
+            "shares": 529240,
+            "type": "other",
+            "ratio": 11.69,
+            "tekiyo": "投資業(ﾌｧﾝﾄﾞ)"
+          },
+          {
+            "name": "BIG2号投組",
+            "shares": 528050,
+            "type": "other",
+            "ratio": 11.66,
+            "tekiyo": "投資業(ﾌｧﾝﾄﾞ)"
+          },
+          {
+            "name": "ｸﾞﾛｰﾊﾞﾙ･ﾌﾞﾚｲﾝ7号投組",
+            "shares": 223660,
+            "type": "other",
+            "ratio": 4.94,
+            "tekiyo": "投資業(ﾌｧﾝﾄﾞ)"
+          },
+          {
+            "name": "匿名1",
+            "shares": 150000,
+            "type": "other",
+            "ratio": 3.31,
+            "tekiyo": "従業員"
+          },
+          {
+            "name": "TVC2号投組",
+            "shares": 131770,
+            "type": "vc",
+            "ratio": 2.91,
+            "tekiyo": "投資業(ﾌｧﾝﾄﾞ)"
+          },
+          {
+            "name": "(株)ﾄﾚﾀ",
+            "shares": 118000,
+            "type": "other",
+            "ratio": 2.61,
+            "tekiyo": "特別利害関係者など"
+          },
+          {
+            "name": "匿名2",
+            "shares": 98500,
+            "type": "other",
+            "ratio": 2.17,
+            "tekiyo": "従業員"
+          },
+          {
+            "name": "ﾄﾚｲﾀﾞｰｽﾞFinTech1号投組",
+            "shares": 85780,
+            "type": "other",
+            "ratio": 1.89,
+            "tekiyo": "投資業(ﾌｧﾝﾄﾞ)"
+          },
+          {
+            "name": "JIA2号投組",
+            "shares": 85780,
+            "type": "other",
+            "ratio": 1.89,
+            "tekiyo": "投資業(ﾌｧﾝﾄﾞ)"
+          }
+        ]
+      }
+    ],
+    "stock_options": [],
+    "notes": "auto-scraped from ipokabu.net",
+    "prospectus_url": ""
+  },
+  {
     "ticker": "658A",
     "name": "estie",
     "ipo_date": "2026-11-06",
